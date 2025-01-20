@@ -64,6 +64,9 @@
 - Community building recommender for group chats in LinkedIn Messaging, 2022
   - [`blog`](https://engineering.linkedin.com/blog/2022/community-building-recommender-for-group-chats-in-linkedin-messa), [`review`](./industry/LikedIn/2024_01_27_Community_building_recommender_for_group_chats_in_LinkedIn_Messaging_2022.md)
 
+### Conference
+- [네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference review](./industry/2024_conference/)
+
 # 🧑🏻‍💻 Practice
 ### Imbalanced Learning, Anomaly Detection
 - Dacon 신용카드 사용자 연체 예측 AI 경진대회 [`code`](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
