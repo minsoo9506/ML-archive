@@ -1,12 +1,13 @@
+요즘은 추천시스템 위주의 공부를 하고 있습니다.
+
 # Index
 - Paper: 논문의 주요 내용을 정리합니다.
 - Industry: 회사들의 tech blog 주요 내용을 정리합니다.
-- Practice: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
-- Project: 개인 프로젝트를 진행하면서 기록을 남기고 싶은 내용을 정리합니다.
+- Practice & Project: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
 - Reference: 다양한 레퍼런스 아카이빙합니다.
 
 # 📄 Paper
-### Rec Sys
+### Recommendation System
 - Factorization Machines, 2010
   - [`paper`](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf), [`review`](./paper/2023_08_28_Factorization_Machine.md), [`code`](https://github.com/minsoo9506/RecModel)
 - Wide & Deep Learning for Recommender Systems, 2016
@@ -33,7 +34,7 @@
   - [`paper`](https://dl.acm.org/doi/10.1145/3394486.3403392), [`review`](./paper/USAD.pdf)
 
 # 🏢 Industry
-### Rec Sys
+### Recommendation System
 #### Spotify
 - The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021
   - [`blog`](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/), [`review`](./industry/Spotify/2023_10_22_Spotify_The_Rise_(and%20Lessons%20Learned)_of_ML_Models_to_Personalize_Content_on_Home.md)
@@ -67,30 +68,33 @@
 ### Conference
 - [네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference review](./industry/2024_conference/)
 
-# 🧑🏻‍💻 Practice
-### Imbalanced Learning, Anomaly Detection
-- Dacon 신용카드 사용자 연체 예측 AI 경진대회, 2022 [`code`](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
-- Kaggle Credit Card Fraud Detection, 2022 [`code`](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
-
-### Causality
-- [Brady Neal - Causal Inference](https://minsoo9506.github.io/categories/causality/)
-- [Causal Inference for the Brave and True](./practice/Causal_Inference_for_the_Brave_and_True_practice/)
-- [DoWhy tutorial](./practice/DoWhy_tutorial/)
-- [Heterogeneous Treatment Effect Estimation tutorial](./practice/heterogeneous_treatment_effect_estimation_tutorial/)
-
-# 🧑🏻‍💻 Project
-### Rec Sys
+# 🧑🏻‍💻 Practice & Project
+### Recommendation System
 - 모델 구현, 2023 [`repository`](https://github.com/minsoo9506/RecModel)
 - bandit study, 2025 ~ [`repository`](https://github.com/minsoo9506/bandit-study)
 
-### Imbalanced Learning, Anomaly Detection
-- 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [`pdf`](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
-- 모델 구현 (라이브러리화) [`repository`](https://github.com/minsoo9506/catchMinor)
-
-### ML sys
+### ML engineering
+- udemy 강의 deployment of ml models, 2022 [`repository`](https://github.com/minsoo9506/fraudDetection-python-package)
 - bentoml tutorial, 2022 [`repository`](https://github.com/minsoo9506/BentoML-model-serving)
 - mlops tutorial, 2023 [`repository`](https://github.com/minsoo9506/mlops-project-level0)
 - udemy 강의 ml testing monitoring, 2023 [`repository`](https://github.com/minsoo9506/ML-testing-monitoring)
+- FastAPI study, 2023 [`repository`](https://github.com/minsoo9506/FastAPI-study)
+
+### Imbalanced Learning, Anomaly Detection
+- Dacon 신용카드 사용자 연체 예측 AI 경진대회, 2022 [`code`](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
+- Kaggle Credit Card Fraud Detection, 2022 [`code`](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
+- 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [`pdf`](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
+- 모델 구현 (라이브러리화), 2023 [`repository`](https://github.com/minsoo9506/catchMinor)
+
+### Causality
+- Brady Neal - Causal Inference [`review`](https://minsoo9506.github.io/categories/causality/)
+- Causal Inference for the Brave and True [`review`](./practice/Causal_Inference_for_the_Brave_and_True_practice/)
+- DoWhy tutorial [`review`](./practice/DoWhy_tutorial/)
+- Heterogeneous Treatment Effect Estimation tutorial [`review`](./practice/heterogeneous_treatment_effect_estimation_tutorial/)
+
+### NLP
+- nlp study, 2020 [`repository`](https://github.com/minsoo9506/NLP-study/commits/master/)
+- hugginface text classification, 2022 [`repository`](https://github.com/minsoo9506/huggingface-text-classification)
 
 ### etc
 - 개인 블로그 공부 정리 [`blog`](https://minsoo9506.github.io/categories/)
