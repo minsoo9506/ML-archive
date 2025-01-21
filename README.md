@@ -71,7 +71,6 @@
 # 🧑🏻‍💻 Practice & Project
 ### Recommendation System
 - 모델 구현, 2023 [`repository`](https://github.com/minsoo9506/RecModel)
-- bandit study, 2025 ~ [`repository`](https://github.com/minsoo9506/bandit-study)
 
 ### ML engineering
 - udemy 강의 deployment of ml models, 2022 [`repository`](https://github.com/minsoo9506/fraudDetection-python-package)
