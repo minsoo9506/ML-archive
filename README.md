@@ -69,8 +69,8 @@
 
 # 🧑🏻‍💻 Practice
 ### Imbalanced Learning, Anomaly Detection
-- Dacon 신용카드 사용자 연체 예측 AI 경진대회 [`code`](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
-- Kaggle Credit Card Fraud Detection [`code`](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
+- Dacon 신용카드 사용자 연체 예측 AI 경진대회, 2022 [`code`](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
+- Kaggle Credit Card Fraud Detection, 2022 [`code`](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
 
 ### Causality
 - [Brady Neal - Causal Inference](https://minsoo9506.github.io/categories/causality/)
@@ -80,12 +80,20 @@
 
 # 🧑🏻‍💻 Project
 ### Rec Sys
-- 모델 구현 [`repository`](https://github.com/minsoo9506/RecModel)
+- 모델 구현, 2023 [`repository`](https://github.com/minsoo9506/RecModel)
+- bandit study, 2025 ~ [`repository`](https://github.com/minsoo9506/bandit-study)
 
 ### Imbalanced Learning, Anomaly Detection
 - 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [`pdf`](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
 - 모델 구현 (라이브러리화) [`repository`](https://github.com/minsoo9506/catchMinor)
 
+### ML sys
+- bentoml tutorial, 2022 [`repository`](https://github.com/minsoo9506/BentoML-model-serving)
+- mlops tutorial, 2023 [`repository`](https://github.com/minsoo9506/mlops-project-level0)
+- udemy 강의 ml testing monitoring, 2023 [`repository`](https://github.com/minsoo9506/ML-testing-monitoring)
+
+### etc
+- 개인 블로그 공부 정리 [`blog`](https://minsoo9506.github.io/categories/)
 
 # 📑 Paper Reference
 ### Rec Sys
