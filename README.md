@@ -66,11 +66,12 @@
   - [`blog`](https://engineering.linkedin.com/blog/2022/community-building-recommender-for-group-chats-in-linkedin-messa), [`review`](./industry/LikedIn/2024_01_27_Community_building_recommender_for_group_chats_in_LinkedIn_Messaging_2022.md)
 
 ### Conference
-- [네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference review](./industry/2024_conference/)
+- 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [`review`](./industry/2024_conference/)
 
 # 🧑🏻‍💻 Practice & Project
 ### Recommendation System
-- 모델 구현, 2023 [`repository`](https://github.com/minsoo9506/RecModel)
+- 추천 모델 구현, 2023 [`repository`](https://github.com/minsoo9506/RecModel)
+- bandit 공부, 2025  [`repository`](https://github.com/minsoo9506/bandit-study)
 
 ### ML engineering
 - udemy 강의 deployment of ml models, 2022 [`repository`](https://github.com/minsoo9506/fraudDetection-python-package)
@@ -99,7 +100,7 @@
 - 개인 블로그 공부 정리 [`blog`](https://minsoo9506.github.io/categories/)
 
 # 📑 Paper Reference
-### Rec Sys
+### Recommendation System
 - Algorithm
   - Collaborative Filtering for Implicit Feedback Data, 2008
   - BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009
@@ -215,7 +216,7 @@
   - [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests, 2018](http://bayes.acs.unt.edu:8083/BayesContent/class/rich/articles/Estimation_And_Inference_Of_Heterogeneous_Treatment_Effects_Using_Random_Forests.pdf)
 
 # 📑 Other Reference
-### Rec Sys
+### Recommendation System
 - 카카오
   - 카카오 AI 추천: 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천
   - 카카오 AI 추천: 토픽모델링과 MAB를 이용한 카카오 개인화 추천
@@ -245,6 +246,7 @@
   - [LINE Timeline의 새로운 도전 (2020.04)](https://engineering.linecorp.com/ko/blog/line-timeline-discover-ml-recommendation)
   - [오픈챗 해시태그 예측을 위한 다중 레이블 분류 모델 개발하기, 2024](https://techblog.lycorp.co.jp/ko/multi-label-classification-model-for-openchat-hashtag-prediction)
   - [오프라인과 온라인 A/B 테스트를 통해 오픈챗 추천 모델 개선하기, 2023](https://techblog.lycorp.co.jp/ko/improve-openchat-recommendation-model-with-offline-and-online-ab-test)
+  - [오픈챗 해시태그 예측을 위한 다중 레이블 분류 모델 개발하기, 2024](https://techblog.lycorp.co.jp/ko/multi-label-classification-model-for-openchat-hashtag-prediction)
 - 네이버
   - (Deview2021) BERT로 만든 네이버 플레이스 비슷한 취향 유저 추천 시스템
   - (Deview2021) Knowledge Graph에게 맛집과 사용자를 묻는다: GNN으로 맛집 취향 저격 하기
@@ -269,8 +271,8 @@
 - 우아한형제들(배민)
   - [(2023 우아콘) 추천시스템 성장 일지: 데이터 엔지니어 편](https://www.youtube.com/watch?v=x49PqlAQC3U&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=13)
   - [(2023 우아콘) 여기, 주문하신 '예측' 나왔습니다: 추천/ML에서 '예측'을 서빙한다는 것에 대하여](https://www.youtube.com/watch?v=OXAABJWUgx4&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=15)
-  - [실시간 반응형 추천 개발 일지 #1. 프로젝트 소개, 2024](https://techblog.woowahan.com/17383/)
-  - [로봇 ML 모델의 경량화 1부: 훈련 후 양자화, 2024](https://techblog.woowahan.com/18980/)
+  - [실시간 반응형 추천 개발 일지 1부: 프로젝트 소개, 2024](https://techblog.woowahan.com/17383/)
+  - [실시간 반응형 추천 개발 일지 2부: 벡터 검색, 그리고 숨겨진 요구사항과 기술 도입 의사 결정을 다루는 방법, 2025](https://techblog.woowahan.com/21027/)
 - 컬리
   - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 1부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development/)
   - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 2부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development_second/)
@@ -310,7 +312,7 @@
   - [Recommendation Systems • Bias](https://aman.ai/recsys/bias/)
 
 ### Imbalnaced Learning, Anomaly Detection
-- 배달의 민족
+- 우아한형제들(배민)
   - [배민 앱 리뷰 품질을 향상시킨 방법은? 머신 러닝 X 네트워크 탐지 모델 도입](https://techblog.woowahan.com/11829/)
 - Netflix
   - [Machine Learning for Fraud Detection in Streaming Services](https://netflixtechblog.medium.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6)
@@ -343,3 +345,13 @@
   - [Causal-Inference-and-Discovery-in-Python](https://github.com/PacktPublishing/Causal-Inference-and-Discovery-in-Python)
   - [For effective treatment of churn, don’t predict churn, 2019](https://medium.com/bigdatarepublic/for-effective-treatment-of-churn-dont-predict-churn-58328967ec4f)
   - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)
+
+### LLM
+- 우아한형제들(배민)
+  - [GPT를 활용한 카탈로그 아이템 생성, 2025](https://techblog.woowahan.com/21294/)
+
+### etc
+- 우아한형제들(배민)
+  - [로봇 ML 모델의 경량화 1부: 훈련 후 양자화, 2024](https://techblog.woowahan.com/18980/)
+  - [로봇 ML 모델의 경량화 2부: 양자화 인식 훈련, 2024](https://techblog.woowahan.com/21176/)
+  - [프로덕트 전략, 어떻게 시작해야 할까?, 2025](https://techblog.woowahan.com/21115/)
