@@ -1,72 +1,8 @@
 요즘은 추천시스템 위주의 공부를 하고 있습니다.
 
 # Index
-- Paper: 논문의 주요 내용을 정리합니다.
-- Industry: 회사들의 tech blog 주요 내용을 정리합니다.
 - Practice & Project: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
 - Reference: 다양한 레퍼런스 아카이빙합니다.
-
-# 📄 Paper
-### Recommendation System
-- Factorization Machines, 2010
-  - [`paper`](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf), [`review`](./paper/2023_08_28_Factorization_Machine.md), [`code`](https://github.com/minsoo9506/RecModel)
-- Wide & Deep Learning for Recommender Systems, 2016
-  - [`paper`](https://arxiv.org/abs/1606.07792), [`review`](./paper/2023_09_02_Wide_and_Deep.md)
-- Neural Collaborative Filtering, 2017
-  - [`paper`](https://arxiv.org/pdf/1708.05031.pdf), [`review`](./paper/2023_09_07_NCF.md), [`code`](https://github.com/minsoo9506/RecModel) 
-- DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017
-  - [`paper`](https://arxiv.org/abs/1703.04247), [`review`](./paper/2023_08_30_DeepFM.md), [`code`](https://github.com/minsoo9506/RecModel)
-- Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018
-  - [`paper`](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885), [`review`](./paper/2023_09_10_Search_Ranking_Airbnb_2018.md)
-- Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations, RecSys 2019
-  - [`paper`](https://research.google/pubs/pub48840/), [`review`](./paper/2023_09_21_Two_Tower_in_batch.md), [`code`](https://github.com/minsoo9506/RecModel)
-- DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems 2020
-  - [`paper`](https://arxiv.org/pdf/2008.13535.pdf), [`review`](./paper/2023_10_03_DCN2.md)
-
-### Imbalanced Learning, Anomaly Detection
-- Deep Learning for Anomaly Detection A Review, 2020
-  - [`paper`](https://arxiv.org/pdf/2007.02500.pdf), [`review`](./paper/Deep_Learning_for_Anomaly_Detection_A_Review.md)
-- Deep Autoencoding Gaussian Mixture Model For Unsupervised Anomaly Detection, ICLR 2018
-  - [`paper`](https://sites.cs.ucsb.edu/~bzong/doc/iclr18-dagmm.pdf), [`review`](./paper/DAGMM.pdf)
-- Adversarial Autoencoders, 2016
-  - [`paper`](https://arxiv.org/abs/1511.05644), [`review`](./paper/Adversarial_Autoencoders.pdf)
-- USAD : UnSupervised Anomaly Detection on multivariate time series, KDD2020
-  - [`paper`](https://dl.acm.org/doi/10.1145/3394486.3403392), [`review`](./paper/USAD.pdf)
-
-# 🏢 Industry
-### Recommendation System
-#### Spotify
-- The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021
-  - [`blog`](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/), [`review`](./industry/Spotify/2023_10_22_Spotify_The_Rise_(and%20Lessons%20Learned)_of_ML_Models_to_Personalize_Content_on_Home.md)
-- Introducing Natural Language Search for Podcast Episodes, 2022
-  - [`blog`](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/), [`review`](./industry/Spotify/2023_10_14_Spotify_Introducing_Natural_Language_Search_for_Podcast_Episodes.md)
-- Modeling Users According to Their Slow and Fast-Moving Interests, 2022
-  - [`blog`](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/), [`review`](./industry/Spotify/2023_10_16_Spotify_Modeling_Users_According_to_Their_Slow_and_Fast-Moving_Interests.md)
-
-#### Pinterest
-- The machine learning behind delivering relevant ads, 2021
-  - [`blog`](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0), [`review`](./industry/Pinterest/2023_10_28_Pinterest_The_machine_learning_behind_delivering_relevants_ads.md)
-- Pinterest Home Feed Unified Lightweight Scoring: A Two-tower Approach, 2021
-  - [`blog`](https://medium.com/pinterest-engineering/pinterest-home-feed-unified-lightweight-scoring-a-two-tower-approach-b3143ac70b55), [`review`](./industry/Pinterest/2023_11_02_Pinterest_Home_Feed_Unified_Lightweight_Scoring_A_Two-tower_Approach.md)
-- Query Rewards: Building a Recommendation Feedback Loop During Query Selection, 2022
-  - [`blog`](https://medium.com/pinterest-engineering/query-rewards-building-a-recommendation-feedback-loop-during-query-selection-70b4d20e5ea0), [`review`](./industry/Pinterest/2023_11_12_Pinterest_Query_Rewards_Building_a_Recommendation_Feedback_Loop_During_Query_Selection.md)
-- How Pinterest Leverages Realtime User Actions in Recommendation to Boost Homefeed Engagement Volume, 2022
-  - [`blog`](https://medium.com/pinterest-engineering/), [`review`](./industry/Pinterest/2023_12_10_How_Pinterest_Leverages_Realtime_User_Actions_in_Recommendation_to_Boost_Homefeed_Engagement_Volume_2022.md)
-
-#### Meta(Facebook)
-- How Instagram suggests new content, 2020
-  - [`blog`](https://engineering.fb.com/2020/12/10/web/how-instagram-suggests-new-content/), [`review`](./industry/Meta(Facebook)/2023_12_17_How_Instagram_suggests_new_content_2020.md)
-
-#### LinkedIn
-- The AI Behind LinkedIn Recruiter search and recommendation systems, 2019
-  - [`blog`](https://engineering.linkedin.com/blog/2019/04/ai-behind-linkedin-recruiter-search-and-recommendation-systems), [`review`](./industry/LikedIn/2023_12-17_The_AI_Behind_LinkedIn_Recruiter_search_and_recommendation_systems.md)
-- Near real-time features for near real-time personalization, 2022
-  - [`blog`](https://engineering.linkedin.com/blog/2022/near-real-time-features-for-near-real-time-personalization), [`review`](./industry/LikedIn/2024_01_03_Near_real-time_features_for_near_real-time_personalization.md)
-- Community building recommender for group chats in LinkedIn Messaging, 2022
-  - [`blog`](https://engineering.linkedin.com/blog/2022/community-building-recommender-for-group-chats-in-linkedin-messa), [`review`](./industry/LikedIn/2024_01_27_Community_building_recommender_for_group_chats_in_LinkedIn_Messaging_2022.md)
-
-### Conference
-- 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [`review`](./industry/2024_conference/)
 
 # 🧑🏻‍💻 Practice & Project
 ### Recommendation System
@@ -138,6 +74,41 @@
   - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems](https://arxiv.org/pdf/1806.01973.pdf)
 - LookAlike
   - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
+- Bandit
+  - [Explore, Exploit, and Explain: Personalizing Explainable Recommendations with Bandits, 2018 spotify](https://static1.squarespace.com/static/5ae0d0b48ab7227d232c2bea/t/5ba849e3c83025fa56814f45/1537755637453/BartRecSys.pdf) `epsilon-greedy`, `explanation`
+  - [Deep neural network marketplace recommenders in online experiments, 2018](https://arxiv.org/abs/1809.02130) `epsilon-greedy`, `hybrid item-representation`
+  - [A Batched Multi-Armed Bandit Approach to News Headline Testing, 2019](https://arxiv.org/pdf/1908.06256) `thomson-sampling`, `batched MAB`
+  - [A Contextual-Bandit Approach to Personalized News Article Recommendation, 2012](https://arxiv.org/abs/1003.0146) `LinUCB`
+  - [Contextual User Browsing Bandits for Large-Scale Online Mobile Recommendation, 2020 Alibaba](https://arxiv.org/pdf/2008.09368) `UBM-LinUCB`, `contextual combinatorial bandit`
+  - [An Empirical Evaluation of Thompson Sampling, 2011 Yahoo](https://papers.nips.cc/paper_files/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf)
+  - [An Efficient Bandit Algorithm for Realtime Multivariate Optimization, 2018 Amazon](https://arxiv.org/abs/1810.09558) `thomson-sampling`
+  - [Cascading Bandits: Learning to Rank in the Cascade Model, 2015](https://arxiv.org/pdf/1502.02763) `cascade bandit`
+  - [Carousel Personalization in Music Streaming Apps with Contextual Bandits, 2020 Deezer](https://arxiv.org/pdf/2009.06546) `cascade bandit`, `semi-personalized`
+  - [Cascading Bandits: Optimizing Recommendation Frequency in Delayed Feedback Environments, 2023](https://proceedings.neurips.cc/paper_files/paper/2023/file/f95606d8e870020085990d9650b4f2a1-Paper-Conference.pdf) `cascade bandit`
+  - [Deep Bayesian Bandits: Exploring in Online Personalized Recommendations, 2020 Twitter](https://arxiv.org/pdf/2008.00727) `deep Bayesian bandits`, `ad display`
+  - [A Sleeping, Recovering Bandit Algorithm for Optimizing Recurring Notifications, 2020 Duolingo](https://research.duolingo.com/papers/yancey.kdd20.pdf)
+- LLM
+  - [LLM-Based Aspect Augmentations for Recommendation Systems, 2023](https://openreview.net/pdf?id=bStpLVqv1H) `item aspect generation`
+  - [Language-Based User Profiles for Recommendation, 2024](https://arxiv.org/abs/2402.15623) `LFM`
+  - [Harnessing Large Language Models for Text-Rich Sequential Recommendation, 2024](https://arxiv.org/abs/2403.13325) `text sequential summarize` `SFT`
+  - [The Unequal Opportunities of Large Language Models: Revealing Demographic Bias through Job Recommendation, 2023](https://dl.acm.org/doi/pdf/10.1145/3617694.3623257) `bias`
+  - [Do LLMs Understand User Preferences? Evaluating LLMs On User Rating Prediction, 2023 google research](https://arxiv.org/pdf/2305.06474) `prediction`
+  - [LLMs for User Interest Exploration in Large-scale Recommendation Systems, 2024 google](https://arxiv.org/pdf/2405.16363) `hybrid` `SFT`
+  - [Comparing Human and LLM Ratings of Music-Recommendation Quality with User Context, 2024](https://openreview.net/pdf?id=QyLYF7SOpS) `LLM-as-a-judge`
+  - [Playlist Search Reinvented: LLMs Behind the Curtain, 2024 amazon music](https://assets.amazon.science/cb/60/a2cd86b646508da2cc99792481de/playlist-search-reinvented-llms-behind-the-curtain.pdf) `content enrichment` `synthesizing training data` `judges for evaluation`
+  - [A Multi-Agent Conversational Recommender System, 2024](https://arxiv.org/pdf/2402.01135) `multi-agent` `conversational rec sys`
+  - [BETTER GENERALIZATION WITH SEMANTIC IDS: A CASE STUDY IN RANKING FOR RECOMMENDATIONS, 2024 google](https://arxiv.org/pdf/2306.08121) `id-based`
+- Push
+  - [Personalized Push Notifications for News Recommendation, 2019 DGP media](https://proceedings.mlr.press/v109/loni19a/loni19a.pdf) `location considered`
+  - [Predicting which type of push notification content motivates users to engage in a self-monitoring app, 2018](https://www.sciencedirect.com/science/article/pii/S2211335518301177) `statistics analysis` `heavy user, heavy content`
+  - [Near Real-time Optimization of Activity-based Notifications, 2018 LinkedIn](https://dl.acm.org/doi/pdf/10.1145/3219819.3219880)
+  - [Notification Volume Control and Optimization System at Pinterest, 2018 Pinterest](https://dl.acm.org/doi/pdf/10.1145/3219819.3219906) `noti volume`
+- Search, Query, IR
+  - [Query2doc: Query Expansion with Large Language Models, 2023 Microsoft Research](https://arxiv.org/pdf/2303.07678) `query expansion`
+  - [Query Expansion by Prompting Large Language Models, 2023 Google Research](https://arxiv.org/pdf/2305.03653)
+  - [An Interactive Query Generation Assistant using LLM-based Prompt Modification and User Feedback, 2023](https://arxiv.org/pdf/2311.11226)
+  - [InPars: Data Augmentation for Information Retrieval using Large Language Models, 2022](https://arxiv.org/pdf/2202.05144)
+  - [Generating Query Recommendations via LLMs, 2024 Spotify](https://arxiv.org/pdf/2405.19749) `query expansion` `prompt` 
 - Diversity
   - Algorithmic Effects on the Diversity of Consumption on Spotify, WWW 2020
 - Bias
@@ -145,6 +116,8 @@
   - [Popularity-Opportunity Bias in Collaborative Filtering, WSDM 2021](https://dl.acm.org/doi/pdf/10.1145/3437963.3441820)
   - [Managing Popularity Bias in Recommender Systems with Personalized Re-ranking, 2019](https://arxiv.org/pdf/1901.07555)
   - [The Unfairness of Popularity Bias in Recommendation, 2019](https://arxiv.org/pdf/1907.13286)
+- Explainable
+  - [Faithfully Explaining Rankings in a News Recommender System, 2018](https://arxiv.org/pdf/1805.05447)
 - User Modeling
   - [Exploring the longitudinal effects of nudging on users’ music genre exploration behavior and listening preferences, 2022](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
   - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
@@ -154,6 +127,7 @@
   - Deep Learning based Recommender System: A Survey and New Perspectives, 2019
   - [A Survey on Causal Inference for Recommendation, 2024](https://arxiv.org/abs/2303.11666)
   - [Fairness and Diversity in Recommender Systems: A Survey, 2024](https://arxiv.org/pdf/2307.04644)
+  - [Recommender Systems in the Era of Large Language Models (LLMs), 2024](https://arxiv.org/pdf/2307.02046)
 
 ### Imbalanced Learning, Anomaly Detection
 - Survey
@@ -217,6 +191,8 @@
 
 # 📑 Other Reference
 ### Recommendation System
+- conference
+  - 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [`review`](./industry/2024_conference/)
 - 카카오
   - 카카오 AI 추천: 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천
   - 카카오 AI 추천: 토픽모델링과 MAB를 이용한 카카오 개인화 추천
@@ -288,6 +264,8 @@
   - [Personalizing Audiobooks and Podcasts with graph-based models, 2024](https://research.atspotify.com/2024/05/personalizing-audiobooks-and-podcasts-with-graph-based-models/)
 - Pinterest
   - [The machine learning behind delivering relevant ads, Pinterest 2021](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0)
+  - [Advancements in Embedding-Based Retrieval at Pinterest Homefeed, 2025](https://medium.com/pinterest-engineering/advancements-in-embedding-based-retrieval-at-pinterest-homefeed-d7d7971a409e)
+  - [Feature Caching for Recommender Systems w/ Cachelib, 2024](https://medium.com/pinterest-engineering/feature-caching-for-recommender-systems-w-cachelib-8fb7bacc2762)
 - Ebay
   - [Building a Deep Learning Based Retrieval System for Personalized Recommendations, ebay 2022](https://tech.ebayinc.com/engineering/building-a-deep-learning-based-retrieval-system-for-personalized-recommendations/)
 - nvidia
@@ -298,11 +276,27 @@
   - [Scaling deep retrieval with TensorFlow Recommenders and Vertex AI Matching Engine](https://cloud.google.com/blog/products/ai-machine-learning/scaling-deep-retrieval-tensorflow-two-towers-architecture?hl=en)
 - X (twitter)
   - [Model-based candidate generation for account recommendations, X 2022](https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations)
+  - [A hybrid approach to personalize notification volume, 2022](https://blog.x.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume)
 - meta (facebook)
   - [Scaling the Instagram Explore recommendations system, meta 2023](https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system/)
   - [How machine learning powers Facebook’s News Feed ranking algorithm, meta 2021](https://engineering.fb.com/2021/01/26/ml-applications/news-feed-ranking/)
 - Netflix
   - [Innovating Faster on Personalization Algorithms at Netflix Using Interleaving, 2017](https://netflixtechblog.com/interleaving-in-online-experiments-at-netflix-a04ee392ec55)
+- Yelp
+  - [Search Query Understanding with LLMs: From Ideation to Production, 2025](https://engineeringblog.yelp.com/2025/02/search-query-understanding-with-LLMs.html)
+- Swiggy
+  - [Contextual Bandits for Ads Recommendations, 2022](https://bytes.swiggy.com/contextual-bandits-for-ads-recommendations-ec210775fcf)
+  - [Smart Push notifications (Multi-Armed Bandits at Swiggy: Part-4)](https://bytes.swiggy.com/smart-push-notifications-multi-armed-bandits-at-swiggy-part-4-f5698f2af0a6)
+- Airbnb
+  - [Embedding-Based Retrieval for Airbnb Search, 2025](https://medium.com/airbnb-engineering/embedding-based-retrieval-for-airbnb-search-aabebfc85839)
+  - [Improving Search Ranking for Maps, 2024](https://medium.com/airbnb-engineering/improving-search-ranking-for-maps-13b03f2c2cca)
+- eugeneyan blog
+  - [Search: Query Matching via Lexical, Graph, and Embedding Methods, 2021](https://eugeneyan.com/writing/search-query-matching/)
+  - [Patterns for Personalization in Recommendations and Search, 2021](https://eugeneyan.com/writing/patterns-for-personalization/)
+  - [Real-time Machine Learning For Recommendations, 2021](https://eugeneyan.com/writing/real-time-recommendations/)
+  - [System Design for Recommendations and Search, 2021](https://eugeneyan.com/writing/system-design-for-discovery/)
+  - [Improving Recommendation Systems & Search in the Age of LLMs, 2025](https://eugeneyan.com/writing/recsys-llm/)
+  - [Push Notifications: What to Push, What Not to Push, and How Often, 2023](https://eugeneyan.com/writing/push/)
 - Others
   - Transformers4Rec: A flexible library for Sequential and Session-based recommendation
   - [[22'Recsys] BERT4Rec 구현의 진실에 관하여 : A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation](https://mytype9591.tistory.com/m/6)
@@ -357,3 +351,5 @@
   - [로봇 ML 모델의 경량화 1부: 훈련 후 양자화, 2024](https://techblog.woowahan.com/18980/)
   - [로봇 ML 모델의 경량화 2부: 양자화 인식 훈련, 2024](https://techblog.woowahan.com/21176/)
   - [프로덕트 전략, 어떻게 시작해야 할까?, 2025](https://techblog.woowahan.com/21115/)
+- Swiggy
+  - [Smart Push notifications (Multi-Armed Bandits at Swiggy: Part-4), 2023](https://bytes.swiggy.com/smart-push-notifications-multi-armed-bandits-at-swiggy-part-4-f5698f2af0a6)

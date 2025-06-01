@@ -1,0 +1,4 @@
+- cascade model
+  - K개 아이템 이 있는 리스트가 유저에게 전달되고 유저는 처음부터 마지막 아이템까지 순서대로 보면서 attractive item 을 선택(eg. 클릭)한다.
+  - 선택 전까지 아이템은 attractive 하지 않고 선택 이후 아이템은 unobserved 된다.
+  - 그래서 유저가 선택할 아이템이 있는 optimal list 를 찾는게 목표이다.
