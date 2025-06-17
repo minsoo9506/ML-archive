@@ -71,7 +71,7 @@
   - [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS, 2017](https://arxiv.org/pdf/1609.02907.pdf)
   - [Inductive Representation Learning on Large Graphs, 2017](https://arxiv.org/pdf/1706.02216.pdf)
   - [Graph Attention Networks, 2018](https://arxiv.org/pdf/1710.10903.pdf)
-  - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems](https://arxiv.org/pdf/1806.01973.pdf)
+  - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems, 2018 Pinterest](https://arxiv.org/pdf/1806.01973.pdf)
 - LookAlike
   - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 - Bandit
@@ -108,7 +108,12 @@
   - [Query Expansion by Prompting Large Language Models, 2023 Google Research](https://arxiv.org/pdf/2305.03653)
   - [An Interactive Query Generation Assistant using LLM-based Prompt Modification and User Feedback, 2023](https://arxiv.org/pdf/2311.11226)
   - [InPars: Data Augmentation for Information Retrieval using Large Language Models, 2022](https://arxiv.org/pdf/2202.05144)
-  - [Generating Query Recommendations via LLMs, 2024 Spotify](https://arxiv.org/pdf/2405.19749) `query expansion` `prompt` 
+  - [Generating Query Recommendations via LLMs, 2024 Spotify](https://arxiv.org/pdf/2405.19749) `query expansion` `prompt`
+  - [Semantic Product Search, 2019 Amazon](https://arxiv.org/pdf/1907.00937) `product search` `semantic` `contrastive learning` `tokenization`
+  - [Embedding-based Retrieval in Facebook Search, 2020 Facebook](https://arxiv.org/pdf/2006.11632) `social search` `two-tower` `ANN` `negative sampling`
+  - [Unified Embedding Based Personalized Retrieval in Etsy Search, 2024 Etsy](https://arxiv.org/pdf/2306.04833) `two-tower` `negative sampling` `ANN`
+  - [Embedding based retrieval for long tail search queries in ecommerce, 2025](https://www.arxiv.org/pdf/2505.01946) `long tail` `llm synthetic data`
+  - [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
 - Diversity
   - Algorithmic Effects on the Diversity of Consumption on Spotify, WWW 2020
 - Bias
@@ -190,10 +195,10 @@
   - [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests, 2018](http://bayes.acs.unt.edu:8083/BayesContent/class/rich/articles/Estimation_And_Inference_Of_Heterogeneous_Treatment_Effects_Using_Random_Forests.pdf)
 
 # 📑 Other Reference
-### Recommendation System
-- conference
-  - 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [`review`](./industry/2024_conference/)
-- 카카오
+### conference
+- 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [`review`](./industry/2024_conference/)
+### 카카오
+- 추천, 검색
   - 카카오 AI 추천: 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천
   - 카카오 AI 추천: 토픽모델링과 MAB를 이용한 카카오 개인화 추천
   - 카카오 AI 추천: 협업필터링 모델 선택 시의 기준에 대하여
@@ -205,99 +210,235 @@
   - 브런치 추천의 힘에 대한 6가지 기술
   - if(kakao)dev2022 Sequential Recommendation System 카카오 서비스 적용기
   - if(kakao)dev2022 Explainable Recommender System in 카카오웹툰
-- 카카오엔터테인먼트
-  - [최애 작품 이용권 선물해주는 ‘Helix 푸시’ 개발기 (2024)](https://if.kakao.com/session/19)
-- 당근
+- LLM, 이미지
+  - [이미지까지 이해하는 Multimodal LLM의 학습 방법 밝혀내기, ifkakao2024](https://if.kakao.com/session/12)
+  - [나만의 프로필 이미지를 만드는 Personalized T2I 모델 개발기, ifkakao2024](https://if.kakao.com/session/17)
+  - [AI Agent 기반 스마트 AI 마이 노트, ifkakao2024](https://if.kakao.com/session/21)
+  - [업무 효율화를 위한 카카오 사내봇 개발기, ifkakao2024](https://if.kakao.com/session/26)
+  - [AI 를 통해 스팸을 대응하는 카카오의 노력, ifkakao2024](https://if.kakao.com/session/30)
+  - [LLM으로 음성인식 성능 개선하기, ifkakao2024](https://if.kakao.com/session/34)
+  - [CodeBuddy 와 함께하는 AI 코드리뷰, ifkakao2024](https://if.kakao.com/session/35)
+  - [AI Assistant와 통합 지식베이스를 통한 AI Native Company 구현, ifkakao2024](https://if.kakao.com/session/41)
+  - [밑바닥부터 시작하는 LLM 개발기, ifkakao2024](https://if.kakao.com/session/48)
+  - [AI 기반 광고 콘텐츠 모니터링 기술 개발기, ifkakao2024](https://if.kakao.com/session/59)
+  - [빠르고 비용효율적으로 LLM 서빙하기, ifkakao2024](https://if.kakao.com/session/53)
+  - [서비스에 LLM 부스터 달아주기: 요약부터 AI Bot 까지, ifkakao2024](https://if.kakao.com/session/66)
+  - [‘선물하기 와인탐험’ LLM 대화형 서비스 개발기, ifkakao2024](https://if.kakao.com/session/71)
+- 이상치탐지
+  - [그래프 기반 악성 유저군 탐지: 온라인 광고 도메인에서의 적용, ifkakao2024](https://if.kakao.com/session/18)
+- XAI
+  - [AI를 설명하면서 속도도 빠르게 할 순 없을까? SHAP 가속화 이야기 (feat. 산학협력), ifkakao2024](https://if.kakao.com/session/16)
+- 플랫폼
+  - [메시지 광고 추천 딥러닝 인퍼런스 서버 개선 - Jvm Onnx Runtime에서  Nvidia Triton 도입까지, ifkakao2024](https://if.kakao.com/session/15)
+  - [카카오 광고 AI 추천 MLOps 아키텍쳐 - Feature Store 편, ifkakao2024](https://if.kakao.com/session/20)
+  - [AI 기반 광고 추천 파이프라인에서 스파크 스트리밍의 배포 및 모니터링 전략, ifkakao2024](https://if.kakao.com/session/33)
+- 기타
+  - [데이터 분석과 머신러닝을 통한 유저 방문 맛집 발굴하기, ifkakao2024](https://if.kakao.com/session/14)
+### 카카오엔터테인먼트
+- 추천
+  - [최애 작품 이용권 선물해주는 ‘Helix 푸시’ 개발기 (2024), ifkakao2024](https://if.kakao.com/session/19)
+- LLM
+  - [지연 시간 순삭! LLM 추론 구조와 효율적 애플리케이션 설계, ifkakao2024](https://if.kakao.com/session/24)
+### 카카오헬스케어
+- LLM
+  - [생성형 AI를 활용한 개체명 인식(NER), ifkakao2024](https://if.kakao.com/session/22)
+### 카카오뱅크
+- LLM
+  - [이 문자가 스미싱인 이유는? - 스미싱 탐지를 위한 LLM 개발 및 평가,ifkakao2024](https://if.kakao.com/session/23)
+### 카카오페이, 카카오페이손해보험
+- LLM, 이미지
+  - [LLM 서빙하기, ifkakao2024](https://if.kakao.com/session/25)
+  - [문서 검토는 이제 Document AI로 한방에!,ifkakao2024](https://if.kakao.com/session/31)
+- 이상치탐지
+  - [FDS에 지속 성장하는 ML 적용 이야기, ifkakao2024](https://if.kakao.com/session/29)
+### 카카오게임즈
+- 이탈방지
+  - [통계를 이용해 이탈을 방지할 수 있을까?, SMART STATS 개발기, ifkakao2024](https://if.kakao.com/session/74)
+### 당근
+- 추천, 검색
   - 딥러닝 개인화 추천 (당근마켓, 2019)
-- 번개장터
-  - 번개장터 추천시스템 개발 및 도입후기 (2017)
-- 하이퍼커넥트
+  - [RAG를 활용한 검색 서비스 만들기, 2025](https://medium.com/daangn/rag%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0-211930ec74a1)
+  - [검색어에 숨겨진 의도를 더 정확하게, 검색을 바꾸는 AI 실험들 — 당근 AI Show & Tell #5, 2025](https://medium.com/daangn/%EA%B2%80%EC%83%89%EC%96%B4%EC%97%90-%EC%88%A8%EA%B2%A8%EC%A7%84-%EC%9D%98%EB%8F%84%EB%A5%BC-%EB%8D%94-%EC%A0%95%ED%99%95%ED%95%98%EA%B2%8C-%EA%B2%80%EC%83%89%EC%9D%84-%EB%B0%94%EA%BE%B8%EB%8A%94-ai-%EC%8B%A4%ED%97%98%EB%93%A4-14d01677c273)
+  - [LLM을 활용한 스마트폰 시세 조회 서비스 구축, 2025](https://medium.com/daangn/llm%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0-%EC%8B%9C%EC%84%B8%EC%A1%B0%ED%9A%8C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EC%B6%95-bd4650ec67f4)
+  - [당근 추천 알고리즘 - 홈피드 후보모델 파헤치기, 2024당근테크밋업](https://www.youtube.com/watch?v=qYo0R2nv1PQ&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=3)
+  - [수십억 개 연결이 존재하는 당근 그래프에서 GNN 학습하기, 2024당근테크밋업](https://www.youtube.com/watch?v=R7ecb7xKDj0&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=7)
+  - [중고거래 시멘틱서치 도입기: 꽁꽁 얼어붙은 키워드 위로 벡터가 걸어다닙니다, 2024당근테크밋업](https://www.youtube.com/watch?v=bWfWFAMbJQ4&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=4)
+- 이상치탐지
+  - [ㅎㅖ어져서 팝니ㄷr ☆: LLM과 임베딩 유사도로 빠르게 패턴을 바꾸는 업자 잡아내기, 2024당근테크밋업](https://www.youtube.com/watch?v=UGjRhqZygHg&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=1)
+- 플랫폼
+  - [당근페이 데이터플랫폼 구축기, 2024당근테크밋업](https://www.youtube.com/watch?v=abdIqj9dxww&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=2)
+  - [지표 통합과 탐색: KarrotMetrics와 Explorer로 가치 있는 의사결정하기, 2024당근테크밋업](https://www.youtube.com/watch?v=I_i3jbQn_tg&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=5)
+  - [추천 서빙 시스템 아키텍처: 높은 생산성을 위한 아키텍쳐 및 ML Flywheel, 2024당근테크밋업](https://www.youtube.com/watch?v=Cs09fzdJo5Y&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=6)
+  - [온콜, 알림만 보다가 죽겠어요, 2024당근테크밋업](https://www.youtube.com/watch?v=4XpZpplWJBw&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=8)
+### 하이퍼커넥트
+- 추천
   - [비용 효율적인 Click-Through Rate Prediction 모델로 하쿠나 라이브 추천시스템 구축하기, 2021](https://hyperconnect.github.io/2021/04/26/hakuna-recsys-gb.html)
   - [아자르에서 AI 기반 추천 모델의 타겟 지표를 설정하는 방법 (feat. 아하 모멘트), 2024](https://hyperconnect.github.io/2024/04/26/azar-aha-moment.html)
   - [협업 필터링을 넘어서: 하이퍼커넥트 AI의 추천 모델링, 2024](https://hyperconnect.github.io/2024/10/21/beyond-collaborative-filtering.html)
   - [이벤트 기반의 라이브 스트리밍 추천 시스템 운용하기, 2022](https://hyperconnect.github.io/2022/01/24/event-driven-recsys.html)
   - [아자르에서는 어떤 추천 모델을 사용하고 있을까?, 2024](https://hyperconnect.github.io/2024/11/19/azar-recommendation-model.html)
-- 라인
-  - [머신러닝을 활용한 오픈챗 클린 스코어 모델 개발기, 2020](https://engineering.linecorp.com/ko/blog/line-openchat-cleanscore)
+### 라인
+- 추천
   - [LINE Timeline의 새로운 도전 (2020.04)](https://engineering.linecorp.com/ko/blog/line-timeline-discover-ml-recommendation)
-  - [오픈챗 해시태그 예측을 위한 다중 레이블 분류 모델 개발하기, 2024](https://techblog.lycorp.co.jp/ko/multi-label-classification-model-for-openchat-hashtag-prediction)
   - [오프라인과 온라인 A/B 테스트를 통해 오픈챗 추천 모델 개선하기, 2023](https://techblog.lycorp.co.jp/ko/improve-openchat-recommendation-model-with-offline-and-online-ab-test)
+- 기타
+  - [머신러닝을 활용한 오픈챗 클린 스코어 모델 개발기, 2020](https://engineering.linecorp.com/ko/blog/line-openchat-cleanscore)
   - [오픈챗 해시태그 예측을 위한 다중 레이블 분류 모델 개발하기, 2024](https://techblog.lycorp.co.jp/ko/multi-label-classification-model-for-openchat-hashtag-prediction)
-- 네이버
+  - [오픈챗 해시태그 예측을 위한 다중 레이블 분류 모델 개발하기, 2024](https://techblog.lycorp.co.jp/ko/multi-label-classification-model-for-openchat-hashtag-prediction)
+### 네이버
+- 추천, 검색
   - (Deview2021) BERT로 만든 네이버 플레이스 비슷한 취향 유저 추천 시스템
   - (Deview2021) Knowledge Graph에게 맛집과 사용자를 묻는다: GNN으로 맛집 취향 저격 하기
   - (Deview2020) 유저가 좋은 작품(웹툰)을 만났을 때
   - (Deview2020) 추천시스템 3.0: 딥러닝 후기시대에서 바이어스, 그래프, 그리고 인과관계의 중요성
-- 넥슨
+  - [홈피드: 네이버의 진입점에서 추천피드를 외치다! 추천피드 도입 고군분투기, DAN24](https://tv.naver.com/v/67443984)
+  - [네이버 검색이 이렇게 좋아졌어? LLM의 Re-Ranking Ability 검색에 이식하기, DAN24](https://tv.naver.com/v/67444172)
+  - [서치피드: SERP를 넘어 SURF로! 검색의 새로운 물결, DAN24](https://tv.naver.com/v/67444300)
+  - [검색과 피드의 만남: LLM으로 완성하는 초개인화 서비스, DAN24](https://tv.naver.com/v/67444402)
+  - [클립 크리에이터와 네이버 유저를 연결하기: 숏폼 컨텐츠 개인화 추천, DAN24](https://tv.naver.com/v/67444550)
+  - [LLM 기반 추천/광고 파운데이션 모델, DAN24](https://tv.naver.com/v/67445059)
+  - [사용자 경험을 극대화하는 AI 기반 장소 추천 시스템 : LLM과 유저 데이터의 융합, DAN24](https://tv.naver.com/v/67445325)
+  - [LLM for Search: 꽁꽁 얼어붙은 검색 서비스 위로 LLM이 걸어다닙니다, DAN24](https://tv.naver.com/v/67452448)
+  - [사람을 대신해야 진짜 AI지? : LLM 기반 임베딩부터 검색 품질 자동 평가 모델까지, DAN24](https://dan.naver.com/24/sessions/591)
+  - [SQM으로 네이버 검색 품질 췍↗!, DAN24](https://tv.naver.com/v/67324891)
+- AI, LLM
+  - [eFoundation: 상품을 딱 잘 표현하는 임베딩을 만들었지 뭐야 ꒰⍢꒱ 완전 럭키비키잔앙 ☘︎, DAN24](https://tv.naver.com/v/67444878)
+  - [어? GPU 그거 어떻게 쓰는건가요? : AI 서빙 헤딩팟 실전 노하우 (feat. AI 이어북)](https://tv.naver.com/v/67327010)
+  - [속도와 효율의 레이스! : LLM 서빙 최적화의 모든것.](https://tv.naver.com/v/67337608)
+- 기타
+  - [당신의 Python 모델이 이븐하게 추론하지 못하는 이유 [CPU 추론/모델서빙 Python 딥다이브], DAN24](https://tv.naver.com/v/67452152)
+### 네이버웹툰
+- 추천, 검색
+  - [내 손 안의 알딱핑! (੭˃ᴗ˂)੭ 네게 맞는 웹툰을 알아서 딱! 추천해줄게, DAN24](https://tv.naver.com/v/67445183)
+- 타겟팅
+  - [글로벌 웹툰의 ML 기반 CRM 실전 적용기 : Uplift Model과 Survival Model을 활용한 타겟팅 고도화 (네이버 웹툰), DAN24](https://tv.naver.com/v/67320890)
+### 네이버페이
+- 인과추론
+  - [Uplift Modeling을 통한 마케팅 비용 최적화 (with Multiple Treatments), 2024](https://medium.com/naverfinancial/uplift-modeling%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%A7%88%EC%BC%80%ED%8C%85-%EB%B9%84%EC%9A%A9-%EC%B5%9C%EC%A0%81%ED%99%94-with-multiple-treatments-5e4e3824b9df)
+### 넥슨
+- 추천
   - NDC21-데이터분석, 추천알고리즘 offline A/B 테스트 (feat: PAIGE 프로야구 서비스)
-- 요기요
-  - 데이터야놀자2022, 뭐먹지 빌런을 무찌르는 GNN 기반 개인화 추천 - 윤기태님
-- 무신사
+- 인과추론
+  - [업리프트 모델링을 통해 게임 광고 전환율 향상시키기, 2023](https://www.intelligencelabs.tech/372bcb48-af74-4a4f-a2b5-57df9e45fcb9)
+### 요기요
+- 추천
+  - 데이터야놀자2022, 뭐먹지 빌런을 무찌르는 GNN 기반 개인화 추천
+### 무신사
+- 추천, 검색
   - [무신사가 카테고리숍 추천을 하는 방법, 무신사 2023](https://medium.com/musinsa-tech/%EB%AC%B4%EC%8B%A0%EC%82%AC%EA%B0%80-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%88%8D-%EC%B6%94%EC%B2%9C%EC%9D%84-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-a45b219685ea)
   - [검색어 분석을 통한 상품 정렬 개선, 무신사 2021](https://medium.com/musinsa-tech/%EA%B2%80%EC%83%89%EC%96%B4-%EB%B6%84%EC%84%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%83%81%ED%92%88-%EC%A0%95%EB%A0%AC-%EA%B0%9C%EC%84%A0-b92ded2923c3)
   - [AI와 함께하는 패션 큐레이션 — 무신사 2.0 시나리오 기반 추천 시스템 개발, 2024](https://medium.com/musinsa-tech/ai%EC%99%80-%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94-%ED%8C%A8%EC%85%98-%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98-%EB%AC%B4%EC%8B%A0%EC%82%AC-2-0-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%EA%B8%B0%EB%B0%98-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%B0%9C-db7020b20b68)
-- 라이너
+### 라이너
+- 추천, 검색
   - [TikTok for Text! 라이너 앱 Session-based Recommender 구축기, 라이너 2023](https://blog.getliner.com/sessrec/)
   - [Bag-of-Tricks for Recommendation: Recency, Clustering 그리고 Item Shuffling, 2022](https://blog.liner.space/bag-of-tricks-for-recommendation)
-  - [신뢰성 있는 문서를 골라주기 위한 Liner Ranker, 2024](https://blog.liner.space/line-ranker)
-- 오늘의집
+  - [신뢰성 있는 문서를 골라주기 위한 Liner Ranker, 2024](https://liner.com/ko/blog/liner-ranker)
+### 오늘의집
+- 추천
   - [유사 이미지 추천 개발 #1 비슷한 공간 - 콘텐츠 추천을 위한 이미지 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-05-22-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-1-%EB%B9%84%EC%8A%B7%ED%95%9C-%EA%B3%B5%EA%B0%84/)
   - [유사 이미지 추천 개발 #2 비슷한 상품 - 커머스 상품 추천을 위한 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-07-13-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-2-%EB%B9%84%EC%8A%B7%ED%95%9C-%EC%83%81%ED%92%88/)
   - [개인화 추천 시스템 #1. Multi-Stage Recommender System, 2024](https://www.bucketplace.com/post/2024-03-26-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-1-multi-stage-recommender-system/)
   - [개인화 추천 시스템 #2. Personalized Content Ranking, 2024](https://www.bucketplace.com/post/2024-07-10-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-2-personalized-content-ranking/)
-- 우아한형제들(배민)
-  - [개인화 추천 시스템 #3. 모델 서빙, 2025](https://www.bucketplace.com/post/2025-03-14-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-3-%EB%AA%A8%EB%8D%B8-%EC%84%9C%EB%B9%99/) 
+### 우아한형제들(배민)
+- 추천
+  - [개인화 추천 시스템 #3. 모델 서빙, 2025](https://www.bucketplace.com/post/2025-03-14-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-3-%EB%AA%A8%EB%8D%B8-%EC%84%9C%EB%B9%99/)
   - [(2023 우아콘) 추천시스템 성장 일지: 데이터 엔지니어 편](https://www.youtube.com/watch?v=x49PqlAQC3U&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=13)
   - [(2023 우아콘) 여기, 주문하신 '예측' 나왔습니다: 추천/ML에서 '예측'을 서빙한다는 것에 대하여](https://www.youtube.com/watch?v=OXAABJWUgx4&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=15)
   - [실시간 반응형 추천 개발 일지 1부: 프로젝트 소개, 2024](https://techblog.woowahan.com/17383/)
   - [실시간 반응형 추천 개발 일지 2부: 벡터 검색, 그리고 숨겨진 요구사항과 기술 도입 의사 결정을 다루는 방법, 2025](https://techblog.woowahan.com/21027/)
-- 컬리
+  - [그래프, 텍스트 인코더를 활용한 실시간 추천 검색어 모델링, 우아콘2024](https://www.youtube.com/watch?v=FPdJ24JfKmw&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=41&pp=iAQB)
+  - [취향 저격 맛집 추천, 더 똑똑하게: 추천 모델 성장 일지, 우아콘2024](https://www.youtube.com/watch?v=zRLS3_vD1FM&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=9&pp=iAQB)
+- LLM
+  - [AI 데이터 분석가 '물어보새' 등장: 데이터 리터러시 향상을 위한 나만의 데이터 분석가, 우아콘2024](https://www.youtube.com/watch?v=_QPhoKItI2k)
+  - [Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기, 우아콘2024](https://www.youtube.com/watch?v=YjdZL3Sc9hA&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=10&pp=iAQB)
+  - [GPT를 활용한 카탈로그 아이템 생성, 2025](https://techblog.woowahan.com/21294/)
+- 이상치탐지
+  - [배민 앱 리뷰 품질을 향상시킨 방법은? 머신 러닝 X 네트워크 탐지 모델 도입](https://techblog.woowahan.com/11829/)
+- 기타
+  - [음식 픽업하러 산 넘고 강 건널 수 없으니가: 배달 데이터를 활용해 최적의 지역 클러스터링하기, 우아콘2024](https://www.youtube.com/watch?v=Ub1kL0OB5n8&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=6)
+  - [당신에게 배달 시간이 전달되기까지: 불확실성을 다루는 예측 시스템 구축 과정, 우아콘2024](https://www.youtube.com/watch?v=SkliEsGRuSQ&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=12&pp=iAQB)
+  - [자율주행 로봇을 위한 머신러닝 모델의 추론 성능을 최적화하기, 우아콘2024](https://www.youtube.com/watch?v=zOJQ4l6cooQ&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=25&pp=iAQB)
+  - [로봇 ML 모델의 경량화 1부: 훈련 후 양자화, 2024](https://techblog.woowahan.com/18980/)
+  - [로봇 ML 모델의 경량화 2부: 양자화 인식 훈련, 2024](https://techblog.woowahan.com/21176/)
+  - [프로덕트 전략, 어떻게 시작해야 할까?, 2025](https://techblog.woowahan.com/21115/)
+- 플랫폼
+  - [우아한 데이터 허브, 일 200억 건 데이터 안전하게 처리하는 대용량 시스템 구축하기, 우아콘2024](https://www.youtube.com/watch?v=AtmI56DGhi4&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=8)
+  - [장애 같은데? 일단 STOP!: 배달서비스 장애 감지/차단 시스템 구축 경험담, 우아콘2024](https://www.youtube.com/watch?v=NKbmLyWlVpg&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=28&pp=iAQB)
+### 컬리
+- 추천
   - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 1부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development/)
   - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 2부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development_second/)
-- 토스
-  - [SLASH 24 - 기반 데이터가 부족해도 OK! 커머스 추천 시스템 제작기, 2024](https://www.youtube.com/watch?v=LAD6LYnkPsA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=31)
-- Spotify
+### 토스
+- 추천
+  - [기반 데이터가 부족해도 OK! 커머스 추천 시스템 제작기, SLASH24](https://www.youtube.com/watch?v=LAD6LYnkPsA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=31)
+- 플랫폼
+  - [ML 플랫폼으로 개발 속도와 안정성 높이기, SLASH24](https://www.youtube.com/watch?v=-im8Gzmf3TM&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=13)
+  - [Feature Store로 유연하게 ML 고도화하기, SLASH24](https://www.youtube.com/watch?v=-u3rhd7k2JQ&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=20)
+### Spotify
+- 추천, 검색
   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
   - [Introducing Natural Language Search for Podcast Episodes, spotify 2022](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/)
   - [Modeling Users According to Their Slow and Fast-Moving Interests, spotify 2022](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/)
   - [Socially-Motivated Music Recommendation, 2024](https://research.atspotify.com/2024/06/socially-motivated-music-recommendation/)
   - [Personalizing Audiobooks and Podcasts with graph-based models, 2024](https://research.atspotify.com/2024/05/personalizing-audiobooks-and-podcasts-with-graph-based-models/)
-- Pinterest
+### Pinterest
+- 추천, 검색
   - [The machine learning behind delivering relevant ads, Pinterest 2021](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0)
   - [Advancements in Embedding-Based Retrieval at Pinterest Homefeed, 2025](https://medium.com/pinterest-engineering/advancements-in-embedding-based-retrieval-at-pinterest-homefeed-d7d7971a409e)
   - [Feature Caching for Recommender Systems w/ Cachelib, 2024](https://medium.com/pinterest-engineering/feature-caching-for-recommender-systems-w-cachelib-8fb7bacc2762)
-- Ebay
+- 이상치탐지
+  - [Warden: Real Time Anomaly Detection at Pinterest](https://medium.com/pinterest-engineering/warden-real-time-anomaly-detection-at-pinterest-210c122f6afa)
+  - [Fighting Spam using Clustering and Automated Rule Creation](https://medium.com/pinterest-engineering/fighting-spam-using-clustering-and-automated-rule-creation-1c01d8c11a05)
+### Ebay
+- 추천, 검색
   - [Building a Deep Learning Based Retrieval System for Personalized Recommendations, ebay 2022](https://tech.ebayinc.com/engineering/building-a-deep-learning-based-retrieval-system-for-personalized-recommendations/)
-- nvidia
+### Nvidia
+- 추천, 검색
   - [Recommender Systems, Not Just Recommender Models, nvidia merlin](https://medium.com/nvidia-merlin/recommender-systems-not-just-recommender-models-485c161c755e)
-- Uber
+- 인과추론
+  - [Using Causal Inference to Improve the Uber User Experience, 2019](https://www.uber.com/en-KR/blog/causal-inference-at-uber/)
+### Uber
+- 추천, 검색
   - [Innovative Recommendation Applications Using Two Tower Embeddings at Uber, Uber 2023](https://www.uber.com/en-KR/blog/innovative-recommendation-applications-using-two-tower-embeddings/)
-- Google
+### Google
+- 추천, 검색
   - [Scaling deep retrieval with TensorFlow Recommenders and Vertex AI Matching Engine](https://cloud.google.com/blog/products/ai-machine-learning/scaling-deep-retrieval-tensorflow-two-towers-architecture?hl=en)
-- X (twitter)
+- 이상치탐지
+  - [Unsupervised and semi-supervised anomaly detection with data-centric ML, google blog](https://ai.googleblog.com/2023/02/unsupervised-and-semi-supervised.html)
+### X (twitter)
+- 추천, 검색
   - [Model-based candidate generation for account recommendations, X 2022](https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations)
   - [A hybrid approach to personalize notification volume, 2022](https://blog.x.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume)
-- meta (facebook)
+### Meta (facebook)
+- 추천, 검색
   - [Scaling the Instagram Explore recommendations system, meta 2023](https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system/)
   - [How machine learning powers Facebook’s News Feed ranking algorithm, meta 2021](https://engineering.fb.com/2021/01/26/ml-applications/news-feed-ranking/)
-- Netflix
+### Netflix
+- 추천, 검색
   - [Innovating Faster on Personalization Algorithms at Netflix Using Interleaving, 2017](https://netflixtechblog.com/interleaving-in-online-experiments-at-netflix-a04ee392ec55)
-- Yelp
+  - [Foundation Model for Personalized Recommendation, 2025](https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39) `foundation model`
+- 이상치탐지
+  - [Machine Learning for Fraud Detection in Streaming Services](https://netflixtechblog.medium.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6)
+- 인과추론
+  - [A Survey of Causal Inference Applications at Netflix](https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f)
+### Yelp
+- 추천, 검색
   - [Search Query Understanding with LLMs: From Ideation to Production, 2025](https://engineeringblog.yelp.com/2025/02/search-query-understanding-with-LLMs.html)
-- Swiggy
+### Swiggy
+- 추천, 검색
   - [Contextual Bandits for Ads Recommendations, 2022](https://bytes.swiggy.com/contextual-bandits-for-ads-recommendations-ec210775fcf)
   - [Smart Push notifications (Multi-Armed Bandits at Swiggy: Part-4)](https://bytes.swiggy.com/smart-push-notifications-multi-armed-bandits-at-swiggy-part-4-f5698f2af0a6)
-- Airbnb
+### Airbnb
+- 추천, 검색
   - [Embedding-Based Retrieval for Airbnb Search, 2025](https://medium.com/airbnb-engineering/embedding-based-retrieval-for-airbnb-search-aabebfc85839)
   - [Improving Search Ranking for Maps, 2024](https://medium.com/airbnb-engineering/improving-search-ranking-for-maps-13b03f2c2cca)
-- eugeneyan blog
-  - [Search: Query Matching via Lexical, Graph, and Embedding Methods, 2021](https://eugeneyan.com/writing/search-query-matching/)
-  - [Patterns for Personalization in Recommendations and Search, 2021](https://eugeneyan.com/writing/patterns-for-personalization/)
-  - [Real-time Machine Learning For Recommendations, 2021](https://eugeneyan.com/writing/real-time-recommendations/)
-  - [System Design for Recommendations and Search, 2021](https://eugeneyan.com/writing/system-design-for-discovery/)
-  - [Improving Recommendation Systems & Search in the Age of LLMs, 2025](https://eugeneyan.com/writing/recsys-llm/)
-  - [Push Notifications: What to Push, What Not to Push, and How Often, 2023](https://eugeneyan.com/writing/push/)
-- Others
+### Lyft
+- 이상치탐지
+  - [Full-Spectrum ML Model Monitoring at Lyft](https://eng.lyft.com/full-spectrum-ml-model-monitoring-at-lyft-a4cdaf828e8f)
+  - [Building a large scale unsupervised model anomaly detection system — Part 1](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-1-aca4766a823c)
+  - [Building a large scale unsupervised model anomaly detection system — Part 2](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-2-3690f4c37c5b)
+### Others blog
+- 추천
   - Transformers4Rec: A flexible library for Sequential and Session-based recommendation
   - [[22'Recsys] BERT4Rec 구현의 진실에 관하여 : A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation](https://mytype9591.tistory.com/m/6)
   - [Scaling deep retrieval with TensorFlow Recommenders and Vertex AI Matching Engine](https://cloud.google.com/blog/products/ai-machine-learning/scaling-deep-retrieval-tensorflow-two-towers-architecture?hl=en)
@@ -306,33 +447,14 @@
   - [Two Tower Model Architecture: Current State and Promising Extensions, 2023](https://blog.reachsumit.com/posts/2023/03/two-tower-model/)
   - [추천 시스템 서비스 적용을 위한 Elastic Search 도입기, 2022](https://blog.dramancompany.com/2022/11/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%81%EC%9A%A9%EC%9D%84-%EC%9C%84%ED%95%9C-elastic-search-%EB%8F%84%EC%9E%85%EA%B8%B0/)
   - [Recommendation Systems • Bias](https://aman.ai/recsys/bias/)
-
-### Imbalnaced Learning, Anomaly Detection
-- 우아한형제들(배민)
-  - [배민 앱 리뷰 품질을 향상시킨 방법은? 머신 러닝 X 네트워크 탐지 모델 도입](https://techblog.woowahan.com/11829/)
-- Netflix
-  - [Machine Learning for Fraud Detection in Streaming Services](https://netflixtechblog.medium.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6)
-- Pinterest
-  - [Warden: Real Time Anomaly Detection at Pinterest](https://medium.com/pinterest-engineering/warden-real-time-anomaly-detection-at-pinterest-210c122f6afa)
-  - [Fighting Spam using Clustering and Automated Rule Creation](https://medium.com/pinterest-engineering/fighting-spam-using-clustering-and-automated-rule-creation-1c01d8c11a05)
-- Lyft
-  - [Full-Spectrum ML Model Monitoring at Lyft](https://eng.lyft.com/full-spectrum-ml-model-monitoring-at-lyft-a4cdaf828e8f)
-  - [Building a large scale unsupervised model anomaly detection system — Part 1](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-1-aca4766a823c)
-  - [Building a large scale unsupervised model anomaly detection system — Part 2](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-2-3690f4c37c5b)
-- Others
-  - [Fraud Detection on Blockchain based on Machine learning (medium article)](https://jysden.medium.com/fraud-detection-on-ethereum-with-graph-neural-network-f434e5b9aef5)
-  - [Unsupervised and semi-supervised anomaly detection with data-centric ML, google blog](https://ai.googleblog.com/2023/02/unsupervised-and-semi-supervised.html)
-
-### Causality
-- Netflix
-  - [A Survey of Causal Inference Applications at Netflix](https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f)
-- Uber
-  - [Using Causal Inference to Improve the Uber User Experience, 2019](https://www.uber.com/en-KR/blog/causal-inference-at-uber/)
-- 넥슨
-  - [업리프트 모델링을 통해 게임 광고 전환율 향상시키기, 2023](https://www.intelligencelabs.tech/372bcb48-af74-4a4f-a2b5-57df9e45fcb9)
-- 네이버페이
-  - [Uplift Modeling을 통한 마케팅 비용 최적화 (with Multiple Treatments), 2024](https://medium.com/naverfinancial/uplift-modeling%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%A7%88%EC%BC%80%ED%8C%85-%EB%B9%84%EC%9A%A9-%EC%B5%9C%EC%A0%81%ED%99%94-with-multiple-treatments-5e4e3824b9df)
-- Others
+  - eugeneyan blog
+    - [Search: Query Matching via Lexical, Graph, and Embedding Methods, 2021](https://eugeneyan.com/writing/search-query-matching/)
+    - [Patterns for Personalization in Recommendations and Search, 2021](https://eugeneyan.com/writing/patterns-for-personalization/)
+    - [Real-time Machine Learning For Recommendations, 2021](https://eugeneyan.com/writing/real-time-recommendations/)
+    - [System Design for Recommendations and Search, 2021](https://eugeneyan.com/writing/system-design-for-discovery/)
+    - [Improving Recommendation Systems & Search in the Age of LLMs, 2025](https://eugeneyan.com/writing/recsys-llm/)
+    - [Push Notifications: What to Push, What Not to Push, and How Often, 2023](https://eugeneyan.com/writing/push/)
+- 인과추론
   - [Brady Neal - Causal Inference](https://www.youtube.com/c/BradyNealCausalInference/playlists)
   - [인과추론의 데이터과학](https://www.youtube.com/c/%EC%9D%B8%EA%B3%BC%EC%B6%94%EB%A1%A0%EC%9D%98%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%BC%ED%95%99/playlists)
   - [EconML/CausalML KDD 2021 Tutorial](https://causal-machine-learning.github.io/kdd2021-tutorial/)
@@ -341,15 +463,3 @@
   - [Causal-Inference-and-Discovery-in-Python](https://github.com/PacktPublishing/Causal-Inference-and-Discovery-in-Python)
   - [For effective treatment of churn, don’t predict churn, 2019](https://medium.com/bigdatarepublic/for-effective-treatment-of-churn-dont-predict-churn-58328967ec4f)
   - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)
-
-### LLM
-- 우아한형제들(배민)
-  - [GPT를 활용한 카탈로그 아이템 생성, 2025](https://techblog.woowahan.com/21294/)
-
-### etc
-- 우아한형제들(배민)
-  - [로봇 ML 모델의 경량화 1부: 훈련 후 양자화, 2024](https://techblog.woowahan.com/18980/)
-  - [로봇 ML 모델의 경량화 2부: 양자화 인식 훈련, 2024](https://techblog.woowahan.com/21176/)
-  - [프로덕트 전략, 어떻게 시작해야 할까?, 2025](https://techblog.woowahan.com/21115/)
-- Swiggy
-  - [Smart Push notifications (Multi-Armed Bandits at Swiggy: Part-4), 2023](https://bytes.swiggy.com/smart-push-notifications-multi-armed-bandits-at-swiggy-part-4-f5698f2af0a6)
