@@ -328,6 +328,7 @@
   - [무신사가 카테고리숍 추천을 하는 방법, 무신사 2023](https://medium.com/musinsa-tech/%EB%AC%B4%EC%8B%A0%EC%82%AC%EA%B0%80-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%88%8D-%EC%B6%94%EC%B2%9C%EC%9D%84-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-a45b219685ea)
   - [검색어 분석을 통한 상품 정렬 개선, 무신사 2021](https://medium.com/musinsa-tech/%EA%B2%80%EC%83%89%EC%96%B4-%EB%B6%84%EC%84%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%83%81%ED%92%88-%EC%A0%95%EB%A0%AC-%EA%B0%9C%EC%84%A0-b92ded2923c3)
   - [AI와 함께하는 패션 큐레이션 — 무신사 2.0 시나리오 기반 추천 시스템 개발, 2024](https://medium.com/musinsa-tech/ai%EC%99%80-%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94-%ED%8C%A8%EC%85%98-%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98-%EB%AC%B4%EC%8B%A0%EC%82%AC-2-0-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%EA%B8%B0%EB%B0%98-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%B0%9C-db7020b20b68)
+  - [당신이 보는 첫 화면은 어떻게 정해질까? 무신사 홈 배너 개인화 추천 이야기, 2025](https://medium.com/musinsa-tech/%EB%8B%B9%EC%8B%A0%EC%9D%B4-%EB%B3%B4%EB%8A%94-%EC%B2%AB-%ED%99%94%EB%A9%B4%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A0%95%ED%95%B4%EC%A7%88%EA%B9%8C-%EB%AC%B4%EC%8B%A0%EC%82%AC-%ED%99%88-%EB%B0%B0%EB%84%88-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0-33b96721db54)
 ### 라이너
 - 추천, 검색
   - [TikTok for Text! 라이너 앱 Session-based Recommender 구축기, 라이너 2023](https://blog.getliner.com/sessrec/)
@@ -389,6 +390,7 @@
 - 이상치탐지
   - [Warden: Real Time Anomaly Detection at Pinterest](https://medium.com/pinterest-engineering/warden-real-time-anomaly-detection-at-pinterest-210c122f6afa)
   - [Fighting Spam using Clustering and Automated Rule Creation](https://medium.com/pinterest-engineering/fighting-spam-using-clustering-and-automated-rule-creation-1c01d8c11a05)
+  - [Unlocking Efficient Ad Retrieval: Offline Approximate Nearest Neighbors in Pinterest Ads, 2025](https://medium.com/pinterest-engineering/unlocking-efficient-ad-retrieval-offline-approximate-nearest-neighbors-in-pinterest-ads-6fccc131ac14)
 ### Ebay
 - 추천, 검색
   - [Building a Deep Learning Based Retrieval System for Personalized Recommendations, ebay 2022](https://tech.ebayinc.com/engineering/building-a-deep-learning-based-retrieval-system-for-personalized-recommendations/)
@@ -400,6 +402,7 @@
 ### Uber
 - 추천, 검색
   - [Innovative Recommendation Applications Using Two Tower Embeddings at Uber, Uber 2023](https://www.uber.com/en-KR/blog/innovative-recommendation-applications-using-two-tower-embeddings/)
+  - [Enhancing Personalized CRM Communication with Contextual Bandit Strategies, 2025](https://www.uber.com/en-IN/blog/enhancing-personalized-crm/)
 ### Google
 - 추천, 검색
   - [Scaling deep retrieval with TensorFlow Recommenders and Vertex AI Matching Engine](https://cloud.google.com/blog/products/ai-machine-learning/scaling-deep-retrieval-tensorflow-two-towers-architecture?hl=en)
