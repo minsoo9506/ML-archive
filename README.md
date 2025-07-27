@@ -265,6 +265,7 @@
   - [중고거래 시멘틱서치 도입기: 꽁꽁 얼어붙은 키워드 위로 벡터가 걸어다닙니다, 2024당근테크밋업](https://www.youtube.com/watch?v=bWfWFAMbJQ4&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=4)
 - 이상치탐지
   - [ㅎㅖ어져서 팝니ㄷr ☆: LLM과 임베딩 유사도로 빠르게 패턴을 바꾸는 업자 잡아내기, 2024당근테크밋업](https://www.youtube.com/watch?v=UGjRhqZygHg&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=1)
+  - [연간 LLM 호출 비용 25% 절감, 인턴이 도전한 시맨틱 캐싱 도입 기록, 2025](https://medium.com/daangn/llm-%ED%98%B8%EC%B6%9C-%EB%B9%84%EC%9A%A9-00-%EC%A0%88%EA%B0%90-%EC%9D%B8%ED%84%B4%EC%9D%B4-%EB%8F%84%EC%A0%84%ED%95%9C-%EC%8B%9C%EB%A7%A8%ED%8B%B1-%EC%BA%90%EC%8B%B1-%EB%8F%84%EC%9E%85-%EA%B8%B0%EB%A1%9D-d53d951ac10a)
 - 플랫폼
   - [당근페이 데이터플랫폼 구축기, 2024당근테크밋업](https://www.youtube.com/watch?v=abdIqj9dxww&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=2)
   - [지표 통합과 탐색: KarrotMetrics와 Explorer로 가치 있는 의사결정하기, 2024당근테크밋업](https://www.youtube.com/watch?v=I_i3jbQn_tg&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=5)
@@ -421,6 +422,7 @@
 - 추천, 검색
   - [Innovating Faster on Personalization Algorithms at Netflix Using Interleaving, 2017](https://netflixtechblog.com/interleaving-in-online-experiments-at-netflix-a04ee392ec55)
   - [Foundation Model for Personalized Recommendation, 2025](https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39) `foundation model`
+  - [Next-Level Personalization: How 16k+ Lifelong User Actions Supercharge Pinterest’s Recommendations, 2025](https://medium.com/pinterest-engineering/next-level-personalization-how-16k-lifelong-user-actions-supercharge-pinterests-recommendations-bd5989f8f5d3) `TransActV2` `lifelong user sequence` `Next Action Loss`
 - 이상치탐지
   - [Machine Learning for Fraud Detection in Streaming Services](https://netflixtechblog.medium.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6)
 - 인과추론
