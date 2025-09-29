@@ -210,7 +210,9 @@
   - 브런치 추천의 힘에 대한 6가지 기술
   - if(kakao)dev2022 Sequential Recommendation System 카카오 서비스 적용기
   - if(kakao)dev2022 Explainable Recommender System in 카카오웹툰
-- LLM, 이미지
+  - [커뮤니티로 진화한 오픈채팅, AI로 슬기롭게 연결하다, ifkakao2025](https://www.youtube.com/watch?v=ELVOiHaTj_Y&list=PLwe9WEhzDhwG1H81qHrjc05sj75cGa1fi&index=3)
+  - [LLM을 활용한 유저 프로파일링과 개인화 추천, ifkakao2025](https://www.youtube.com/watch?v=GaEnbqahnEc&list=PLwe9WEhzDhwG1H81qHrjc05sj75cGa1fi&index=13)
+- LLM, 이미지, AI
   - [이미지까지 이해하는 Multimodal LLM의 학습 방법 밝혀내기, ifkakao2024](https://if.kakao.com/session/12)
   - [나만의 프로필 이미지를 만드는 Personalized T2I 모델 개발기, ifkakao2024](https://if.kakao.com/session/17)
   - [AI Agent 기반 스마트 AI 마이 노트, ifkakao2024](https://if.kakao.com/session/21)
@@ -224,6 +226,19 @@
   - [빠르고 비용효율적으로 LLM 서빙하기, ifkakao2024](https://if.kakao.com/session/53)
   - [서비스에 LLM 부스터 달아주기: 요약부터 AI Bot 까지, ifkakao2024](https://if.kakao.com/session/66)
   - [‘선물하기 와인탐험’ LLM 대화형 서비스 개발기, ifkakao2024](https://if.kakao.com/session/71)
+  - [필요한 순간 먼저 말을 걸어주는 온디바이스 AI, ifkakao2025](https://www.youtube.com/watch?v=4wwsyiLmVkA&list=PLwe9WEhzDhwG1H81qHrjc05sj75cGa1fi&index=15)
+  - [카나나 앱 메이트 개발기, ifkakao2025](https://www.youtube.com/watch?v=V-jlscSg_AA&list=PLwe9WEhzDhwG1H81qHrjc05sj75cGa1fi&index=16)
+  - [사용자 발화에서 응답까지: 그래프 기반 에이전트로 동작하는 AI 서비스, ifkakao2025](https://www.youtube.com/watch?v=XQo0DHuqgVM&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=2)
+  - [데이터 뚝딱! AI메이트 메타데이터 생성 비법, ifkakao2025](https://www.youtube.com/watch?v=F4G2E9Np6Wo&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=3)
+  - [All About LLM: 카카오 AI메이트, 학습부터 서빙까지의 모든 것, ifkakao2025](https://www.youtube.com/watch?v=U0IqPwxydHE&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=4)
+  - [LLM은 있지만 다시 학습하고 싶어 - Kanana-2 개발기 (~ing), ifkakao2025](https://www.youtube.com/watch?v=B7sc-OlnkCE&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=15)
+  - [데이터는 없지만 LLM은 학습하고 싶어 - Code, Math 데이터 개발기, ifkakao2025](https://www.youtube.com/watch?v=cL_UjE38_8Q&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=16)
+  - [LLM은 있지만 컨텍스트가 짧아 - Long Context 실전 적용기, ifkakao2025](https://www.youtube.com/watch?v=mFHjPLa_d-4&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=17)
+  - [눈으로 보고, 귀로 듣고, 입으로 말하는 AI – 통합 멀티모달 언어모델 Kanana-o 개발기, ifkakao2025](https://www.youtube.com/watch?v=S4CMtHfscis&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=18)
+  - [화면을 이해하고 행동하는 AI - GUI Agent 개발기, ifkakao2025](https://www.youtube.com/watch?v=k-8CFgBhhu4&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=19)
+  - [카카오톡 AI 에이전트를 위한 온디바이스 모델 최적화 및 적용, ifkakao2025](https://www.youtube.com/watch?v=8ggESRKrfZ4&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=20)
+  - [AI Coding Agent: 실험을 통해 확인한 생산성 그 이상의 가능성, ifkakao2025](https://www.youtube.com/watch?v=VdElizwWE4s&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=21)
+  - [국내 최초 오픈소스 가드레일: Kanana-safeguard, ifkakao2025](https://www.youtube.com/watch?v=hIherrdkvnA&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=22)
 - 이상치탐지
   - [그래프 기반 악성 유저군 탐지: 온라인 광고 도메인에서의 적용, ifkakao2024](https://if.kakao.com/session/18)
 - XAI
@@ -232,28 +247,42 @@
   - [메시지 광고 추천 딥러닝 인퍼런스 서버 개선 - Jvm Onnx Runtime에서  Nvidia Triton 도입까지, ifkakao2024](https://if.kakao.com/session/15)
   - [카카오 광고 AI 추천 MLOps 아키텍쳐 - Feature Store 편, ifkakao2024](https://if.kakao.com/session/20)
   - [AI 기반 광고 추천 파이프라인에서 스파크 스트리밍의 배포 및 모니터링 전략, ifkakao2024](https://if.kakao.com/session/33)
-- 기타
+  - [GenAI를 위한 Gateway, ifkakao2025](https://www.youtube.com/watch?v=HxTUBCyCnYM&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=23)
+- ML
   - [데이터 분석과 머신러닝을 통한 유저 방문 맛집 발굴하기, ifkakao2024](https://if.kakao.com/session/14)
 ### 카카오엔터테인먼트
 - 추천
   - [최애 작품 이용권 선물해주는 ‘Helix 푸시’ 개발기 (2024), ifkakao2024](https://if.kakao.com/session/19)
+  - [음악과 감정을 배우는 AI 모델의 여정: DJ 말랑이, ifkakao2025](https://www.youtube.com/watch?v=7X9whn-SeFk&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=10)
 - LLM
   - [지연 시간 순삭! LLM 추론 구조와 효율적 애플리케이션 설계, ifkakao2024](https://if.kakao.com/session/24)
+- AI
+  - [웹툰 크리에이터들과의 상생을 위한 숏츠 생성 AI Agent - 헬릭스 숏츠, ifkakao2025](https://www.youtube.com/watch?v=iMR2F5z2n3Y&list=PLwe9WEhzDhwG1H81qHrjc05sj75cGa1fi&index=2)
 ### 카카오헬스케어
 - LLM
   - [생성형 AI를 활용한 개체명 인식(NER), ifkakao2024](https://if.kakao.com/session/22)
 ### 카카오뱅크
 - LLM
   - [이 문자가 스미싱인 이유는? - 스미싱 탐지를 위한 LLM 개발 및 평가,ifkakao2024](https://if.kakao.com/session/23)
+  - [Prompt Attack에 대항하는 공든 요새 쌓기: lab.fortress, ifkakao2025](https://www.youtube.com/watch?v=Ui6oW-OpI-g&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=5)
 ### 카카오페이, 카카오페이손해보험
 - LLM, 이미지
   - [LLM 서빙하기, ifkakao2024](https://if.kakao.com/session/25)
   - [문서 검토는 이제 Document AI로 한방에!,ifkakao2024](https://if.kakao.com/session/31)
 - 이상치탐지
   - [FDS에 지속 성장하는 ML 적용 이야기, ifkakao2024](https://if.kakao.com/session/29)
+- 플랫폼
+  - [AI 플랫폼 하드웨어부터 코드까지: GPU, LLMOps, Agentic Coding으로 완성하는 AI 플랫폼, ifkakao2025](https://www.youtube.com/watch?v=TofE_ld_pFI&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=10)
 ### 카카오게임즈
 - 이탈방지
   - [통계를 이용해 이탈을 방지할 수 있을까?, SMART STATS 개발기, ifkakao2024](https://if.kakao.com/session/74)
+- AI
+  - [김대리, SQL 팡션? 사용하지 마세요. MCP 쓰세요: AI 기술을 이용한 데이터 민주화, ifkakao2025](https://www.youtube.com/watch?v=2v6zhEFh3HI&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=13)
+  - [AI를 활용한 자동 게임보안 검수 시스템, ifkakao2025](https://www.youtube.com/watch?v=JNO5_JdCR9E&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=14)
+### 카카오모빌리티
+- AI
+  - [자율주행 AI 실차 적용기: 서비스를 위해 우리가 만들고 있는 자율주행, ifkakao2025](https://www.youtube.com/watch?v=N7CVydbY2gE&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=11)
+  - [실시간 경로탐색에 Multi-armed Banadit 기반 강화학습 도입하기 (feat. SCI급 논문게재), ifkakao2025](https://www.youtube.com/watch?v=d9c32iTNqS8&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=12)
 ### 당근
 - 추천, 검색
   - 딥러닝 개인화 추천 (당근마켓, 2019)
@@ -278,14 +307,19 @@
   - [협업 필터링을 넘어서: 하이퍼커넥트 AI의 추천 모델링, 2024](https://hyperconnect.github.io/2024/10/21/beyond-collaborative-filtering.html)
   - [이벤트 기반의 라이브 스트리밍 추천 시스템 운용하기, 2022](https://hyperconnect.github.io/2022/01/24/event-driven-recsys.html)
   - [아자르에서는 어떤 추천 모델을 사용하고 있을까?, 2024](https://hyperconnect.github.io/2024/11/19/azar-recommendation-model.html)
+  - [AI 실시간 추천 시스템을 위한 Flink 기반 스트림 조인 서비스 구축기, 2025](https://hyperconnect.github.io/2025/06/11/azar-flink-real-time-stream-join-service.html)
+  - [클릭 한 번으로 실험 시작! 이터레이션 사이클을 단축하는 추천 실험 시스템 개발기, 2025](https://hyperconnect.github.io/2025/08/26/azar-recsys-experiment-framework.html)
+- 개발
+  - [1:1 비디오 채팅 서비스는 E2E 회귀 테스트를 어떻게 자동화할까?, 2025](https://hyperconnect.github.io/2025/06/12/how-to-automate-e2e-test-on-1on1-video-chat-app.html)
 ### 라인
 - 추천
   - [LINE Timeline의 새로운 도전 (2020.04)](https://engineering.linecorp.com/ko/blog/line-timeline-discover-ml-recommendation)
   - [오프라인과 온라인 A/B 테스트를 통해 오픈챗 추천 모델 개선하기, 2023](https://techblog.lycorp.co.jp/ko/improve-openchat-recommendation-model-with-offline-and-online-ab-test)
-- 기타
+  - [Milvus: LINE VOOM의 실시간 추천 시스템을 위한 대규모 벡터 DB 구축기, 2025](https://techblog.lycorp.co.jp/ko/large-scale-vector-db-for-real-time-recommendation-in-line-voom)
+- ML
   - [머신러닝을 활용한 오픈챗 클린 스코어 모델 개발기, 2020](https://engineering.linecorp.com/ko/blog/line-openchat-cleanscore)
   - [오픈챗 해시태그 예측을 위한 다중 레이블 분류 모델 개발하기, 2024](https://techblog.lycorp.co.jp/ko/multi-label-classification-model-for-openchat-hashtag-prediction)
-  - [오픈챗 해시태그 예측을 위한 다중 레이블 분류 모델 개발하기, 2024](https://techblog.lycorp.co.jp/ko/multi-label-classification-model-for-openchat-hashtag-prediction)
+  - [오픈챗 메시지들로부터 트렌딩 키워드 추출하기, 2025](https://techblog.lycorp.co.jp/ko/extracting-trending-keywords-from-openchat-messages)
 ### 네이버
 - 추천, 검색
   - (Deview2021) BERT로 만든 네이버 플레이스 비슷한 취향 유저 추천 시스템
