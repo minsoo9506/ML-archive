@@ -194,6 +194,12 @@
   - [Metalearners for estimation heterogeneous treatment effects using machine learning, 2019](https://www.pnas.org/doi/epdf/10.1073/pnas.1804597116)
   - [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests, 2018](http://bayes.acs.unt.edu:8083/BayesContent/class/rich/articles/Estimation_And_Inference_Of_Heterogeneous_Treatment_Effects_Using_Random_Forests.pdf)
 
+### LLM
+- LLM judge
+  - [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena, 2023](https://arxiv.org/abs/2306.05685v4)
+  - [CheckEval: A reliable LLM-as-a-Judge framework for evaluating text generation using checklists, 2024](https://arxiv.org/abs/2403.18771)
+  - [A Survey on LLM-as-a-Judge, 2024](https://arxiv.org/abs/2411.15594)
+
 # 📑 Other Reference
 ### conference
 - 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [`review`](./industry/2024_conference/)
@@ -239,6 +245,7 @@
   - [카카오톡 AI 에이전트를 위한 온디바이스 모델 최적화 및 적용, ifkakao2025](https://www.youtube.com/watch?v=8ggESRKrfZ4&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=20)
   - [AI Coding Agent: 실험을 통해 확인한 생산성 그 이상의 가능성, ifkakao2025](https://www.youtube.com/watch?v=VdElizwWE4s&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=21)
   - [국내 최초 오픈소스 가드레일: Kanana-safeguard, ifkakao2025](https://www.youtube.com/watch?v=hIherrdkvnA&list=PLwe9WEhzDhwGaTnz0fR4Zb817vVCh6T2_&index=22)
+  - [LLM as a Judge를 활용한 CodeBuddy 성능 평가, 2025](https://tech.kakao.com/posts/690)
 - 이상치탐지
   - [그래프 기반 악성 유저군 탐지: 온라인 광고 도메인에서의 적용, ifkakao2024](https://if.kakao.com/session/18)
 - XAI
