@@ -1,0 +1,69 @@
+- [TMC25 | Product - 글로벌 수준의 DA 조직을 만들기 위해 꼭 갖춰야 할 것, 2025](https://www.youtube.com/watch?v=GC5Einv-2iQ)
+- [TMC25 | Product - 토스 PO가 기능이 아닌 흐름을 설계하는 이유, 2025](https://www.youtube.com/watch?v=RjAIQ0ZVFs8) 👍🏼
+  - 문제를 해결하는 과정이 인상 깊었다.
+- [TMC25 | Product - 그저 결제 단말기일 뿐인데: 우리가 여기에 담은 것들, 2025 토스플레이스](https://www.youtube.com/watch?v=CpdajvBJTDM)
+  - 결제 단말기 라는 기존 제품을 차별화 있게 접근
+  - 하드웨어에서 데이터를 기반으로 적극 활용
+  - 결제 속도
+    - 결제 속도 저하 -> 데이터를 통해 문제 파악 -> 해결 방안 도출 -> 관련 데이터 대시보드 트랙킹
+  - 안정성
+    - 인식 오류 관련하여 AB test 를 해서 오류율을 낮출 수 있는 방법 선택
+  - 사용자 경험 개선
+- [TMC25 | Product - 오프라인하러 다시 돌아온 PO, 2025 토스플레이스](https://www.youtube.com/watch?v=r73KegybEcY)
+  - 토스 플레이스에서 오프라인 사업을 하는 경험 공유
+  - fast fllower + first mover
+- [TMC25 | Product - 토스 데이터 분석가가 하는 진짜 A/B테스트, 2025](https://www.youtube.com/watch?v=BljJ1jZ7e3U)
+  - 토스 푸시 CTR 하락 문제 발생
+  - EDA(가설 검증) -> 액션 아이템 도출과 정교한 시뮬레이션 실행 -> 실험 설계 -> 공감대 형성 -> 실험 -> 실험 확대 -> 전체 배포
+    - 유저가 불필요하다고 느끼는 푸시를 줄여서 유저의 피로도를 낮추자
+- [TMC25 | Product - 세상에 없던 새로운 가치를 만들어, 은행을 바꾼 은행 이야기, 2025](https://www.youtube.com/watch?v=NmrcFWjQwV8)
+  - 이건 그냥 토스뱅크 광고 같음
+- [TMC25 | Product - 저희는 실험 안합니다, 2025 토스광고](https://www.youtube.com/watch?v=48rn3muLXgo)
+  - 토스의 제품 문화 =  빠른 실험, 근데 toss ads (b2b) 에서는? 도메인 특징상 어렵다.
+  - customer centric
+    - 광고주는 수가 적어서 테스트도 어렵다 그래서 사용자를 categorize 하고 각각의 needs 를 디테일하게 이해하려고 함 (광고주, 대행사, 운영)
+    - 실제로 사업자 등록해서 사업도 해봄, 광고 플랫폼 스터디도 직접 사용하면서 빡세게 이해
+  - focus on impact
+    - 최소 스펙 배포 mvp 를 애용하는듯, 주단위 이터레이션 진행
+  - fail fast
+    - 빠르게 성장하다보니 비대해지고 덕지덕지, 새로운 분야로 pivot -> 분기단위 리팩토링 하여 안정화, 과감한 기능 재구축
+- [TMC25 | Product - 토스에서 그림 제일 잘 그리는 사람: PO가 생각을 정리하는 리얼 핵심 기술, 2025](https://www.youtube.com/watch?v=L3Pk8Jze6lE) 👍🏼
+  - 생각 구조화, 문제 해결 설계력, 시각화 능력
+  - 문제 해결 설계 팁
+    - 한 가지 관점에 갇히지 않기
+    - 급하게 해결하지 않기
+    - 경험을 체계적으로 정리하기
+- [TMC25 | Product - Metric Review, 실행을 이끌다, 2025](https://www.youtube.com/watch?v=g6XLJgMlvNY)
+  - metric review 문화 및 실제 사례 소개
+- [TMC25 | Product - 커뮤니티 Growth로 해자(Moat) 만들기, 2025 토스증권](https://www.youtube.com/watch?v=8npb77zqoRg) 👍🏼
+  - 토스중권 커뮤니티, 커뮤니티 방문할수록 토스증권에 잘 들어옴
+  - 리텐션 회복 필요, 아하 모먼트 찾자 -> 데이터와 유저 인터뷰 진행 -> 좋은 글 -> 유저 마다 다른데? -> 유저들은 좋은 글을 팔로우
+  - 좋은 글 늘리기 + 팔로우 늘리기 에 효과적이었던 방법 소개
+  - 좋은 글 늘리기
+    - 좋은 글의 생성을 돕는 도구 제공: 링크 임베드, 투표, 매매 리뷰 모듈
+    - 토스증권 엠베서더 (외부 인플루언서 영입)
+  - 팔로우 늘리기
+    - 토스증권라이브 운영
+    - social proof: 사용자의 매매활동을 오픈하여 신뢰 확보
+    - 글 작성자의 팔로워 수를 인기글 로직에 녹이기
+  - 팔로우 늘리는 전략이 통했나? yes
+- [TMC25 | Product - 작은 힌트로 큰 바이럴 만들기, 2025](https://www.youtube.com/watch?v=2tKTGnq3L-c)
+  - 토스 사용자 늘리기가 목표
+  - 데이터를 보니 모바일에서 선물을 주고 받는 것이 눈에 보임 -> 선물 뿌리기 비쌈 -> 꽝을 넣자 근데 만우절에 해보자 -> 결과는 성공 -> 식목일에도 해보자 -> 1년 동안 10회 -> 누적 800만 이상 사용자 get
+  - 바이럴 마케팅 레슨
+    - 처음부터 대단한 것을 만들기 어렵다
+    - 유저 입장에서 학습이 필요없는 경험을 기반으로 서비스 설계
+    - 서비스 공유하는 과정에서 보내는 사람, 받는 사람이 불편하지 않고 액션 최소화, 단순화
+- [TMC25 | Product - ‘전환율’이 아닌 ‘정답률’, 2025](https://www.youtube.com/watch?v=xxQmEG2_M6A) 👍🏼
+  - UT 를 푸시를 보내서 할 수 있게 하는 시도가 신기했음 (TNS), 괜히 유저들이 토스앱을 좋아하는게 아니구나 싶음
+- [TMC25 | Product - 사장님이 매일 쓰는 제품을 만든다는 것, 2025 토스 플레이스](https://www.youtube.com/watch?v=NvPm8BQdJNQ)
+  - 온라인에서는 mvp 를 보여주고 점점 develop, 오프라인은 완성품 필요 (사장님이 매일 쓰는 기능 필요)
+  - 단계적 기능 개발이 아닌 단계적 타겟 확장, but 같은 업종이여도 매장마다 너~무 다르다
+  - 직접 카페를 차리자 (ㄹㅇ 창업) -> 배운 점 많음
+  - 오프라인의 문제는 늘 현장에 답이 있다
+- [TMC25 | Product - 엄마, 나는 커서 '다른 은행'이 될래요, 2025](https://www.youtube.com/watch?v=tkILvrNjS3I)
+  - 국세청 관련 업무에서 문제해결과정
+- [TMC25 | Product - 토스 PO가 된 아랍어 통역사, 2025](https://www.youtube.com/watch?v=aMsXVxdpp2A)
+  - 커리어를 바꾼 개인적인 이야기
+- [TMC25 | Product - Data Driven 팀, 이렇게 시작했습니다, 2025](https://www.youtube.com/watch?v=61PYnUA-f_Y)
+- [TMC25 | Product - 토스 팀 전체의 성과를 끌어올리는 제품, 2025](https://www.youtube.com/watch?v=9eAVcXAOBdE)

@@ -1,39 +1,47 @@
 요즘은 추천시스템 위주의 공부를 하고 있습니다.
 
 # Index
-- Practice & Project: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
+- Study & Practice & Project: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
 - Reference: 다양한 레퍼런스 아카이빙합니다.
 
-# 🧑🏻‍💻 Practice & Project
+# 🧑🏻‍💻 Study & Practice & Project
+### Language
+- Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
+- Java, 2025
+
 ### Recommendation System
-- 추천 모델 구현, 2023 [`repository`](https://github.com/minsoo9506/RecModel)
-- bandit 공부, 2025  [`repository`](https://github.com/minsoo9506/bandit-study)
+- 추천 모델 구현, 2023 [repo](https://github.com/minsoo9506/RecModel)
+- bandit 공부, 2025  [repo](https://github.com/minsoo9506/bandit-study)
 
 ### ML engineering
-- udemy 강의 deployment of ml models, 2022 [`repository`](https://github.com/minsoo9506/fraudDetection-python-package)
-- bentoml tutorial, 2022 [`repository`](https://github.com/minsoo9506/BentoML-model-serving)
-- mlops tutorial, 2023 [`repository`](https://github.com/minsoo9506/mlops-project-level0)
-- udemy 강의 ml testing monitoring, 2023 [`repository`](https://github.com/minsoo9506/ML-testing-monitoring)
-- FastAPI study, 2023 [`repository`](https://github.com/minsoo9506/FastAPI-study)
+- Deployment of ML Models 공부, 2022 [repo](https://github.com/minsoo9506/fraudDetection-python-package)
+- Bentoml tutorial, 2022 [repo](https://github.com/minsoo9506/BentoML-model-serving)
+- Airflow 공부, 2022 [review](https://minsoo9506.github.io/categories/airflow/)
+- Docker, K8s 공부, 2023 [review](https://minsoo9506.github.io/categories/)
+- ML Engineer를 위한 MLOps 튜토리얼, 2023 [repo](https://github.com/minsoo9506/mlops-project-level0)
+- ML Testing Monitoring 공부, 2023 [repo](https://github.com/minsoo9506/ML-testing-monitoring)
+- FastAPI 공부, 2023 [repo](https://github.com/minsoo9506/FastAPI-study)
+- 디자인 패턴 공부, 2024 [repo](https://github.com/minsoo9506/design-pattern-study)
+- 머신러닝 디자인 패턴 공부, 2025 [repo](https://github.com/minsoo9506/machine-learning-design-pattern)
 
 ### Imbalanced Learning, Anomaly Detection
-- Dacon 신용카드 사용자 연체 예측 AI 경진대회, 2022 [`code`](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
-- Kaggle Credit Card Fraud Detection, 2022 [`code`](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
-- 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [`pdf`](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
-- 모델 구현 (라이브러리화), 2023 [`repository`](https://github.com/minsoo9506/catchMinor)
+- Dacon 신용카드 사용자 연체 예측 AI 경진대회, 2022 [code](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
+- Kaggle Credit Card Fraud Detection, 2022 [code](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
+- 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [pdf](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
+- 모델 구현 (라이브러리화), 2023 [repo](https://github.com/minsoo9506/catchMinor)
 
 ### Causality
-- Brady Neal - Causal Inference [`review`](https://minsoo9506.github.io/categories/causality/)
-- Causal Inference for the Brave and True [`review`](./practice/Causal_Inference_for_the_Brave_and_True_practice/)
-- DoWhy tutorial [`review`](./practice/DoWhy_tutorial/)
-- Heterogeneous Treatment Effect Estimation tutorial [`review`](./practice/heterogeneous_treatment_effect_estimation_tutorial/)
+- Brady Neal - Causal Inference 공부 [review](https://minsoo9506.github.io/categories/causality/)
+- Causal Inference for the Brave and True 공부 [review](./practice/Causal_Inference_for_the_Brave_and_True_practice/)
+- DoWhy tutorial [review](./practice/DoWhy_tutorial/)
+- Heterogeneous Treatment Effect Estimation tutorial [review](./practice/heterogeneous_treatment_effect_estimation_tutorial/)
 
 ### NLP
-- nlp study, 2020 [`repository`](https://github.com/minsoo9506/NLP-study/commits/master/)
-- hugginface text classification, 2022 [`repository`](https://github.com/minsoo9506/huggingface-text-classification)
+- NLP 공부, 2020 [repo](https://github.com/minsoo9506/NLP-study/commits/master/)
+- hugginface text classification, 2022 [repo](https://github.com/minsoo9506/huggingface-text-classification)
 
 ### etc
-- 개인 블로그 공부 정리 [`blog`](https://minsoo9506.github.io/categories/)
+- 개인 블로그 공부 정리 [blog](https://minsoo9506.github.io/categories/)
 
 # 📑 Paper Reference
 ### Recommendation System
@@ -189,7 +197,7 @@
 
 ### Causality
 - Heterogeneous treatment effect estimation, uplift
-  - [Causal Inference and Uplift Modeling A review of the literature, 2016](https://proceedings.mlr.press/v67/gutierrez17a/gutierrez17a.pdf) [`review`](./paper_review/Causal%20Inference%20and%20Uplift%20Modeling%20A%20review%20of%20the%20literature.md)
+  - [Causal Inference and Uplift Modeling A review of the literature, 2016](https://proceedings.mlr.press/v67/gutierrez17a/gutierrez17a.pdf) [review](./paper_review/Causal%20Inference%20and%20Uplift%20Modeling%20A%20review%20of%20the%20literature.md)
   - [Double machine learning for treatment and causal parameters, 2016](https://www.econstor.eu/bitstream/10419/149795/1/869216953.pdf)
   - [Metalearners for estimation heterogeneous treatment effects using machine learning, 2019](https://www.pnas.org/doi/epdf/10.1073/pnas.1804597116)
   - [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests, 2018](http://bayes.acs.unt.edu:8083/BayesContent/class/rich/articles/Estimation_And_Inference_Of_Heterogeneous_Treatment_Effects_Using_Random_Forests.pdf)
@@ -202,7 +210,8 @@
 
 # 📑 Other Reference
 ### conference
-- 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [`review`](./industry/2024_conference/)
+- 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [review](./industry/2024_conference/)
+- 네이버, 카카오, 우아한형제들, 토스 2024 conference [review](./industry/2025_conference/)
 ### 카카오
 - 추천, 검색
   - 카카오 AI 추천: 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천
@@ -382,9 +391,9 @@
   - [유사 이미지 추천 개발 #2 비슷한 상품 - 커머스 상품 추천을 위한 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-07-13-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-2-%EB%B9%84%EC%8A%B7%ED%95%9C-%EC%83%81%ED%92%88/)
   - [개인화 추천 시스템 #1. Multi-Stage Recommender System, 2024](https://www.bucketplace.com/post/2024-03-26-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-1-multi-stage-recommender-system/)
   - [개인화 추천 시스템 #2. Personalized Content Ranking, 2024](https://www.bucketplace.com/post/2024-07-10-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-2-personalized-content-ranking/)
+  - [개인화 추천 시스템 #3. 모델 서빙, 2025](https://www.bucketplace.com/post/2025-03-14-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-3-%EB%AA%A8%EB%8D%B8-%EC%84%9C%EB%B9%99/)
 ### 우아한형제들(배민)
 - 추천
-  - [개인화 추천 시스템 #3. 모델 서빙, 2025](https://www.bucketplace.com/post/2025-03-14-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-3-%EB%AA%A8%EB%8D%B8-%EC%84%9C%EB%B9%99/)
   - [(2023 우아콘) 추천시스템 성장 일지: 데이터 엔지니어 편](https://www.youtube.com/watch?v=x49PqlAQC3U&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=13)
   - [(2023 우아콘) 여기, 주문하신 '예측' 나왔습니다: 추천/ML에서 '예측'을 서빙한다는 것에 대하여](https://www.youtube.com/watch?v=OXAABJWUgx4&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=15)
   - [실시간 반응형 추천 개발 일지 1부: 프로젝트 소개, 2024](https://techblog.woowahan.com/17383/)
@@ -417,11 +426,26 @@
 - 플랫폼
   - [ML 플랫폼으로 개발 속도와 안정성 높이기, SLASH24](https://www.youtube.com/watch?v=-im8Gzmf3TM&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=13)
   - [Feature Store로 유연하게 ML 고도화하기, SLASH24](https://www.youtube.com/watch?v=-u3rhd7k2JQ&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=20)
+- 데이터분석
+  - [TMC25 | Product - 글로벌 수준의 DA 조직을 만들기 위해 꼭 갖춰야 할 것, 2025](https://www.youtube.com/watch?v=GC5Einv-2iQ)
+  - [TMC25 | Product - 토스 데이터 분석가가 하는 진짜 A/B테스트, 2025](https://www.youtube.com/watch?v=BljJ1jZ7e3U)
+  - [TMC25 | Product - Metric Review, 실행을 이끌다, 2025](https://www.youtube.com/watch?v=g6XLJgMlvNY)
+  - [TMC25 | Product - ‘전환율’이 아닌 ‘정답률’, 2025](https://www.youtube.com/watch?v=xxQmEG2_M6A)
+- PO, PM
+  - [TMC25 | Product - 토스 PO가 기능이 아닌 흐름을 설계하는 이유, 2025](https://www.youtube.com/watch?v=RjAIQ0ZVFs8)
+  - [TMC25 | Product - 그저 결제 단말기일 뿐인데: 우리가 여기에 담은 것들, 2025](https://www.youtube.com/watch?v=CpdajvBJTDM)
+  - [TMC25 | Product - 오프라인하러 다시 돌아온 PO, 2025](https://www.youtube.com/watch?v=r73KegybEcY)
+  - [TMC25 | Product - 세상에 없던 새로운 가치를 만들어, 은행을 바꾼 은행 이야기, 2025](https://www.youtube.com/watch?v=NmrcFWjQwV8)
+  - [TMC25 | Product - 저희는 실험 안합니다, 2025](https://www.youtube.com/watch?v=48rn3muLXgo)
+  - [TMC25 | Product - 토스에서 그림 제일 잘 그리는 사람: PO가 생각을 정리하는 리얼 핵심 기술, 2025](https://www.youtube.com/watch?v=L3Pk8Jze6lE)
+  - [TMC25 | Product - 커뮤니티 Growth로 해자(Moat) 만들기, 2025](https://www.youtube.com/watch?v=8npb77zqoRg)
+  - [TMC25 | Product - 작은 힌트로 큰 바이럴 만들기, 2025](https://www.youtube.com/watch?v=2tKTGnq3L-c)
 ### Spotify
 - 추천, 검색
   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
   - [Introducing Natural Language Search for Podcast Episodes, spotify 2022](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/)
   - [Modeling Users According to Their Slow and Fast-Moving Interests, spotify 2022](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/)
+  - [Researching how less-streamed podcasts can reach their potential, 2022](https://research.atspotify.com/2022/1/researching-how-less-streamed-podcasts-can-reach-their-potential)
   - [Socially-Motivated Music Recommendation, 2024](https://research.atspotify.com/2024/06/socially-motivated-music-recommendation/)
   - [Personalizing Audiobooks and Podcasts with graph-based models, 2024](https://research.atspotify.com/2024/05/personalizing-audiobooks-and-podcasts-with-graph-based-models/)
 ### Pinterest
@@ -453,6 +477,7 @@
   - [Unsupervised and semi-supervised anomaly detection with data-centric ML, google blog](https://ai.googleblog.com/2023/02/unsupervised-and-semi-supervised.html)
 ### X (twitter)
 - 추천, 검색
+  - [GraphJet: Real-Time Content Recommendations at Twitter, 2016](https://www.vldb.org/pvldb/vol9/p1281-sharma.pdf)
   - [Model-based candidate generation for account recommendations, X 2022](https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations)
   - [A hybrid approach to personalize notification volume, 2022](https://blog.x.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume)
 ### Meta (facebook)
@@ -484,6 +509,12 @@
   - [Full-Spectrum ML Model Monitoring at Lyft](https://eng.lyft.com/full-spectrum-ml-model-monitoring-at-lyft-a4cdaf828e8f)
   - [Building a large scale unsupervised model anomaly detection system — Part 1](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-1-aca4766a823c)
   - [Building a large scale unsupervised model anomaly detection system — Part 2](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-2-3690f4c37c5b)
+### Whatnot
+- 추천, 검색, 랭킹
+  - [Evolving Feed Ranking at Whatnot, 2025](https://medium.com/whatnot-engineering/evolving-feed-ranking-at-whatnot-25adb116aeb6)
+### kuaishou
+- 추천
+  - [Enhancing Sequential Recommender with Large Language Models for Joint Video and Comment Recommendation, 2025](https://arxiv.org/pdf/2403.13574)
 ### Others blog
 - 추천
   - Transformers4Rec: A flexible library for Sequential and Session-based recommendation
@@ -494,13 +525,12 @@
   - [Two Tower Model Architecture: Current State and Promising Extensions, 2023](https://blog.reachsumit.com/posts/2023/03/two-tower-model/)
   - [추천 시스템 서비스 적용을 위한 Elastic Search 도입기, 2022](https://blog.dramancompany.com/2022/11/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%81%EC%9A%A9%EC%9D%84-%EC%9C%84%ED%95%9C-elastic-search-%EB%8F%84%EC%9E%85%EA%B8%B0/)
   - [Recommendation Systems • Bias](https://aman.ai/recsys/bias/)
-  - eugeneyan blog
-    - [Search: Query Matching via Lexical, Graph, and Embedding Methods, 2021](https://eugeneyan.com/writing/search-query-matching/)
-    - [Patterns for Personalization in Recommendations and Search, 2021](https://eugeneyan.com/writing/patterns-for-personalization/)
-    - [Real-time Machine Learning For Recommendations, 2021](https://eugeneyan.com/writing/real-time-recommendations/)
-    - [System Design for Recommendations and Search, 2021](https://eugeneyan.com/writing/system-design-for-discovery/)
-    - [Improving Recommendation Systems & Search in the Age of LLMs, 2025](https://eugeneyan.com/writing/recsys-llm/)
-    - [Push Notifications: What to Push, What Not to Push, and How Often, 2023](https://eugeneyan.com/writing/push/)
+  - [Search: Query Matching via Lexical, Graph, and Embedding Methods, 2021](https://eugeneyan.com/writing/search-query-matching/)
+  - [Patterns for Personalization in Recommendations and Search, 2021](https://eugeneyan.com/writing/patterns-for-personalization/)
+  - [Real-time Machine Learning For Recommendations, 2021](https://eugeneyan.com/writing/real-time-recommendations/)
+  - [System Design for Recommendations and Search, 2021](https://eugeneyan.com/writing/system-design-for-discovery/)
+  - [Improving Recommendation Systems & Search in the Age of LLMs, 2025](https://eugeneyan.com/writing/recsys-llm/)
+  - [Push Notifications: What to Push, What Not to Push, and How Often, 2023](https://eugeneyan.com/writing/push/)
 - 인과추론
   - [Brady Neal - Causal Inference](https://www.youtube.com/c/BradyNealCausalInference/playlists)
   - [인과추론의 데이터과학](https://www.youtube.com/c/%EC%9D%B8%EA%B3%BC%EC%B6%94%EB%A1%A0%EC%9D%98%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%BC%ED%95%99/playlists)
@@ -509,4 +539,4 @@
   - [Dowhy 가이드 실습 pap gitbook](https://playinpap.gitbook.io/dowhy/)
   - [Causal-Inference-and-Discovery-in-Python](https://github.com/PacktPublishing/Causal-Inference-and-Discovery-in-Python)
   - [For effective treatment of churn, don’t predict churn, 2019](https://medium.com/bigdatarepublic/for-effective-treatment-of-churn-dont-predict-churn-58328967ec4f)
-  - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)
+  - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)  
