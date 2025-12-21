@@ -1,85 +1,48 @@
 요즘은 추천시스템 위주의 공부를 하고 있습니다.
 
 # Index
-- Study & Practice & Project: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
 - Reference: 다양한 레퍼런스 아카이빙합니다.
-
-# 🧑🏻‍💻 Study & Practice & Project
-### Language
-- Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
-- Java, 2025
-
-### Recommendation System
-- 추천 모델 구현, 2023 [repo](https://github.com/minsoo9506/RecModel)
-- bandit 공부, 2025  [repo](https://github.com/minsoo9506/bandit-study)
-
-### ML engineering
-- Deployment of ML Models 공부, 2022 [repo](https://github.com/minsoo9506/fraudDetection-python-package)
-- Bentoml tutorial, 2022 [repo](https://github.com/minsoo9506/BentoML-model-serving)
-- Airflow 공부, 2022 [review](https://minsoo9506.github.io/categories/airflow/)
-- Docker, K8s 공부, 2023 [review](https://minsoo9506.github.io/categories/)
-- ML Engineer를 위한 MLOps 튜토리얼, 2023 [repo](https://github.com/minsoo9506/mlops-project-level0)
-- ML Testing Monitoring 공부, 2023 [repo](https://github.com/minsoo9506/ML-testing-monitoring)
-- FastAPI 공부, 2023 [repo](https://github.com/minsoo9506/FastAPI-study)
-- 디자인 패턴 공부, 2024 [repo](https://github.com/minsoo9506/design-pattern-study)
-- 머신러닝 디자인 패턴 공부, 2025 [repo](https://github.com/minsoo9506/machine-learning-design-pattern)
-
-### Imbalanced Learning, Anomaly Detection
-- Dacon 신용카드 사용자 연체 예측 AI 경진대회, 2022 [code](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
-- Kaggle Credit Card Fraud Detection, 2022 [code](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
-- 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [pdf](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
-- 모델 구현 (라이브러리화), 2023 [repo](https://github.com/minsoo9506/catchMinor)
-
-### Causality
-- Brady Neal - Causal Inference 공부 [review](https://minsoo9506.github.io/categories/causality/)
-- Causal Inference for the Brave and True 공부 [review](./practice/Causal_Inference_for_the_Brave_and_True_practice/)
-- DoWhy tutorial [review](./practice/DoWhy_tutorial/)
-- Heterogeneous Treatment Effect Estimation tutorial [review](./practice/heterogeneous_treatment_effect_estimation_tutorial/)
-
-### NLP
-- NLP 공부, 2020 [repo](https://github.com/minsoo9506/NLP-study/commits/master/)
-- hugginface text classification, 2022 [repo](https://github.com/minsoo9506/huggingface-text-classification)
-
-### etc
-- 개인 블로그 공부 정리 [blog](https://minsoo9506.github.io/categories/)
+- Study & Practice & Project: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
 
 # 📑 Paper Reference
 ### Recommendation System
 - Algorithm
-  - Collaborative Filtering for Implicit Feedback Data, 2008
-  - BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009
-  - Context-Aware Recommender Systems, 2011
-  - Neural Collaborative Filtering, 2017 IWWWC
-  - Fatorization Machines, 2009
-  - Wide & Deep Learning for Recommender Systems, 2016
-  - DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017
-  - AutoRec: Autoencoders Meet Collaborative Filtering, 2015 WWW
-  - Training Deep AutoEncoders for Collaborative Filtering, 2017
-  - Variational Autoencoders for Collaborative Filtering, 2018
-  - Deep content-based music recommendation, 2013 NIPS
+  - [Collaborative Filtering for Implicit Feedback Data, 2008](http://yifanhu.net/PUB/cf.pdf)
+  - [BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009](https://arxiv.org/abs/1205.2618)
+  - [Context-Aware Recommender Systems, 2011](https://www.researchgate.net/publication/220605653_Context-Aware_Recommender_Systems)
+  - [Fatorization Machines, 2009](https://www.ismll.uni-hildesheim.de/pub/pdfs/Rendle2010FM.pdf)
+  - [Wide & Deep Learning for Recommender Systems, 2016](https://arxiv.org/abs/1606.07792)
+  - [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017](https://arxiv.org/abs/1703.04247)
+  - [Neural Collaborative Filtering, 2017 IWWWC](https://arxiv.org/abs/1708.05031)
+  - [Deep content-based music recommendation, 2013 NIPS](https://papers.nips.cc/paper_files/paper/2013/hash/b3ba8f1bee1238a2f37603d90b58898d-Abstract.html)
+  - [AutoRec: Autoencoders Meet Collaborative Filtering, 2015 WWW](https://dl.acm.org/doi/10.1145/2740908.2742726)
+  - [Training Deep AutoEncoders for Collaborative Filtering, 2017](https://arxiv.org/abs/1708.01715)
+  - [Variational Autoencoders for Collaborative Filtering, 2018](https://arxiv.org/abs/1802.05814)
+  - [Deep Neural Networks for YouTube Recommendations, 2016 RecSys](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf)
   - [Deep Learning Recommendation Model for Personalization and Recommendation Systems (DLRM), 2019](https://arxiv.org/pdf/1906.00091.pdf)
   - [DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems 2020](https://arxiv.org/pdf/2008.13535.pdf)
   - [Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885)
   - [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations, 2019](https://storage.googleapis.com/gweb-research2023-media/pubtools/5716.pdf)
   - [Mixed Negative Sampling for Learning Two-tower Neural Networks in Recommendations, 2020](https://storage.googleapis.com/gweb-research2023-media/pubtools/6090.pdf)
 - Algorithm - text, image
-  - Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR
-  - Image-based Recommendations on Styles and Substitutes, 2015 SIGIR
-  - VBPR: Visual Bayesian Personalized Ranking from Implicit Feedback, 2016 AAAI
-  - [Deep Neural Networks for YouTube Recommendations, 2016 RecSys](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf)
-  - Recommending What Video to Watch Next: A Multitask Ranking System, 2019 RecSys
+  - [Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR](https://openreview.net/pdf?id=Bkv9FyHYx)
+  - [Image-based Recommendations on Styles and Substitutes, 2015 SIGIR](https://arxiv.org/abs/1506.04757)
+  - [VBPR: Visual Bayesian Personalized Ranking from Implicit Feedback, 2016 AAAI](https://arxiv.org/abs/1510.01784)
+  - [Recommending What Video to Watch Next: A Multitask Ranking System, 2019 RecSys](https://dl.acm.org/doi/10.1145/3298689.3346997)
 - Algorithm - session-based, sequential
-  - Session-based Recommendations with Recurrent Neural Networks, 2015 ICLR
+  - [Session-based Recommendations with Recurrent Neural Networks, 2015 ICLR](https://arxiv.org/abs/1511.06939)
   - [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer, 2019](https://arxiv.org/abs/1904.06690)
   - [SASRec: Self-Attentive Sequential Recommendation, 2018](https://arxiv.org/abs/1808.09781)
   - [Positive, Negative and Neutral: Modeling Implicit Feedback in Session-based News Recommendation, SIGIR 2022](https://arxiv.org/pdf/2205.06058.pdf)
+  - [TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest, 2023](https://arxiv.org/abs/2306.00248) `Pinterest` `TransAct`
+  - [TransAct V2: Lifelong User Action Sequence Modeling on Pinterest Recommendation, 2025](https://arxiv.org/abs/2506.02267) `Pinterest` `TransAct v2`
 - Algorithm - graph
   - [PageRank: Standing on the shoulders of giant, 2010](https://arxiv.org/pdf/1002.2858.pdf)
   - [DeepWalk: Online Learning of Social Representations, 2014](https://arxiv.org/pdf/1403.6652.pdf)
   - [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS, 2017](https://arxiv.org/pdf/1609.02907.pdf)
   - [Inductive Representation Learning on Large Graphs, 2017](https://arxiv.org/pdf/1706.02216.pdf)
   - [Graph Attention Networks, 2018](https://arxiv.org/pdf/1710.10903.pdf)
-  - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems, 2018 Pinterest](https://arxiv.org/pdf/1806.01973.pdf)
+  - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems, 2018 Pinterest](https://arxiv.org/pdf/1806.01973.pdf) `PinSAGE`
 - LookAlike
   - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 - Bandit
@@ -123,7 +86,11 @@
   - [Embedding based retrieval for long tail search queries in ecommerce, 2025](https://www.arxiv.org/pdf/2505.01946) `long tail` `llm synthetic data`
   - [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
 - Diversity
-  - Algorithmic Effects on the Diversity of Consumption on Spotify, WWW 2020
+  - [Algorithmic Effects on the Diversity of Consumption on Spotify, 2020](https://www.cs.toronto.edu/~ashton/pubs/alg-effects-spotify-www2020.pdf)
+- Calibration
+  - [Calibrated Recommendations, 2018 Netflix](https://dl.acm.org/doi/pdf/10.1145/3240323.3240372)
+  - [Calibrated Recommendations as a Minimum-Cost Flow Problem, 2023 Spotify](https://abdollahpouri.github.io/assets/docs/wsdm2023.pdf)
+  - [Calibrated Recommendations with Contextual Bandits, 2025 Spotify](https://arxiv.org/pdf/2509.05460)
 - Bias
   - Lessons Learned Addressing Dataset Bias in Model-Based Candidate Generation at Twitter, 2020 KDD IRS
   - [Popularity-Opportunity Bias in Collaborative Filtering, WSDM 2021](https://dl.acm.org/doi/pdf/10.1145/3437963.3441820)
@@ -137,7 +104,7 @@
 - Causality
   - [Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, RecSys2020](https://labtomarket.files.wordpress.com/2020/08/recsys2020lbr.pdf?utm_source=LinkedIn&utm_medium=post&utm_campaign=monday_posting&utm_term=2023_07_24)
 - Survey
-  - Deep Learning based Recommender System: A Survey and New Perspectives, 2019
+  - [Deep Learning based Recommender System: A Survey and New Perspectives, 2019](https://arxiv.org/abs/1707.07435)
   - [A Survey on Causal Inference for Recommendation, 2024](https://arxiv.org/abs/2303.11666)
   - [Fairness and Diversity in Recommender Systems: A Survey, 2024](https://arxiv.org/pdf/2307.04644)
   - [Recommender Systems in the Era of Large Language Models (LLMs), 2024](https://arxiv.org/pdf/2307.02046)
@@ -325,6 +292,7 @@
   - [아자르에서는 어떤 추천 모델을 사용하고 있을까?, 2024](https://hyperconnect.github.io/2024/11/19/azar-recommendation-model.html)
   - [AI 실시간 추천 시스템을 위한 Flink 기반 스트림 조인 서비스 구축기, 2025](https://hyperconnect.github.io/2025/06/11/azar-flink-real-time-stream-join-service.html)
   - [클릭 한 번으로 실험 시작! 이터레이션 사이클을 단축하는 추천 실험 시스템 개발기, 2025](https://hyperconnect.github.io/2025/08/26/azar-recsys-experiment-framework.html)
+  - [왜 막상 배포하면 효과가 없지? 타겟 지표에 맞는 ML모델 train/eval 설계하기, 2025](https://hyperconnect.github.io/2025/11/28/how-to-set-ml-objective.html)
 - 개발
   - [1:1 비디오 채팅 서비스는 E2E 회귀 테스트를 어떻게 자동화할까?, 2025](https://hyperconnect.github.io/2025/06/12/how-to-automate-e2e-test-on-1on1-video-chat-app.html)
 ### 라인
@@ -428,9 +396,12 @@
   - [Feature Store로 유연하게 ML 고도화하기, SLASH24](https://www.youtube.com/watch?v=-u3rhd7k2JQ&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=20)
 - 데이터분석
   - [TMC25 | Product - 글로벌 수준의 DA 조직을 만들기 위해 꼭 갖춰야 할 것, 2025](https://www.youtube.com/watch?v=GC5Einv-2iQ)
-  - [TMC25 | Product - 토스 데이터 분석가가 하는 진짜 A/B테스트, 2025](https://www.youtube.com/watch?v=BljJ1jZ7e3U)
+  - [TMC25 | Product - 토스 데이터 분석가가 하는 진짜 A/B테스트, 2025](https://www.youtube.com/watch?v=BljJ1jZ7e3U) `푸시`
   - [TMC25 | Product - Metric Review, 실행을 이끌다, 2025](https://www.youtube.com/watch?v=g6XLJgMlvNY)
   - [TMC25 | Product - ‘전환율’이 아닌 ‘정답률’, 2025](https://www.youtube.com/watch?v=xxQmEG2_M6A)
+  - [TMC25 | Product - Data Driven 팀, 이렇게 시작했습니다, 2025](https://www.youtube.com/watch?v=61PYnUA-f_Y) `조직`
+  - [TMC25 | Product - 데이터 분석팀 리더는 처음이라, 2025](https://www.youtube.com/watch?v=1WnsdCrD1sM) `조직`
+  - [TMC25 | Product - 중층적, 고객중심적, 동적으로 접근하는 제품 성장, 2025](https://www.youtube.com/watch?v=Peyr3WAaNBY&list=PL-245_cWUfl98ZlF6xAZDVFc8HP33GJA5&index=27) `프로덕트 분석` `인과관계`
 - PO, PM
   - [TMC25 | Product - 토스 PO가 기능이 아닌 흐름을 설계하는 이유, 2025](https://www.youtube.com/watch?v=RjAIQ0ZVFs8)
   - [TMC25 | Product - 그저 결제 단말기일 뿐인데: 우리가 여기에 담은 것들, 2025](https://www.youtube.com/watch?v=CpdajvBJTDM)
@@ -438,8 +409,20 @@
   - [TMC25 | Product - 세상에 없던 새로운 가치를 만들어, 은행을 바꾼 은행 이야기, 2025](https://www.youtube.com/watch?v=NmrcFWjQwV8)
   - [TMC25 | Product - 저희는 실험 안합니다, 2025](https://www.youtube.com/watch?v=48rn3muLXgo)
   - [TMC25 | Product - 토스에서 그림 제일 잘 그리는 사람: PO가 생각을 정리하는 리얼 핵심 기술, 2025](https://www.youtube.com/watch?v=L3Pk8Jze6lE)
-  - [TMC25 | Product - 커뮤니티 Growth로 해자(Moat) 만들기, 2025](https://www.youtube.com/watch?v=8npb77zqoRg)
-  - [TMC25 | Product - 작은 힌트로 큰 바이럴 만들기, 2025](https://www.youtube.com/watch?v=2tKTGnq3L-c)
+  - [TMC25 | Product - 커뮤니티 Growth로 해자(Moat) 만들기, 2025](https://www.youtube.com/watch?v=8npb77zqoRg) `분석` `아하모먼트`
+  - [TMC25 | Product - 작은 힌트로 큰 바이럴 만들기, 2025](https://www.youtube.com/watch?v=2tKTGnq3L-c) `바이럴 마케팅`
+  - [TMC25 | Product - ‘전환율’이 아닌 ‘정답률’, 2025](https://www.youtube.com/watch?v=xxQmEG2_M6A) `푸시 UT`
+  - [TMC25 | Product - 사장님이 매일 쓰는 제품을 만든다는 것, 2025 토스 플레이스](https://www.youtube.com/watch?v=NvPm8BQdJNQ)
+  - [TMC25 | Product - 엄마, 나는 커서 '다른 은행'이 될래요, 2025](https://www.youtube.com/watch?v=tkILvrNjS3I)
+  - [TMC25 | Product - 토스 PO가 된 아랍어 통역사, 2025](https://www.youtube.com/watch?v=aMsXVxdpp2A)
+  - [TMC25 | Product - 토스 팀 전체의 성과를 끌어올리는 제품, 2025](https://www.youtube.com/watch?v=9eAVcXAOBdE)
+  - [TMC25 | Product - 오프라인의 맛, 뭐가 다른지 알려드려요, 2025](https://www.youtube.com/watch?v=G8F7GUZcxUM)
+  - [TMC25 | Product - PO가 성장할 수 있는 조직의 조건, 2025](https://www.youtube.com/watch?v=rbFFP_QXsmM)
+  - [TMC25 | Product - 업계의 통념을 바꾼 하나의 제품, 2025](https://www.youtube.com/watch?v=f-XNUEzkk5I) `함께대출`
+  - [TMC25 | Product - 돈 쓰는 제품에서 돈 버는 제품으로, 2025](https://www.youtube.com/watch?v=fyzO5eLZlKY) `광고` `수익화`
+  - [TMC25 | Product - 토스로 송금하지 마세요, 2025](https://www.youtube.com/watch?v=2ltei1EyMSs) `FDS`
+  - [TMC25 | Product - 토스가 빠르게 성장할 수 있는 이유 with TUBA, 2025](https://www.youtube.com/watch?v=yOCGSE6GjL0) `플랫폼`
+  - [TMC25 | Product - 터지는 바이럴 만들기, 2025](https://www.youtube.com/watch?v=_DK2bdDxhb8) `바이럴`
 ### Spotify
 - 추천, 검색
   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
@@ -448,12 +431,16 @@
   - [Researching how less-streamed podcasts can reach their potential, 2022](https://research.atspotify.com/2022/1/researching-how-less-streamed-podcasts-can-reach-their-potential)
   - [Socially-Motivated Music Recommendation, 2024](https://research.atspotify.com/2024/06/socially-motivated-music-recommendation/)
   - [Personalizing Audiobooks and Podcasts with graph-based models, 2024](https://research.atspotify.com/2024/05/personalizing-audiobooks-and-podcasts-with-graph-based-models/)
+  - [Teaching Large Language Models to Speak Spotify: How Semantic IDs Enable Personalization, 2025](https://research.atspotify.com/2025/11/teaching-large-language-models-to-speak-spotify-how-semantic-ids-enable) `Semantic IDs` `LLM`
+  - [Spillover Detection for Donor Selection in Synthetic Control Models, 2025](https://research.atspotify.com/2025/11/spillover-detection-for-donor-selection-in-synthetic-control-models) `dd;lafkjd;lfkjad;slk`
 ### Pinterest
 - 추천, 검색
   - [The machine learning behind delivering relevant ads, Pinterest 2021](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0)
-  - [Advancements in Embedding-Based Retrieval at Pinterest Homefeed, 2025](https://medium.com/pinterest-engineering/advancements-in-embedding-based-retrieval-at-pinterest-homefeed-d7d7971a409e)
   - [Feature Caching for Recommender Systems w/ Cachelib, 2024](https://medium.com/pinterest-engineering/feature-caching-for-recommender-systems-w-cachelib-8fb7bacc2762)
+  - [Advancements in Embedding-Based Retrieval at Pinterest Homefeed, 2025](https://medium.com/pinterest-engineering/advancements-in-embedding-based-retrieval-at-pinterest-homefeed-d7d7971a409e)
   - [Deep Multi-task Learning and Real-time Personalization for Closeup Recommendations, 2025](https://medium.com/pinterest-engineering/deep-multi-task-learning-and-real-time-personalization-for-closeup-recommendations-1030edfe445f)
+  - [Foundation Model for Personalized Recommendation, 2025](https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39) `foundation model`
+  - [Next-Level Personalization: How 16k+ Lifelong User Actions Supercharge Pinterest’s Recommendations, 2025](https://medium.com/pinterest-engineering/next-level-personalization-how-16k-lifelong-user-actions-supercharge-pinterests-recommendations-bd5989f8f5d3) `TransActV2` `lifelong user sequence` `Next Action Loss`
 - 이상치탐지
   - [Warden: Real Time Anomaly Detection at Pinterest](https://medium.com/pinterest-engineering/warden-real-time-anomaly-detection-at-pinterest-210c122f6afa)
   - [Fighting Spam using Clustering and Automated Rule Creation](https://medium.com/pinterest-engineering/fighting-spam-using-clustering-and-automated-rule-creation-1c01d8c11a05)
@@ -487,8 +474,6 @@
 ### Netflix
 - 추천, 검색
   - [Innovating Faster on Personalization Algorithms at Netflix Using Interleaving, 2017](https://netflixtechblog.com/interleaving-in-online-experiments-at-netflix-a04ee392ec55)
-  - [Foundation Model for Personalized Recommendation, 2025](https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39) `foundation model`
-  - [Next-Level Personalization: How 16k+ Lifelong User Actions Supercharge Pinterest’s Recommendations, 2025](https://medium.com/pinterest-engineering/next-level-personalization-how-16k-lifelong-user-actions-supercharge-pinterests-recommendations-bd5989f8f5d3) `TransActV2` `lifelong user sequence` `Next Action Loss`
 - 이상치탐지
   - [Machine Learning for Fraud Detection in Streaming Services](https://netflixtechblog.medium.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6)
 - 인과추론
@@ -539,4 +524,45 @@
   - [Dowhy 가이드 실습 pap gitbook](https://playinpap.gitbook.io/dowhy/)
   - [Causal-Inference-and-Discovery-in-Python](https://github.com/PacktPublishing/Causal-Inference-and-Discovery-in-Python)
   - [For effective treatment of churn, don’t predict churn, 2019](https://medium.com/bigdatarepublic/for-effective-treatment-of-churn-dont-predict-churn-58328967ec4f)
-  - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)  
+  - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)
+
+# 🧑🏻‍💻 Study & Practice & Project
+- 개인적으로 공부하는 모든 내용을 작성하지는 않고 주로 코드나 기록으로 남아있는 경우만 index 용으로 작성합니다.
+
+### Language
+- Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
+- Java 기본 공부, 2025
+
+### ML engineering
+- Deployment of ML Models 공부, 2022 [repo](https://github.com/minsoo9506/fraudDetection-python-package)
+- Bentoml tutorial, 2022 [repo](https://github.com/minsoo9506/BentoML-model-serving)
+- Airflow 공부, 2022 [review](https://minsoo9506.github.io/categories/airflow/)
+- Docker, K8s 공부, 2023 [review](https://minsoo9506.github.io/categories/)
+- ML Engineer를 위한 MLOps 튜토리얼, 2023 [repo](https://github.com/minsoo9506/mlops-project-level0)
+- ML Testing Monitoring 공부, 2023 [repo](https://github.com/minsoo9506/ML-testing-monitoring)
+- FastAPI 공부, 2023 [repo](https://github.com/minsoo9506/FastAPI-study)
+- 디자인 패턴 공부, 2024 [repo](https://github.com/minsoo9506/design-pattern-study)
+- 머신러닝 디자인 패턴 공부, 2025 [repo](https://github.com/minsoo9506/machine-learning-design-pattern)
+
+### Recommendation System
+- 추천 모델 구현, 2023 [repo](https://github.com/minsoo9506/RecModel)
+- bandit 공부, 2025 [repo](https://github.com/minsoo9506/bandit-study)
+
+### Imbalanced Learning, Anomaly Detection
+- Dacon 신용카드 사용자 연체 예측 AI 경진대회, 2022 [code](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
+- Kaggle Credit Card Fraud Detection, 2022 [code](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
+- 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [pdf](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
+- 모델 구현 (라이브러리화), 2023 [repo](https://github.com/minsoo9506/catchMinor)
+
+### Causality
+- Brady Neal - Causal Inference 공부 [review](https://minsoo9506.github.io/categories/causality/)
+- Causal Inference for the Brave and True 공부 [review](./practice/Causal_Inference_for_the_Brave_and_True_practice/)
+- DoWhy tutorial [review](./practice/DoWhy_tutorial/)
+- Heterogeneous Treatment Effect Estimation tutorial [review](./practice/heterogeneous_treatment_effect_estimation_tutorial/)
+
+### NLP
+- NLP 공부, 2020 [repo](https://github.com/minsoo9506/NLP-study/commits/master/)
+- hugginface text classification, 2022 [repo](https://github.com/minsoo9506/huggingface-text-classification)
+
+### etc
+- 개인 블로그 공부 정리 [blog](https://minsoo9506.github.io/categories/)
