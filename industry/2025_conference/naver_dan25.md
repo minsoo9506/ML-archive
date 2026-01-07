@@ -1,0 +1,254 @@
+# 네이버
+### 추천
+- [[팀네이버 컨퍼런스 DAN25] 끊임없이 즐거움, 네이버 클립으로 빠져들다: 개인화·VLM·에이전트가 완성하는 네이버 클립 경험, 2025](https://www.youtube.com/watch?v=rLFFX9S9IEk&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=34) `숏폼 추천` `알림 발송` `추천풀 구축` `랭킹` 👍🏼
+  - 사용자의 클립 재생수를 극대화하는 추천 제공: 고품질 풀 구축 + 뷰어 개인화 랭킹 최적화 + 개인화 추천 알림 도입
+  - 클립, 채널 추천풀 구축
+    - 추천 가치 판단 기준 = 안성정/기술적 품질 + 시청 반응
+    - 레이블링 해서 예측
+      - 안정성/기술적 품질: 사람이 레이블링 (binary), 민감정보 등 n개의 기준 존재
+      - 반응 품질: 평균 재생품실점수 레이블링 (이는 재생 시간에 따라 0~3점)
+    - 예측 모델 ShortVQA
+      - 학습 Obejctive: quality pass head (binary classification, BCELoss), engagement head (listwise ranking, softmax loss)
+    - 사용자 기반 우수 크리에이터 선정: 활동성, 퀄리티, 유지성을 고려하여 score 생성
+    - 향후 고도화
+      - 모델 성능 고도화 + 사용자&지면 에 따라 품질 기준 차등 적용
+  - 숏폼 뷰어 개인화 랭킹: 원래 휴먼 craft feature 를 많이 썼는데 이제 임베딩 기반 feature 를 사용한다.
+    - 2 stage 시스템
+    - 아이템 사이드 모델링
+      - CF (Clip2Vec)
+        - 유저가 같은 세션에 시청 또는 좋아요 한 아이템을 시퀀스로 학습 (skipgram word2vec, item2vec)
+        - 리트리버로 활용, 랭킹 피처로 활용
+        - 연관 추천(시드 아이템과 유사한 아이템), 개인화 추천 (유저 선호영상 n개, 최근 시청 n개, L주동안 M초 이상 시청한 영상 N개 를 시드로 사용하여 각각 k개씩 리트리버) -> 리트리버와 랭킹피처로 사용
+      - VLM 기반 아이템 임베딩 (ShortVE)
+        - Qwen2-VL 임베딩 추론 테스크에 최적화한 fine-tuned 오픈소스 모델 Ops-MM-embedding-v1-7B
+        - model input: 영상 프레임 (3초당 1프레임 추출, 최대 20프레임 사용), 텍스트 메타데이터 (카테고리, LLM 기반 대표 키워드)
+        - model output: 3584 dim -> 너무 커서 conditional autoencoder 로 차원축소
+    - 유저 사이드 모델링
+      - 유저 액션 시쿼스 모델링
+        - TransAct -> 아마 핀터레스트 모델이었던거 같음
+          - input: action type(스킵, 시청, 좋아요, 싫어요) emb, item emb, candidate emb
+            - item emb: ShortVE 64dim
+          - 로그수: 1.2억 (유저 100만, 아이템 4만)
+          - 데이터 샘플링
+            - item popularity bias 제거 (인기 아이템)
+            - overly light, heavy user 제외
+            - 카테고리변 균현 샘플링
+          - train-valid-test split: 유저당 액션 로그 8:1:1 로 time split
+      - TransAct + DCN
+        - DCN output: 4가지 액션 타입 확률
+        - batch inference, focal loss (hard sample, rare class 에 더 가중치)
+      - TransAct-user (유저 최근 m개 액션아이템에 대한 TransAct 임베딩), ShortVE-user (최근 시청 영상 n개 임베딩 평균) -> 랭킹피처로 사용
+    - DCN v2 ranker (listwise softmax loss)
+    - 향후 고도화
+      - 아이템 임베딩 고도화: multimodal + gnn
+      - 유저 임베딩 고도화: TransAct 고도화
+      - 랭커 고도화: 강화학습 기반 랭커 도입
+  - 클립 개인화 추천 알림
+    - 추천 사유 5가지, 발송 시간 버킷 5가지
+    - 트리거 모델 (user targeting model, send time selection) + 추천 모델
+    - 트리거 모델
+      - 유저 풀 구성: 유저 버킷 나눠서 다양한 AB test 여러번 해서 적절한 조건 발견
+      - 유저 선별
+        - feature: 사용자 반응 강도, latency feature, 요일*시간대별 개인 리듬
+        - model: spark기반 DT 일배치
+      - 발송 시간
+        - 특정 함수를 사용해서 발송 시간 버킷 안에서 유저별로 다르게 발송 (주로)
+    - 추천 모델
+      - 기존 추천 보다 뾰족해야해서 따로 추가 개발
+        - 기존 추천 보다 소수의 리트리버 사용 + 추가 개발
+      - 키워드 기반 추천사용 보완
+        - 네이버의 PersonA 로 맥락 포함 키워드 & 연관 키워드 생성, SPLADE
+        - representation keyword 생성
+          - LLM w RAG (ITERKEY 논문 참고)
+          - 이미 추출된 키워드를 정제하는 로직
+          - 키워드 -> 유사 문서 조회 -> 이들의 모든 키워드 (빈도수도 사용) -> prompt 에 추가 -> llm 으로 최종 키워드 생성
+    - 향후 고도화
+      - Rising event 추가, Reflection (검증 과정 고도화)
+- [[팀네이버 컨퍼런스 DAN25] From Trend to You: 숏텐츠 키워드 추천의 개인화, 2025](https://www.youtube.com/watch?v=gbxSLh9gsBQ&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=63) `키워드 추출` `랭킹` `LLM Ranker` 👍🏼
+  - 숏텐츠: 키워드 보다 좀 길게 해서 정보가 있는 한줄정도 요약, 요즘 한핫 키워드
+  - 키워드 풀 생성 (수만개) -> 키워드와 연관된 문서 가져오기 -> 대표 문서를 뽑고 키워드와 함께 랭킹 모델로 수백개로 키워드 선정 -> LLM 으로 숏텐츠 생성 -> 개인화 랭킹 모델로 개인화 (DCN, LLM Ranker)
+    - LLM Ranker 는 kD 해서 작은 sLM 사용
+  - 출시후 세그먼트별로 결과 확인 (active 3개, inactive 3개)
+  - 숏텐츠 생성시 말투를 매력적으로 만들기 위해 LLM rewriter 로 프롬프트를 수정해서 생성 LLM 에서 전달
+    - 이 떄, 카테고리별로 프롬프트를 다르게 하고 CTR 등을 고려
+  - 필터링 LLM 도 추가했다고 함 이건 그냥 프롬프트로만 한듯
+- [[팀네이버 컨퍼런스 DAN25] 20년 된 카페의 도전: AI 추천 피드 실험기, 2025](https://www.youtube.com/watch?v=Wbv7Drj14Mo&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=72) `피드 추천`
+
+### 데이터 분석
+- [[팀네이버 컨퍼런스 DAN25] 물과 실험은 셀프입니다: 대규모 검색 서비스의 셀프서브 프로세스 정착기, 2025] `AB test` `metric store` `query view` `사내플랫폼`
+  - 검색시스템에서 ab test 관련해서 다양한 경험, 사례 공유
+  - 어떤 식으로 metric store 를 만들었는지
+  - 네이버에서는 검색어 단위 분석, 프로젝트도 진행한다. 그래서 검색어 단위에서 abt 를 어떤식으로 하는지
+- [[팀네이버 컨퍼런스 DAN25] 사용자에 대한 이해로부터 : 검색과 홈피드 서비스의 성장 문법, 2025](https://www.youtube.com/watch?v=t5VwHdnqBFI&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=76) `성장 측정` 👍🏼
+  - 성장을 측정하기 위한 메트릭 설계
+    - 사용자 방문일수
+    - power user curve: 한달 기준 사용자의 사용 일수를 기준으로 사용자의 분포 차트 -> x축이 1~30일, y축이 비율
+    - 유저 세그먼트, 오래된 서비스일수록 기간을 길게 잡음
+      - 홈피드는 7일동안 사용일수로 3가지 유저 세그먼트, 검색은 100일
+    - 장기 지표와 연동하는 단기 지표 발굴이 유요할 수 있음
+  - 홈피드, 검색 관련 분석 발표
+
+### 검색
+- [[팀네이버 컨퍼런스 DAN25] F-Solid: RAG에 최적화된 검색아키텍쳐, 2025](https://www.youtube.com/watch?v=T5jgiMYJe4g&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=3) `검색`
+  - AI 를 사용한 검색 플랫폼
+- [[팀네이버 컨퍼런스 DAN25] 발췌에서 생성으로: 네이버 검색의 진화, 2025](https://www.youtube.com/watch?v=fE3RlcXpPnk&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=47) `AI 브리핑` `검색` `LLM` 👍🏼
+  - AI 브리핑 개발 과정 (검색 결과 요약 + FUQ(추가 예상 질문))
+  - RAG 를 사용 + 가벼운 LLM 프롬프트
+  - 하루 4천만번 제공해야해서
+    - 최신성 정보가 필요없는 경우 미리 만들어 놓은 답변으로 제공
+    - 유저 질의가 비슷한 경우가 많으니 캐시처럼 비슷한 질문은 최근에 나간 답변 나감
+  - 사용자 피드백 -> KTO + DPO
+  - 사용자의 요구를 만족하게 하기 위한 노력
+    - 원하는 답볍을 바로 확인
+      - '대한민국 수도' 같이 direct answer
+      - combining extractive & abstractive
+    - 다양한 정보를 한눈에 확인 가능
+- [[팀네이버 컨퍼런스 DAN25] 검색 서비스에 최적화된 LLM 만들기: 데이터, 학습, 서비스 적용 사례, 2025](https://www.youtube.com/watch?v=VXpaG2iRaXg&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=58) `검색 특화 LLM` `SFT` `RL` 👍🏼
+  - 검색 관련 성능 좋은 LLM 을 만드는 과정을 잘 정리한 발표
+- [[팀네이버 컨퍼런스 DAN25] LLM 라우터: 맥락을 이해하고 분류하는 똑똑한 AI 분류기, 2025](https://www.youtube.com/watch?v=n1C42aEmniQ&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=61) 👍🏼
+- [[팀네이버 컨퍼런스 DAN25] NextN Search: 끊임없이 진화하는 네이버 검색, 2025](https://www.youtube.com/watch?v=Cms1auuJi6A&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=64) `VLM` `LLM` `검색` `개인화 추천` `컨텐츠 품질 평가` 👍🏼
+- [[팀네이버 컨퍼런스 DAN25] Place AI Briefing: 검색부터 요약까지, 2025](https://www.youtube.com/watch?v=jfFxBhN4bpY&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=65) `검색` `요약` `LLM` `임베딩` `reranker` 👍🏼
+  - place ai 브리핑: 네이버에서 장소 관련 검색하면 정보 제공
+    - 주요 요소: retrieval, reranker, summarizer
+  - retriever
+    - reranker, summarization 이 좋은 성능을 낼 수 있도록 다양한 문서를 추출
+    - 라벨링: llm prompting 으로 15개 정도의 카테고리 라벨링 -> 200 여개의 패턴 라벨링 -> 검증
+    - 임베딩 학습: M3-Embedding 방법론 참고하여 3가지 임베딩 학습 (https://arxiv.org/abs/2402.03216)
+    - 임베딩 효율화: MRL 작은 차원 vector 로 retrieval (https://arxiv.org/abs/2205.13147), XTR 일부 토큰으로 train & retrieval (https://arxiv.org/abs/2304.01982)
+    - 평가: MTEB + Domain-Specific recall@100, query 280개 + doc 150k 평가셋
+  - ranker
+    - 라벨링: llm 으로 pos, semi-pos, neg
+    - 디코더로 모델 만듬, teacher & student
+  - multimodal encoder
+  - summarization
+    - 서비스별 적합한 요약문을 구분해서 정의
+    - Judgement driven development
+    - 처음에는 다양한 prompt 기법 하다가 distillation
+- [[팀네이버 컨퍼런스 DAN25] Station M: LLM 그냥 쓰지마세요. 네이버 AI 검색의 모델 오케스트레이션, 2025](https://www.youtube.com/watch?v=k88ps71nnnw&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=66) `LLM` 👍🏼
+  - 다양한 상항에 적절한 모델 개발, 평가
+- [[팀네이버 컨퍼런스 DAN25] 같은 검색 다른 경험: 검색 품질을 넘어 사용자의 만족으로, 2025](https://www.youtube.com/watch?v=jE7wst0YT9w&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=73) `검색 지표` `평가 정량화`
+  - SQM: 검색 결과를 많이 소비 했는지, 얼마나 적은 노력을 들였는지
+  - 세션 만족도 평가
+    - 세션 만족도 데이터셋 수집 (오프라인, 온라인, LLM)
+    - feature 명확한 기여도 해석을 위해 EBM (explainable boosting machine) 사용
+
+ ### LLM, Agent, AI
+- [[팀네이버 컨퍼런스 DAN25] 사용자의 목소리를 AI로 재현하다: LLM 기반 Multi Agent UX 플랫폼 개발기, 2025](https://www.youtube.com/watch?v=1_R3JnsJlMc&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=17) `AI-UX research`
+  - 유저테스트를 할때 가상의 페르소나 (유저)를 만들어서 사용 (UX research) -> UX research 참여자를 Agent 로 만든것
+  - 진행하면서 주관적일수도 있지만 나름 체계적인 기준들을 세우는 것이 흥미로웠다.
+- [[팀네이버 컨퍼런스 DAN25] 네이버 PersonA - 지금 나를 이해하는 AI (부제 : LLM 기반 사용자 메모리 구축과 실시간 사용자 로그 반영 시스템 구현), 2025](https://www.youtube.com/watch?v=ZhaZPpCEd38&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=22) `LLM 메모리` `LLM` `개인화 콘텐츠` 👍🏼
+  - 배경
+    - 추천팀 발표
+    - 대화형 ai 서비스의 메모리: 직접적인 대화 기록을 기억, 활용 -> 네이버는 대화 기록 없음 -> 사용자 행동 로그를 활용하면 어떨까
+    - PersonA, AI 에이전트, 실시간 사용자 컨텍스트 플랫폼 Dexter 발표
+  - PEP (personalized exploration partner, 개인화 탐색 파트너) -> - PEP 로직에 대해 꽤 깊게 설명해주심
+    - PersonaA 생성 -> 연관주제 생성 -> 추천 후보 문서 검색 -> 캔버스 생성 -> 캔버스 개인화: 이 과정으로 현재 읽고 있는 콘텐츠(시드 콘텐츠)와 관련있고 & 유저에게 흥미 있을 법한 요약내용 넛지 메시지 생성하여 노출
+    - PersonaA 메모리 생성
+      - generative agents (UIST'23) 논문의 memory stream, reflection 개념 차용
+      - LLM 을 사용하여 관심사 분류 & 요약
+    - 연관 주제 생성
+      - LLM 으로 콘텐츠에서 주요 엔티티 추출 -> 연관 검색어 db 에서 검색어 매칭 (검색 트랜드도 반영) -> LLM 으로 연관 주제 생성
+        - eg) 국립중앙박물관 -> 국립중앙박물관 호랑이 굿즈, 국립중앙박물관 굿즈 등 연관 검색어 찾음 -> 국립중앙박물관 호랑이 굿즈 구매 방법
+      - 연관 주제 생성도 PersonA 메모리 써서 개인화 하려고 했으나 리소스 너무 들어서 핵심 유저들로만 생성
+    - 추천 후보 문서 검색
+      - 연관 주제로 검색 api 써서 topK 문서 retrieve 하고 reranking 하여 대표 & 보조 콘텐츠 선택 -> LLM 으로 캔버스 생성
+    - 캔버스 개인화
+      - 유저별로 시드 콘텐츠와 관련있는 연관 주제를 가져와서 이와 유사한 personA 메모리만 필터링 -> 필터링된 결과로 캔버스 개인화 랭킹 (유사도, 인기도)
+  - PersonA
+    - 관심사 이해: 단순 키워드 -> 주제 + 맥락
+    - 탐색 패턴 이해: 단순 검색/클릭 시퀀스를 넘어서 사고의 흐름 반영
+  - PersonA 메모리 구조
+    - 서비스 행동 로그, short-term memory, long-term memory
+    - short-term memory
+      - 행동 로그를 세션 단위로 필터링 -> LLM
+    - long-term memory
+      - short-term, old long-term 을 조합 -> LLM
+    - memory 들은 ttl 존재
+  - Dexter
+    - 사용자 로그를 실시간으로 모아서 PersonA 생성하도록 돕는 플랫폼
+- [[팀네이버 컨퍼런스 DAN25] Media AI로 창작되고 소비되는 네이버 동영상, 2025](https://www.youtube.com/watch?v=Nr3Jgnw1LUg&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=29) `vlm` `숏폼생성`
+  - 동영상 컨텐츠 생산 > 유통 > 소비는 AI 를 통해 잘해보자 특히 숏폼
+  - 서비스 개선 핵심 요소
+    - 필터링 시스템 -> 네이버 업로드 동영상 실시간 분석하여 필터링
+    - 인덱싱 시스템
+      - negative 관리대상 -> 다양한 negative 요소들에 대해 점수 계산
+      - positive 관리대상 -> 텍스트 형태 entity & tag 추출, 임베딩 생성
+  - 동영상 메타 데이터를 표준화해서 활용하기 유용하도록 함, 모든 영상 10분내로 처리
+  - AutoClipAi 플랫폼: 숏폼인코더, ai 하이라이트, text2clip -> 숏폼 생성
+    - 숏폼인코더: 명세서를 작성하면 숏폼 생성됨
+    - ai 하이라이트: 라이브 방송 > 숏폼 > vod(롱폼) -> 롱폼 데이터를 사용하여 하이라이트 숏폼 생성
+    - text2clip: 콘텐츠 분석 -> 스토리 생성 -> 숏폼 생성
+  - vlm 으로 데이터 레이블링 진행
+    - 선정성 분류 모델: 8b vlm, A100 * 8
+    - 비전기반 엔티티 추출/카테고리 분류 모델: 72b vlm, H100 * 16
+  - 모델 학습 전략
+    - 선정성 분류 모델: 레이블링에 사용한 모델을 거의 그대로 사용하고 파인튜닝
+    - knowledge distillation 으로 효율적 학습
+  - 컨텍스트 엔지니어링을 통한 성능 개선
+  - 가장 힘들었던거는 대용량 영상 처리와 멀티모델 서빙의 병목
+    - 전처리-추론 과정을 통합
+    - torchserve -> triton 으로 전환
+- [[팀네이버 컨퍼런스 DAN25] Papago Speech Translation을 소개 합니다, 2025](https://www.youtube.com/watch?v=uU-pWGk2js8&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=37) `speech translation` `model`
+- [[팀네이버 컨퍼런스 DAN25] 데이터 속 숨은 트렌드, LLM이 답하다: 랭킹 기반 플레이스 트렌드 분석 시스템](https://www.youtube.com/watch?v=n2CmC_ZUE-U&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=68) `트렌드 랭킹` `텍스트 마이닝` `키워드 추출` `설명가능성` `LLM` `KD` 👍🏼
+  - 실시간성, 랭킹, 설명가능성
+  - 검색 - 업체명 검색, 탐색형 검색 / 클릭 - 저장, 주문 등등 -> 로그 기반 인기 랭킹 -> 10분 단위 집계가 좋았다 -> 단기, 장기에 따라 집계방식을 다르게 함
+  - 급등 & 지속
+    - 시간의 무게: 장단기 고려, 가중치 조정, 정규화 (수식있음)
+    - 데이터의 목소리: 데이터 소스별 가중치
+    - 품질의 문지기: 설명 가능성, 노이즈 제거
+  - 장소데이터에서 키워드 뽑기
+    - 데이터가 너무 많음 -> BERTopic (문서 임베딩 -> 차원축소, 클러스터링 -> 클러스터별로 tf-idf 기반 키워드 추출) 분석 -> pagerank 기반 textrank 로 주요 키워드 점수화 -> 점수 합산하여 문장의 점수로 사용 -> 주요 문장 선별
+    - Disillation, quantization 으로 LLM 경량화하여 cpu 로 서빙
+- [[팀네이버 컨퍼런스 DAN25] LLM 조각하기: HyperCLOVA-X SEED 모델 학습의 기술, 90x 학습 효율화, 효율적인 LLM 구조, 2025](https://www.youtube.com/watch?v=sLDzTrSkkEQ&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=69)
+- [[팀네이버 컨퍼런스 DAN25] Multi-AI Agent 개발: 레퍼런스 아키텍처와 구현 전략, 2025](https://www.youtube.com/watch?v=r6wo53WIpa4&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=70) 👍🏼
+
+### 광고
+- [[팀네이버 컨퍼런스 DAN25] 단 하나의 문장으로: Foundation Model이 답해주는 차세대 Audience Targeting, COMPASS, 2025](https://www.youtube.com/watch?v=2bBHLT2FOeY&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=48) `광고 타겟팅` `FM model` `text2segment`
+  - 광고 타겟팅
+  - 다양한 타겟팅 모델이 많음, 리소스가 많이 드는 다양한 이유 -> foundation model 개발 (pre-trained llm + 유저 행동 시퀀스 -> 유저 임베딩 생성) -> 그래서 모델 추가 개발은 downstream task 이 되는 것
+  - text2segment 모델로 자연어로 세그먼트 찾기
+    - 텍스트 -> (학습 x) prompt 로 텍스트를 더 풍부하게 함
+    - 임베딩을 만들기 위해 중간에 project 역할의 모델이 있음
+  - 타겟팅
+    - seed 가 주어지면 (seed 를 만드는 과정은 다양한)
+      - 비슷한 임베딩 찾기
+      - seed 를 positive label 로 하는 PU learning (분류 모델 생성)
+    - 그리고 reranking 진행
+      - RRF, FM feature + 최소 도메인 feature
+
+### product, design
+- [[팀네이버 컨퍼런스 DAN25] 오늘도 AI에게 디자인을 가르치는 중입니다 : AI 광고 소재 생성 시스템 구축기, 2025](https://www.youtube.com/watch?v=H1-VkEwlLNU&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=18) `광고`
+  - 디자인쪽에 가까운 발표
+  - AI 로 광고 자동생성 기능을 만드는 과정 (디자인 측면, 개발 이야기 x)
+    - 광고의 기본적인 규칙를 잘 지킬 수 있도록
+    - 상황에 따라 디자인적인 요소 가미
+    - Image to Motion: 모션화
+  - AI 시대 디자인
+    - 직감을 룰로 만들어보기
+    - 작업자에서 벗어나 결정권자 되어보기
+- [[팀네이버 컨퍼런스 DAN25] 익숙함을 새로움으로! 네이버 카페 경험 설계, 2025](https://www.youtube.com/watch?v=UrQY0agNm5Q&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=23) `네이버카페`
+  - 프로덕트 디자인 시스템의 여정 공유 (서비스 디자인팀)
+- [[팀네이버 컨퍼런스 DAN25] 네이버지도 리브랜딩, 새로운 여정의 시작, 2025](https://www.youtube.com/watch?v=NemnYyTuALA&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=24) `네이버지도` `리브랜딩`
+  - 네이버 지도 리브랜딩
+- [[팀네이버 컨퍼런스 DAN25] BE LOCAL : 네이버지도가 외국인들에게 말을 거는 방식, 2025](https://www.youtube.com/watch?v=eHCY0FppmeM&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=26) `네이버지도`
+- [[팀네이버 컨퍼런스 DAN25] 미디어 경험의 확장과 연결, 치지직 XR 앱 디자인, 2025](https://www.youtube.com/watch?v=PUrRqQds_nc&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=25) `치지직` `XR`
+- [[팀네이버 컨퍼런스 DAN25] 네이버플러스 스토어 리브랜딩, 관심을 디자인하다, 2025](https://www.youtube.com/watch?v=Ot_6lLgXPUE&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=27) `네이버플러스 스토어` `리브랜딩` `캐릭터 탄생기`
+- [[팀네이버 컨퍼런스 DAN25] AI로 사용자와 사업자를 잇는, 새로운 플레이스&지도, 2025](https://www.youtube.com/watch?v=rU-3ntwhxPo&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=33) `네이버 검색` `네이버지도` `네이버지도 발견탭` `3D flying view`
+- [[[팀네이버 컨퍼런스 DAN25] 블로그의 새로운 여정: 기록을 넘어, 연결의 디자인으로, 2025]](https://www.youtube.com/watch?v=hSnqIl2_6Nw&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=35) `네이버 블로그`
+- [[팀네이버 컨퍼런스 DAN25] 작은 도전들이 만든 큰 의미, 모두를 위한 네이버 뉴스, 2025](https://www.youtube.com/watch?v=nWtjN1PbvLI&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=36) `네이버 뉴스`
+- [[팀네이버 컨퍼런스 DAN25] 유저와 함께 찾은 캠페인 운영 공식: 치지직 싱드컵 이야기, 2025](https://www.youtube.com/watch?v=srjw37gzkuQ&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=40) `치지직`
+
+# 네이버 웹툰
+### Agent
+- [[팀네이버 컨퍼런스 DAN25] 대화형 AI로 바꾼 데이터 협업: 데이터 활용의 장벽을 없애다, 2025](https://www.youtube.com/watch?v=K18evP4Y-1o&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=16) `사내 AI Agent`
+  - 사내 AI Agent
+
+### 추천
+- [[팀네이버 컨퍼런스 DAN25] 실시간 추천-CRM 통합 모델로 완성하는 개인화 UX, 2025](http://youtube.com/watch?v=8C1gPGGeRMU&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=49) `추천` `이탈방지` `MMoE`
+  - 통합 모델로 추천, CRM 모두 해결하는 방향
+  - 배치가 아닌 실시간으로 CRM 결과 업데이트
+
+# 네이버 파이낸셜
+### LLM, Agent
+- [[팀네이버 컨퍼런스 DAN25] 부동산 매물 검색의 혁명 대화형 AI로 구현하는 검색-분석-투자 통합 생태계, 2025](https://www.youtube.com/watch?v=6F-LZ1DjJik&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=21) `대화형 검색봇`
+  - LLM Agent 를 사용하여 대화형 검색봇 개발

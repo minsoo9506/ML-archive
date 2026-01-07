@@ -178,7 +178,7 @@
 # 📑 Other Reference
 ### conference
 - 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [review](./industry/2024_conference/)
-- 네이버, 카카오, 우아한형제들, 토스 2025 conference [review](./industry/2025_conference/)
+- 네이버, 우아한형제들, 토스 2025 conference [review](./industry/2025_conference/)
 ### 카카오
 - 추천, 검색
   - 카카오 AI 추천: 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천
@@ -320,20 +320,46 @@
   - [LLM for Search: 꽁꽁 얼어붙은 검색 서비스 위로 LLM이 걸어다닙니다, DAN24](https://tv.naver.com/v/67452448)
   - [사람을 대신해야 진짜 AI지? : LLM 기반 임베딩부터 검색 품질 자동 평가 모델까지, DAN24](https://dan.naver.com/24/sessions/591)
   - [SQM으로 네이버 검색 품질 췍↗!, DAN24](https://tv.naver.com/v/67324891)
+  - [[팀네이버 컨퍼런스 DAN25] 끊임없이 즐거움, 네이버 클립으로 빠져들다: 개인화·VLM·에이전트가 완성하는 네이버 클립 경험, 2025](https://www.youtube.com/watch?v=rLFFX9S9IEk&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=34) `숏폼 추천` `알림 발송` `추천풀 구축` `랭킹`
+  - [[팀네이버 컨퍼런스 DAN25] From Trend to You: 숏텐츠 키워드 추천의 개인화, 2025](https://www.youtube.com/watch?v=gbxSLh9gsBQ&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=63) `키워드 추출` `랭킹` `LLM Ranker`
+  - [[팀네이버 컨퍼런스 DAN25] 20년 된 카페의 도전: AI 추천 피드 실험기, 2025](https://www.youtube.com/watch?v=Wbv7Drj14Mo&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=72) `피드 추천`
+  - [[팀네이버 컨퍼런스 DAN25] F-Solid: RAG에 최적화된 검색아키텍쳐, 2025](https://www.youtube.com/watch?v=T5jgiMYJe4g&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=3) `검색`
+  - [[팀네이버 컨퍼런스 DAN25] 발췌에서 생성으로: 네이버 검색의 진화, 2025](https://www.youtube.com/watch?v=fE3RlcXpPnk&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=47) `AI 브리핑` `검색` `LLM`
+  - [[팀네이버 컨퍼런스 DAN25] 검색 서비스에 최적화된 LLM 만들기: 데이터, 학습, 서비스 적용 사례, 2025](https://www.youtube.com/watch?v=VXpaG2iRaXg&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=58) `검색 특화 LLM` `SFT` `RL`
+  - [[팀네이버 컨퍼런스 DAN25] LLM 라우터: 맥락을 이해하고 분류하는 똑똑한 AI 분류기, 2025](https://www.youtube.com/watch?v=n1C42aEmniQ&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=61)
+  - [[팀네이버 컨퍼런스 DAN25] NextN Search: 끊임없이 진화하는 네이버 검색, 2025](https://www.youtube.com/watch?v=Cms1auuJi6A&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=64) `VLM` `LLM` `검색` `개인화 추천` `컨텐츠 품질 평가`
+  - [[팀네이버 컨퍼런스 DAN25] Place AI Briefing: 검색부터 요약까지, 2025](https://www.youtube.com/watch?v=jfFxBhN4bpY&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=65) `검색` `요약` `LLM` `임베딩` `reranker`
+  - [[팀네이버 컨퍼런스 DAN25] Station M: LLM 그냥 쓰지마세요. 네이버 AI 검색의 모델 오케스트레이션, 2025](https://www.youtube.com/watch?v=k88ps71nnnw&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=66) `LLM`
+  - [[팀네이버 컨퍼런스 DAN25] 같은 검색 다른 경험: 검색 품질을 넘어 사용자의 만족으로, 2025](https://www.youtube.com/watch?v=jE7wst0YT9w&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=73) `검색 지표` `평가 정량화`
 - AI, LLM
   - [eFoundation: 상품을 딱 잘 표현하는 임베딩을 만들었지 뭐야 ꒰⍢꒱ 완전 럭키비키잔앙 ☘︎, DAN24](https://tv.naver.com/v/67444878)
   - [어? GPU 그거 어떻게 쓰는건가요? : AI 서빙 헤딩팟 실전 노하우 (feat. AI 이어북)](https://tv.naver.com/v/67327010)
   - [속도와 효율의 레이스! : LLM 서빙 최적화의 모든것.](https://tv.naver.com/v/67337608)
+  - [[팀네이버 컨퍼런스 DAN25] 네이버 PersonA - 지금 나를 이해하는 AI (부제 : LLM 기반 사용자 메모리 구축과 실시간 사용자 로그 반영 시스템 구현), 2025](https://www.youtube.com/watch?v=ZhaZPpCEd38&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=22) `LLM 메모리` `LLM` `개인화 콘텐츠`
+  - [[팀네이버 컨퍼런스 DAN25] Media AI로 창작되고 소비되는 네이버 동영상, 2025](https://www.youtube.com/watch?v=Nr3Jgnw1LUg&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=29) `vlm` `숏폼생성`
+  - [[팀네이버 컨퍼런스 DAN25] Papago Speech Translation을 소개 합니다, 2025](https://www.youtube.com/watch?v=uU-pWGk2js8&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=37) `speech translation` `model`
+  - [[팀네이버 컨퍼런스 DAN25] 데이터 속 숨은 트렌드, LLM이 답하다: 랭킹 기반 플레이스 트렌드 분석 시스템](https://www.youtube.com/watch?v=n2CmC_ZUE-U&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=68) `트렌드 랭킹` `텍스트 마이닝` `키워드 추출` `설명가능성` `LLM` `KD`
+  - [[팀네이버 컨퍼런스 DAN25] LLM 조각하기: HyperCLOVA-X SEED 모델 학습의 기술, 90x 학습 효율화, 효율적인 LLM 구조, 2025](https://www.youtube.com/watch?v=sLDzTrSkkEQ&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=69)
+  - [[팀네이버 컨퍼런스 DAN25] Multi-AI Agent 개발: 레퍼런스 아키텍처와 구현 전략, 2025](https://www.youtube.com/watch?v=r6wo53WIpa4&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=70)
+- 광고
+  - [[팀네이버 컨퍼런스 DAN25] 단 하나의 문장으로: Foundation Model이 답해주는 차세대 Audience Targeting, COMPASS, 2025](https://www.youtube.com/watch?v=2bBHLT2FOeY&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=48) `광고 타겟팅` `FM model` `text2segment`
 - 기타
   - [당신의 Python 모델이 이븐하게 추론하지 못하는 이유 [CPU 추론/모델서빙 Python 딥다이브], DAN24](https://tv.naver.com/v/67452152)
+  - [[팀네이버 컨퍼런스 DAN25] 물과 실험은 셀프입니다: 대규모 검색 서비스의 셀프서브 프로세스 정착기, 2025] `AB test` `metric store` `query view` `사내플랫폼`
+  - [[팀네이버 컨퍼런스 DAN25] 사용자에 대한 이해로부터 : 검색과 홈피드 서비스의 성장 문법, 2025](https://www.youtube.com/watch?v=t5VwHdnqBFI&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=76) `성장 측정`
 ### 네이버웹툰
 - 추천, 검색
   - [내 손 안의 알딱핑! (੭˃ᴗ˂)੭ 네게 맞는 웹툰을 알아서 딱! 추천해줄게, DAN24](https://tv.naver.com/v/67445183)
+  - [[팀네이버 컨퍼런스 DAN25] 실시간 추천-CRM 통합 모델로 완성하는 개인화 UX, 2025](http://youtube.com/watch?v=8C1gPGGeRMU&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=49) `추천` `이탈방지` `MMoE`
 - 타겟팅
   - [글로벌 웹툰의 ML 기반 CRM 실전 적용기 : Uplift Model과 Survival Model을 활용한 타겟팅 고도화 (네이버 웹툰), DAN24](https://tv.naver.com/v/67320890)
+- LLM, AI
+  - [[팀네이버 컨퍼런스 DAN25] 대화형 AI로 바꾼 데이터 협업: 데이터 활용의 장벽을 없애다, 2025](https://www.youtube.com/watch?v=K18evP4Y-1o&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=16) `사내 AI Agent`
 ### 네이버페이
 - 인과추론
   - [Uplift Modeling을 통한 마케팅 비용 최적화 (with Multiple Treatments), 2024](https://medium.com/naverfinancial/uplift-modeling%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%A7%88%EC%BC%80%ED%8C%85-%EB%B9%84%EC%9A%A9-%EC%B5%9C%EC%A0%81%ED%99%94-with-multiple-treatments-5e4e3824b9df)
+- LLM, AI, Agent
+  - [[팀네이버 컨퍼런스 DAN25] 부동산 매물 검색의 혁명 대화형 AI로 구현하는 검색-분석-투자 통합 생태계, 2025](https://www.youtube.com/watch?v=6F-LZ1DjJik&list=PLCct9_ckBx7-ZsGXBneookwydQNrjO1PW&index=21) `대화형 검색봇`
 ### 넥슨
 - 추천
   - NDC21-데이터분석, 추천알고리즘 offline A/B 테스트 (feat: PAIGE 프로야구 서비스)
@@ -360,6 +386,7 @@
   - [개인화 추천 시스템 #1. Multi-Stage Recommender System, 2024](https://www.bucketplace.com/post/2024-03-26-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-1-multi-stage-recommender-system/)
   - [개인화 추천 시스템 #2. Personalized Content Ranking, 2024](https://www.bucketplace.com/post/2024-07-10-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-2-personalized-content-ranking/)
   - [개인화 추천 시스템 #3. 모델 서빙, 2025](https://www.bucketplace.com/post/2025-03-14-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-3-%EB%AA%A8%EB%8D%B8-%EC%84%9C%EB%B9%99/)
+  - [개인화 추천 시스템 #4. Feature Store, 2025](https://www.bucketplace.com/post/2025-12-17-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-4-feature-store/)
 ### 우아한형제들(배민)
 - 추천
   - [(2023 우아콘) 추천시스템 성장 일지: 데이터 엔지니어 편](https://www.youtube.com/watch?v=x49PqlAQC3U&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=13)
@@ -402,27 +429,6 @@
   - [TMC25 | Product - Data Driven 팀, 이렇게 시작했습니다, 2025](https://www.youtube.com/watch?v=61PYnUA-f_Y) `조직`
   - [TMC25 | Product - 데이터 분석팀 리더는 처음이라, 2025](https://www.youtube.com/watch?v=1WnsdCrD1sM) `조직`
   - [TMC25 | Product - 중층적, 고객중심적, 동적으로 접근하는 제품 성장, 2025](https://www.youtube.com/watch?v=Peyr3WAaNBY&list=PL-245_cWUfl98ZlF6xAZDVFc8HP33GJA5&index=27) `프로덕트 분석` `인과관계`
-- PO, PM
-  - [TMC25 | Product - 토스 PO가 기능이 아닌 흐름을 설계하는 이유, 2025](https://www.youtube.com/watch?v=RjAIQ0ZVFs8)
-  - [TMC25 | Product - 그저 결제 단말기일 뿐인데: 우리가 여기에 담은 것들, 2025](https://www.youtube.com/watch?v=CpdajvBJTDM)
-  - [TMC25 | Product - 오프라인하러 다시 돌아온 PO, 2025](https://www.youtube.com/watch?v=r73KegybEcY)
-  - [TMC25 | Product - 세상에 없던 새로운 가치를 만들어, 은행을 바꾼 은행 이야기, 2025](https://www.youtube.com/watch?v=NmrcFWjQwV8)
-  - [TMC25 | Product - 저희는 실험 안합니다, 2025](https://www.youtube.com/watch?v=48rn3muLXgo)
-  - [TMC25 | Product - 토스에서 그림 제일 잘 그리는 사람: PO가 생각을 정리하는 리얼 핵심 기술, 2025](https://www.youtube.com/watch?v=L3Pk8Jze6lE)
-  - [TMC25 | Product - 커뮤니티 Growth로 해자(Moat) 만들기, 2025](https://www.youtube.com/watch?v=8npb77zqoRg) `분석` `아하모먼트`
-  - [TMC25 | Product - 작은 힌트로 큰 바이럴 만들기, 2025](https://www.youtube.com/watch?v=2tKTGnq3L-c) `바이럴 마케팅`
-  - [TMC25 | Product - ‘전환율’이 아닌 ‘정답률’, 2025](https://www.youtube.com/watch?v=xxQmEG2_M6A) `푸시 UT`
-  - [TMC25 | Product - 사장님이 매일 쓰는 제품을 만든다는 것, 2025 토스 플레이스](https://www.youtube.com/watch?v=NvPm8BQdJNQ)
-  - [TMC25 | Product - 엄마, 나는 커서 '다른 은행'이 될래요, 2025](https://www.youtube.com/watch?v=tkILvrNjS3I)
-  - [TMC25 | Product - 토스 PO가 된 아랍어 통역사, 2025](https://www.youtube.com/watch?v=aMsXVxdpp2A)
-  - [TMC25 | Product - 토스 팀 전체의 성과를 끌어올리는 제품, 2025](https://www.youtube.com/watch?v=9eAVcXAOBdE)
-  - [TMC25 | Product - 오프라인의 맛, 뭐가 다른지 알려드려요, 2025](https://www.youtube.com/watch?v=G8F7GUZcxUM)
-  - [TMC25 | Product - PO가 성장할 수 있는 조직의 조건, 2025](https://www.youtube.com/watch?v=rbFFP_QXsmM)
-  - [TMC25 | Product - 업계의 통념을 바꾼 하나의 제품, 2025](https://www.youtube.com/watch?v=f-XNUEzkk5I) `함께대출`
-  - [TMC25 | Product - 돈 쓰는 제품에서 돈 버는 제품으로, 2025](https://www.youtube.com/watch?v=fyzO5eLZlKY) `광고` `수익화`
-  - [TMC25 | Product - 토스로 송금하지 마세요, 2025](https://www.youtube.com/watch?v=2ltei1EyMSs) `FDS`
-  - [TMC25 | Product - 토스가 빠르게 성장할 수 있는 이유 with TUBA, 2025](https://www.youtube.com/watch?v=yOCGSE6GjL0) `플랫폼`
-  - [TMC25 | Product - 터지는 바이럴 만들기, 2025](https://www.youtube.com/watch?v=_DK2bdDxhb8) `바이럴`
 ### Spotify
 - 추천, 검색
   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
