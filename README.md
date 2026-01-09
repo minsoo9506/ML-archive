@@ -1,3 +1,5 @@
+요즘은 주로 추천, LLM 관련하여 공부합니다.
+
 # Index
 - Reference: 다양한 레퍼런스 아카이빙합니다.
 - Study & Practice & Project: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
@@ -177,6 +179,8 @@
 ## conference
 - 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [review](./industry/2024_conference/)
 - 네이버, 우아한형제들, 토스 2025 conference [review](./industry/2025_conference/)
+
+아래 대부분은 ML/AI 와 관련되었지만 컨퍼런스에서 product 관련 발표내용도 배울 점이 많습니다.
 
 ## 카카오 💬
 ### 추천, 검색
@@ -411,10 +415,13 @@
 - [실시간 반응형 추천 개발 일지 2부: 벡터 검색, 그리고 숨겨진 요구사항과 기술 도입 의사 결정을 다루는 방법, 2025](https://techblog.woowahan.com/21027/)
 - [그래프, 텍스트 인코더를 활용한 실시간 추천 검색어 모델링, 우아콘2024](https://www.youtube.com/watch?v=FPdJ24JfKmw&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=41&pp=iAQB)
 - [취향 저격 맛집 추천, 더 똑똑하게: 추천 모델 성장 일지, 우아콘2024](https://www.youtube.com/watch?v=zRLS3_vD1FM&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=9&pp=iAQB)
-### LLM
+### LLM, AI
 - [AI 데이터 분석가 '물어보새' 등장: 데이터 리터러시 향상을 위한 나만의 데이터 분석가, 우아콘2024](https://www.youtube.com/watch?v=_QPhoKItI2k)
 - [Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기, 우아콘2024](https://www.youtube.com/watch?v=YjdZL3Sc9hA&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=10&pp=iAQB)
 - [GPT를 활용한 카탈로그 아이템 생성, 2025](https://techblog.woowahan.com/21294/)
+- [AI 데이터 분석가 '물어보새', 그다음: 더 넓고 깊은 지식 공유하기, 우아콘 2025](https://www.youtube.com/watch?v=dLiJXVUF7bQ&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=9) `사내봇` `멀티 에이전트`
+- [AI Platform 2.0: LLMOps로 만드는 비즈니스 레버리지, 우아콘 2025](https://www.youtube.com/watch?v=AhbFFOZUc5s&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=13) `LLMOps`
+- ["어제 쓴 프롬프트, 오늘도 그대로 쓰시나요?", 우아콘 2025](https://www.youtube.com/watch?v=YcA31dmSNMk&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=37) `프롬프트` `프롬프트 학습법`
 ### 이상치탐지
 - [배민 앱 리뷰 품질을 향상시킨 방법은? 머신 러닝 X 네트워크 탐지 모델 도입](https://techblog.woowahan.com/11829/)
 ### 기타
@@ -427,6 +434,11 @@
 ### 플랫폼
 - [우아한 데이터 허브, 일 200억 건 데이터 안전하게 처리하는 대용량 시스템 구축하기, 우아콘2024](https://www.youtube.com/watch?v=AtmI56DGhi4&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=8)
 - [장애 같은데? 일단 STOP!: 배달서비스 장애 감지/차단 시스템 구축 경험담, 우아콘2024](https://www.youtube.com/watch?v=NKbmLyWlVpg&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=28&pp=iAQB)
+- [Kafka 파티션 증설 없이 처리량 한계 돌파하기: Parallel Consumer 적용기, 우아콘 2025](https://www.youtube.com/watch?v=UhnERp2AYRo&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=4)
+- [데이터 연금술: 로우 데이터를 파이프라인을 통해 '금'으로 바꾸는 법, 우아콘 2025](https://www.youtube.com/watch?v=tHBPV_iwh00&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=5)
+- [배달의 민족 주문~!: ServerSentEvents로 실시간 알림 전송하기, 우아콘 2025](https://www.youtube.com/watch?v=VCE79fStzA4&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=6)
+- [배달의민족 모든 푸드주문 데이터, 서비스 중단 없이 DocumentDB 전환하기, 우아콘 2025](https://www.youtube.com/watch?v=ROzMnlS1mKQ&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=11)
+- [진화하는 스트리밍 플랫폼: 견고함을 향한 여정과 인사이트, 우아콘 2025](https://www.youtube.com/watch?v=-EP6Wd0qUvE&list=PLgXGHBqgT2TuPhUGHTe1oFkWJDu3u6-Si&index=12)
 
 ## 컬리 🍚
 ### 추천
@@ -563,7 +575,8 @@
 - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)
 
 # 🧑🏻‍💻 Study & Practice & Project
-- 개인적으로 공부하는 모든 내용을 작성하지는 않고 주로 코드나 기록으로 남아있는 경우만 index 용으로 작성합니다.
+
+개인적으로 공부하는 모든 내용을 작성하지는 않고 주로 코드나 기록으로 남아있는 경우만 index 용으로 작성합니다.
 
 ### Language
 - Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
