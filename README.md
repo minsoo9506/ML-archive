@@ -85,6 +85,7 @@
 - [Unified Embedding Based Personalized Retrieval in Etsy Search, 2024 Etsy](https://arxiv.org/pdf/2306.04833) `two-tower` `negative sampling` `ANN`
 - [Embedding based retrieval for long tail search queries in ecommerce, 2025](https://www.arxiv.org/pdf/2505.01946) `long tail` `llm synthetic data`
 - [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
+- [Improving Pinterest Search Relevance Using Large Language Models, 2025 Pinterest](https://arxiv.org/pdf/2410.17152) `KD` `LLM` `enriched text` `augumented data`
 ### Diversity
 - [Algorithmic Effects on the Diversity of Consumption on Spotify, 2020](https://www.cs.toronto.edu/~ashton/pubs/alg-effects-spotify-www2020.pdf)
 ### Calibration
@@ -96,6 +97,7 @@
 - [Popularity-Opportunity Bias in Collaborative Filtering, WSDM 2021](https://dl.acm.org/doi/pdf/10.1145/3437963.3441820)
 - [Managing Popularity Bias in Recommender Systems with Personalized Re-ranking, 2019](https://arxiv.org/pdf/1901.07555)
 - [The Unfairness of Popularity Bias in Recommendation, 2019](https://arxiv.org/pdf/1907.13286)
+- [An Empirical Study of Selection Bias in Pinterest Ads Retrieval, 2023 Pinterest](https://dl.acm.org/doi/epdf/10.1145/3580305.3599771) `selection bias` `online ad` `retrieval`
 ### Explainable
 - [Faithfully Explaining Rankings in a News Recommender System, 2018](https://arxiv.org/pdf/1805.05447)
 ### User Modeling
@@ -399,13 +401,15 @@
 - [신뢰성 있는 문서를 골라주기 위한 Liner Ranker, 2024](https://liner.com/ko/blog/liner-ranker)
 
 ## 오늘의집 🏠
-### 추천
+### 추천, 검색
 - [유사 이미지 추천 개발 #1 비슷한 공간 - 콘텐츠 추천을 위한 이미지 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-05-22-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-1-%EB%B9%84%EC%8A%B7%ED%95%9C-%EA%B3%B5%EA%B0%84/)
 - [유사 이미지 추천 개발 #2 비슷한 상품 - 커머스 상품 추천을 위한 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-07-13-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-2-%EB%B9%84%EC%8A%B7%ED%95%9C-%EC%83%81%ED%92%88/)
 - [개인화 추천 시스템 #1. Multi-Stage Recommender System, 2024](https://www.bucketplace.com/post/2024-03-26-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-1-multi-stage-recommender-system/)
 - [개인화 추천 시스템 #2. Personalized Content Ranking, 2024](https://www.bucketplace.com/post/2024-07-10-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-2-personalized-content-ranking/)
 - [개인화 추천 시스템 #3. 모델 서빙, 2025](https://www.bucketplace.com/post/2025-03-14-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-3-%EB%AA%A8%EB%8D%B8-%EC%84%9C%EB%B9%99/)
 - [개인화 추천 시스템 #4. Feature Store, 2025](https://www.bucketplace.com/post/2025-12-17-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-4-feature-store/)
+- [오늘의집 렌즈 - 텍스트를 넘어 이미지로 확장되는 검색 경험, 2025](https://www.bucketplace.com/post/2025-12-02-%EC%98%A4%EB%8A%98%EC%9D%98%EC%A7%91-%EB%A0%8C%EC%A6%88-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EB%84%98%EC%96%B4-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A1%9C-%ED%99%95%EC%9E%A5%EB%90%98%EB%8A%94-%EA%B2%80%EC%83%89-%EA%B2%BD%ED%97%98/) `이미지 검색` `객체 탐지`
+- [오늘의집 검색 - 모든 언어와 도메인을 아우르는 일반화된 Retrieval 시스템 만들기, 2025](https://www.bucketplace.com/post/2026-01-14-%EC%98%A4%EB%8A%98%EC%9D%98%EC%A7%91-%EA%B2%80%EC%83%89-%EB%AA%A8%EB%93%A0-%EC%96%B8%EC%96%B4%EC%99%80-%EB%8F%84%EB%A9%94%EC%9D%B8%EC%9D%84-%EC%95%84%EC%9A%B0%EB%A5%B4%EB%8A%94-%EC%9D%BC%EB%B0%98%ED%99%94%EB%90%9C-retrieval-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/) `임베딩 검색` `임베딩 학습`
 
 ## 우아한형제들(배민) 🍚
 ### 추천
@@ -475,14 +479,17 @@
 ### 추천, 검색
 - [The machine learning behind delivering relevant ads, Pinterest 2021](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0)
 - [Feature Caching for Recommender Systems w/ Cachelib, 2024](https://medium.com/pinterest-engineering/feature-caching-for-recommender-systems-w-cachelib-8fb7bacc2762)
-- [Advancements in Embedding-Based Retrieval at Pinterest Homefeed, 2025](https://medium.com/pinterest-engineering/advancements-in-embedding-based-retrieval-at-pinterest-homefeed-d7d7971a409e)
-- [Deep Multi-task Learning and Real-time Personalization for Closeup Recommendations, 2025](https://medium.com/pinterest-engineering/deep-multi-task-learning-and-real-time-personalization-for-closeup-recommendations-1030edfe445f)
+- [Advancements in Embedding-Based Retrieval at Pinterest Homefeed, 2025](https://medium.com/pinterest-engineering/advancements-in-embedding-based-retrieval-at-pinterest-homefeed-d7d7971a409e) `two-tower` `conditional retrieval`
 - [Foundation Model for Personalized Recommendation, 2025](https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39) `foundation model`
+- [Improving Pinterest Search Relevance Using Large Language Models, 2025](https://medium.com/pinterest-engineering/improving-pinterest-search-relevance-using-large-language-models-4cd938d4e892) `KD` `enriched text` `augmented label`
+- [Modernizing Home Feed Pre-Ranking Stage, 2025](https://medium.com/pinterest-engineering/modernizing-home-feed-pre-ranking-stage-e636c9cdc36b) `pre-ranking` `sample selection bias` `serving` `early funnel log`
+- [Deep Multi-task Learning and Real-time Personalization for Closeup Recommendations, 2025](https://medium.com/pinterest-engineering/deep-multi-task-learning-and-real-time-personalization-for-closeup-recommendations-1030edfe445f)
 - [Next-Level Personalization: How 16k+ Lifelong User Actions Supercharge Pinterest’s Recommendations, 2025](https://medium.com/pinterest-engineering/next-level-personalization-how-16k-lifelong-user-actions-supercharge-pinterests-recommendations-bd5989f8f5d3) `TransActV2` `lifelong user sequence` `Next Action Loss`
+- [Unlocking Efficient Ad Retrieval: Offline Approximate Nearest Neighbors in Pinterest Ads, 2025](https://medium.com/pinterest-engineering/u~nlocking-efficient-ad-retrieval-offline-approximate-nearest-neighbors-in-pinterest-ads-6fccc131ac14)
+- [Improving Quality of Recommended Content through Pinner Surveys, 2025](https://medium.com/pinterest-engineering/improving-quality-of-recommended-content-through-pinner-surveys-eebca8a52652) `quality model` `survey`
 ### 이상치탐지
 - [Warden: Real Time Anomaly Detection at Pinterest](https://medium.com/pinterest-engineering/warden-real-time-anomaly-detection-at-pinterest-210c122f6afa)
 - [Fighting Spam using Clustering and Automated Rule Creation](https://medium.com/pinterest-engineering/fighting-spam-using-clustering-and-automated-rule-creation-1c01d8c11a05)
-- [Unlocking Efficient Ad Retrieval: Offline Approximate Nearest Neighbors in Pinterest Ads, 2025](https://medium.com/pinterest-engineering/u~nlocking-efficient-ad-retrieval-offline-approximate-nearest-neighbors-in-pinterest-ads-6fccc131ac14)
 
 ## Ebay 🛒
 ### 추천, 검색
@@ -579,6 +586,7 @@
 개인적으로 공부하는 모든 내용을 작성하지는 않고 주로 코드나 기록으로 남아있는 경우만 index 용으로 작성합니다.
 
 ### Language
+- c++ 기본 공부, 2020 [repo](https://github.com/minsoo9506/c-and-cpp)
 - Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
 - Java 기본 공부, 2025
 
@@ -592,6 +600,7 @@
 - FastAPI 공부, 2023 [repo](https://github.com/minsoo9506/FastAPI-study)
 - 디자인 패턴 공부, 2024 [repo](https://github.com/minsoo9506/design-pattern-study)
 - 머신러닝 디자인 패턴 공부, 2025 [repo](https://github.com/minsoo9506/machine-learning-design-pattern)
+- 백엔드 프로그래밍 (FastAPI), 2026 [repo](https://github.com/minsoo9506/TILAPP)
 
 ### Recommendation System
 - 추천 모델 구현, 2023 [repo](https://github.com/minsoo9506/RecModel)
@@ -612,6 +621,16 @@
 ### NLP
 - NLP 공부, 2020 [repo](https://github.com/minsoo9506/NLP-study/commits/master/)
 - hugginface text classification, 2022 [repo](https://github.com/minsoo9506/huggingface-text-classification)
+
+### XAI
+- XAI 기본 공부, 2019 [repo](https://github.com/minsoo9506/Interpretable-Machine-Learning)
+
+### time series
+- time series 공부, 2021 [repo](https://github.com/minsoo9506/time-series-study)
+
+#### graph
+- network embedding 공부, 2021 [repo](https://github.com/minsoo9506/network-embedding)
+- cs224w 공부, 2022 [repo](https://github.com/minsoo9506/cs224w-study)
 
 ### etc
 - 개인 블로그 공부 정리 [blog](https://minsoo9506.github.io/categories/)
