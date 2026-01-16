@@ -625,10 +625,10 @@
 ### XAI
 - XAI 기본 공부, 2019 [repo](https://github.com/minsoo9506/Interpretable-Machine-Learning)
 
-### time series
+### Time series
 - time series 공부, 2021 [repo](https://github.com/minsoo9506/time-series-study)
 
-#### graph
+### Graph
 - network embedding 공부, 2021 [repo](https://github.com/minsoo9506/network-embedding)
 - cs224w 공부, 2022 [repo](https://github.com/minsoo9506/cs224w-study)
 
