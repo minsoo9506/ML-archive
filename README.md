@@ -43,6 +43,8 @@
 - [Inductive Representation Learning on Large Graphs, 2017](https://arxiv.org/pdf/1706.02216.pdf)
 - [Graph Attention Networks, 2018](https://arxiv.org/pdf/1710.10903.pdf)
 - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems, 2018 Pinterest](https://arxiv.org/pdf/1806.01973.pdf) `PinSAGE`
+### Embedding, Retrieval
+- [Recommender Systems with Generative Retrieval, NeurIPS 2023 Google](https://arxiv.org/pdf/2305.05065) `Semantic ID` `RQ-VAE` `generative retrieval` `sequential model`
 ### LookAlike
 - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 ### Bandit
@@ -105,6 +107,8 @@
 - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
 ### Causality
 - [Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, RecSys2020](https://labtomarket.files.wordpress.com/2020/08/recsys2020lbr.pdf?utm_source=LinkedIn&utm_medium=post&utm_campaign=monday_posting&utm_term=2023_07_24)
+### System
+- [Building a Scalable, Effective, and Steerable Search and Ranking Platform, 2024 zalando](https://arxiv.org/pdf/2409.02856) `Platform` `candidate generation` `ranking` `position debias`
 ### Survey
 - [Deep Learning based Recommender System: A Survey and New Perspectives, 2019](https://arxiv.org/abs/1707.07435)
 - [A Survey on Causal Inference for Recommendation, 2024](https://arxiv.org/abs/2303.11666)
