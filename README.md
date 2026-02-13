@@ -43,8 +43,10 @@
 - [Inductive Representation Learning on Large Graphs, 2017](https://arxiv.org/pdf/1706.02216.pdf)
 - [Graph Attention Networks, 2018](https://arxiv.org/pdf/1710.10903.pdf)
 - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems, 2018 Pinterest](https://arxiv.org/pdf/1806.01973.pdf) `PinSAGE`
-### Embedding, Retrieval
+### Retrieval
 - [Recommender Systems with Generative Retrieval, NeurIPS 2023 Google](https://arxiv.org/pdf/2305.05065) `Semantic ID` `RQ-VAE` `generative retrieval` `sequential model`
+### Embedding
+- [Matryoshka Representation Learning, NeurIPS 2022](https://arxiv.org/pdf/2205.13147) `embedding` `MRL`
 ### LookAlike
 - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 ### Bandit
