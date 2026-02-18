@@ -69,6 +69,7 @@
       - [플랫폼](#플랫폼-2)
   - [하이퍼커넥트 👩‍❤️‍👨](#하이퍼커넥트-️)
       - [추천](#추천-1)
+      - [AI, ML](#ai-ml)
       - [개발](#개발)
   - [라인 💬](#라인-)
       - [추천](#추천-2)
@@ -263,6 +264,7 @@
 - [Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, RecSys2020](https://labtomarket.files.wordpress.com/2020/08/recsys2020lbr.pdf?utm_source=LinkedIn&utm_medium=post&utm_campaign=monday_posting&utm_term=2023_07_24)
 #### System
 - [Building a Scalable, Effective, and Steerable Search and Ranking Platform, 2024 zalando](https://arxiv.org/pdf/2409.02856) `Platform` `candidate generation` `ranking` `position debias`
+- [Joint Modeling of Search and Recommendations Via an Unified Contextual Recommender (UniCoRn), 2024](https://arxiv.org/pdf/2408.10394) `unified model`
 #### Survey
 - [Deep Learning based Recommender System: A Survey and New Perspectives, 2019](https://arxiv.org/abs/1707.07435)
 - [A Survey on Causal Inference for Recommendation, 2024](https://arxiv.org/abs/2303.11666)
@@ -465,7 +467,9 @@
 - [아자르에서는 어떤 추천 모델을 사용하고 있을까?, 2024](https://hyperconnect.github.io/2024/11/19/azar-recommendation-model.html)
 - [AI 실시간 추천 시스템을 위한 Flink 기반 스트림 조인 서비스 구축기, 2025](https://hyperconnect.github.io/2025/06/11/azar-flink-real-time-stream-join-service.html)
 - [클릭 한 번으로 실험 시작! 이터레이션 사이클을 단축하는 추천 실험 시스템 개발기, 2025](https://hyperconnect.github.io/2025/08/26/azar-recsys-experiment-framework.html)
+#### AI, ML
 - [왜 막상 배포하면 효과가 없지? 타겟 지표에 맞는 ML모델 train/eval 설계하기, 2025](https://hyperconnect.github.io/2025/11/28/how-to-set-ml-objective.html)
+- [온디바이스 AI 얼굴 식별 파이프라인 최적화, 2026](https://hyperconnect.github.io/2026/01/23/On-device-Face-Verification-Pipeline-Optimization.html)
 #### 개발
 - [1:1 비디오 채팅 서비스는 E2E 회귀 테스트를 어떻게 자동화할까?, 2025](https://hyperconnect.github.io/2025/06/12/how-to-automate-e2e-test-on-1on1-video-chat-app.html)
 
