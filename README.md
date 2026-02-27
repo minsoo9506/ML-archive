@@ -13,13 +13,14 @@
       - [Embedding](#embedding)
       - [LookAlike](#lookalike)
       - [Bandit](#bandit)
-      - [LLM](#llm)
-      - [Push](#push)
+      - [LLM, Agent](#llm-agent)
+      - [Push, CRM](#push-crm)
       - [Search, Query, IR](#search-query-ir)
       - [Diversity](#diversity)
       - [Calibration](#calibration)
       - [Bias](#bias)
       - [Explainable](#explainable)
+      - [Cold Start](#cold-start)
       - [User Modeling](#user-modeling)
       - [Causality](#causality)
       - [System](#system)
@@ -35,7 +36,7 @@
       - [Time Series and Streaming Anomaly Detection](#time-series-and-streaming-anomaly-detection)
   - [Causality](#causality-1)
       - [Heterogeneous treatment effect estimation, uplift](#heterogeneous-treatment-effect-estimation-uplift)
-  - [LLM](#llm-1)
+  - [LLM](#llm)
       - [LLM judge](#llm-judge)
       - [Embedding](#embedding-1)
 - [📑 Other Reference](#-other-reference)
@@ -51,9 +52,9 @@
       - [추천](#추천)
       - [LLM, AI](#llm-ai-1)
   - [카카오헬스케어 💪🏼](#카카오헬스케어-)
-      - [LLM](#llm-2)
+      - [LLM](#llm-1)
   - [카카오뱅크 💰](#카카오뱅크-)
-      - [LLM](#llm-3)
+      - [LLM](#llm-2)
   - [카카오페이, 카카오페이손해보험 💰](#카카오페이-카카오페이손해보험-)
       - [LLM, AI](#llm-ai-2)
       - [이상치탐지](#이상치탐지-1)
@@ -215,7 +216,7 @@
 - [Cascading Bandits: Optimizing Recommendation Frequency in Delayed Feedback Environments, 2023](https://proceedings.neurips.cc/paper_files/paper/2023/file/f95606d8e870020085990d9650b4f2a1-Paper-Conference.pdf) `cascade bandit`
 - [Deep Bayesian Bandits: Exploring in Online Personalized Recommendations, 2020 Twitter](https://arxiv.org/pdf/2008.00727) `deep Bayesian bandits`, `ad display`
 - [A Sleeping, Recovering Bandit Algorithm for Optimizing Recurring Notifications, 2020 Duolingo](https://research.duolingo.com/papers/yancey.kdd20.pdf)
-#### LLM
+#### LLM, Agent
 - [LLM-Based Aspect Augmentations for Recommendation Systems, 2023](https://openreview.net/pdf?id=bStpLVqv1H) `item aspect generation`
 - [Language-Based User Profiles for Recommendation, 2024](https://arxiv.org/abs/2402.15623) `LFM`
 - [Harnessing Large Language Models for Text-Rich Sequential Recommendation, 2024](https://arxiv.org/abs/2403.13325) `text sequential summarize` `SFT`
@@ -226,11 +227,14 @@
 - [Playlist Search Reinvented: LLMs Behind the Curtain, 2024 amazon music](https://assets.amazon.science/cb/60/a2cd86b646508da2cc99792481de/playlist-search-reinvented-llms-behind-the-curtain.pdf) `content enrichment` `synthesizing training data` `judges for evaluation`
 - [A Multi-Agent Conversational Recommender System, 2024](https://arxiv.org/pdf/2402.01135) `multi-agent` `conversational rec sys`
 - [BETTER GENERALIZATION WITH SEMANTIC IDS: A CASE STUDY IN RANKING FOR RECOMMENDATIONS, 2024 google](https://arxiv.org/pdf/2306.08121) `id-based`
-#### Push
+- [A Media Content Recommendation Method for Playlist Curatorsusing LLM-Based Query Expansion, 2025 NHK](https://dl.acm.org/doi/epdf/10.1145/3705328.3748129) `media content` `query expansion`
+- [Balancing Fine-tuning and RAG: A Hybrid Strategy for Dynamic LLM Recommendation Updates, 2025 google](https://arxiv.org/abs/2510.20260) `LLM based Rec` `interest cluster prediction`
+#### Push, CRM
 - [Personalized Push Notifications for News Recommendation, 2019 DGP media](https://proceedings.mlr.press/v109/loni19a/loni19a.pdf) `location considered`
 - [Predicting which type of push notification content motivates users to engage in a self-monitoring app, 2018](https://www.sciencedirect.com/science/article/pii/S2211335518301177) `statistics analysis` `heavy user, heavy content`
 - [Near Real-time Optimization of Activity-based Notifications, 2018 LinkedIn](https://dl.acm.org/doi/pdf/10.1145/3219819.3219880)
 - [Notification Volume Control and Optimization System at Pinterest, 2018 Pinterest](https://dl.acm.org/doi/pdf/10.1145/3219819.3219906) `noti volume`
+- [Agentic Personalisation of Cross-Channel Marketing Experiences, 2025 AAMPE](https://arxiv.org/abs/2506.16429) `CRM` `causality` `DID` `bandit` `human-in-loop`
 #### Search, Query, IR
 - [Query2doc: Query Expansion with Large Language Models, 2023 Microsoft Research](https://arxiv.org/pdf/2303.07678) `query expansion`
 - [Query Expansion by Prompting Large Language Models, 2023 Google Research](https://arxiv.org/pdf/2305.03653)
@@ -257,6 +261,8 @@
 - [An Empirical Study of Selection Bias in Pinterest Ads Retrieval, 2023 Pinterest](https://dl.acm.org/doi/epdf/10.1145/3580305.3599771) `selection bias` `online ad` `retrieval`
 #### Explainable
 - [Faithfully Explaining Rankings in a News Recommender System, 2018](https://arxiv.org/pdf/1805.05447)
+#### Cold Start
+- [Cold Starting a New Content Type: A Case Study with Netflix Live, 2025 netflix](https://dl.acm.org/doi/epdf/10.1145/3705328.3748112) ``
 #### User Modeling
 - [Exploring the longitudinal effects of nudging on users’ music genre exploration behavior and listening preferences, 2022](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
 - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
