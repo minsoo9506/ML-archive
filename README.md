@@ -14,8 +14,6 @@
       - [LookAlike](#lookalike)
       - [Bandit](#bandit)
       - [LLM, Agent](#llm-agent)
-      - [Push, CRM](#push-crm)
-      - [Search, Query, IR](#search-query-ir)
       - [Diversity](#diversity)
       - [Calibration](#calibration)
       - [Bias](#bias)
@@ -23,6 +21,9 @@
       - [Cold Start](#cold-start)
       - [User Modeling](#user-modeling)
       - [Causality](#causality)
+      - [Push, CRM](#push-crm)
+      - [Ads](#ads)
+      - [Search, Query, IR](#search-query-ir)
       - [System](#system)
       - [Survey](#survey)
   - [Imbalanced Learning, Anomaly Detection](#imbalanced-learning-anomaly-detection)
@@ -201,6 +202,7 @@
 - [Recommender Systems with Generative Retrieval, NeurIPS 2023 Google](https://arxiv.org/pdf/2305.05065) `Semantic ID` `RQ-VAE` `generative retrieval` `sequential model`
 #### Embedding
 - [Matryoshka Representation Learning, NeurIPS 2022](https://arxiv.org/pdf/2205.13147) `embedding` `MRL`
+- [Contrastive Conditional Embeddings for Item-based Recommendation at E-commerce Scale, 2025 Rakuten](https://dl.acm.org/doi/epdf/10.1145/3705328.3748095) `item embedding` `constrastive learning`
 #### LookAlike
 - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 #### Bandit
@@ -229,24 +231,6 @@
 - [BETTER GENERALIZATION WITH SEMANTIC IDS: A CASE STUDY IN RANKING FOR RECOMMENDATIONS, 2024 google](https://arxiv.org/pdf/2306.08121) `id-based`
 - [A Media Content Recommendation Method for Playlist Curatorsusing LLM-Based Query Expansion, 2025 NHK](https://dl.acm.org/doi/epdf/10.1145/3705328.3748129) `media content` `query expansion`
 - [Balancing Fine-tuning and RAG: A Hybrid Strategy for Dynamic LLM Recommendation Updates, 2025 google](https://arxiv.org/abs/2510.20260) `LLM based Rec` `interest cluster prediction`
-#### Push, CRM
-- [Personalized Push Notifications for News Recommendation, 2019 DGP media](https://proceedings.mlr.press/v109/loni19a/loni19a.pdf) `location considered`
-- [Predicting which type of push notification content motivates users to engage in a self-monitoring app, 2018](https://www.sciencedirect.com/science/article/pii/S2211335518301177) `statistics analysis` `heavy user, heavy content`
-- [Near Real-time Optimization of Activity-based Notifications, 2018 LinkedIn](https://dl.acm.org/doi/pdf/10.1145/3219819.3219880)
-- [Notification Volume Control and Optimization System at Pinterest, 2018 Pinterest](https://dl.acm.org/doi/pdf/10.1145/3219819.3219906) `noti volume`
-- [Agentic Personalisation of Cross-Channel Marketing Experiences, 2025 AAMPE](https://arxiv.org/abs/2506.16429) `CRM` `causality` `DID` `bandit` `human-in-loop`
-#### Search, Query, IR
-- [Query2doc: Query Expansion with Large Language Models, 2023 Microsoft Research](https://arxiv.org/pdf/2303.07678) `query expansion`
-- [Query Expansion by Prompting Large Language Models, 2023 Google Research](https://arxiv.org/pdf/2305.03653)
-- [An Interactive Query Generation Assistant using LLM-based Prompt Modification and User Feedback, 2023](https://arxiv.org/pdf/2311.11226)
-- [InPars: Data Augmentation for Information Retrieval using Large Language Models, 2022](https://arxiv.org/pdf/2202.05144)
-- [Generating Query Recommendations via LLMs, 2024 Spotify](https://arxiv.org/pdf/2405.19749) `query expansion` `prompt`
-- [Semantic Product Search, 2019 Amazon](https://arxiv.org/pdf/1907.00937) `product search` `semantic` `contrastive learning` `tokenization`
-- [Embedding-based Retrieval in Facebook Search, 2020 Facebook](https://arxiv.org/pdf/2006.11632) `social search` `two-tower` `ANN` `negative sampling`
-- [Unified Embedding Based Personalized Retrieval in Etsy Search, 2024 Etsy](https://arxiv.org/pdf/2306.04833) `two-tower` `negative sampling` `ANN`
-- [Embedding based retrieval for long tail search queries in ecommerce, 2025](https://www.arxiv.org/pdf/2505.01946) `long tail` `llm synthetic data`
-- [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
-- [Improving Pinterest Search Relevance Using Large Language Models, 2025 Pinterest](https://arxiv.org/pdf/2410.17152) `KD` `LLM` `enriched text` `augumented data`
 #### Diversity
 - [Algorithmic Effects on the Diversity of Consumption on Spotify, 2020](https://www.cs.toronto.edu/~ashton/pubs/alg-effects-spotify-www2020.pdf)
 #### Calibration
@@ -262,12 +246,33 @@
 #### Explainable
 - [Faithfully Explaining Rankings in a News Recommender System, 2018](https://arxiv.org/pdf/1805.05447)
 #### Cold Start
-- [Cold Starting a New Content Type: A Case Study with Netflix Live, 2025 netflix](https://dl.acm.org/doi/epdf/10.1145/3705328.3748112) ``
+- [Cold Starting a New Content Type: A Case Study with Netflix Live, 2025 netflix](https://dl.acm.org/doi/epdf/10.1145/3705328.3748112) `new type content cold start`
 #### User Modeling
 - [Exploring the longitudinal effects of nudging on users’ music genre exploration behavior and listening preferences, 2022](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
 - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
 #### Causality
 - [Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, RecSys2020](https://labtomarket.files.wordpress.com/2020/08/recsys2020lbr.pdf?utm_source=LinkedIn&utm_medium=post&utm_campaign=monday_posting&utm_term=2023_07_24)
+#### Push, CRM
+- [Personalized Push Notifications for News Recommendation, 2019 DGP media](https://proceedings.mlr.press/v109/loni19a/loni19a.pdf) `location considered`
+- [Predicting which type of push notification content motivates users to engage in a self-monitoring app, 2018](https://www.sciencedirect.com/science/article/pii/S2211335518301177) `statistics analysis` `heavy user, heavy content`
+- [Near Real-time Optimization of Activity-based Notifications, 2018 LinkedIn](https://dl.acm.org/doi/pdf/10.1145/3219819.3219880)
+- [Notification Volume Control and Optimization System at Pinterest, 2018 Pinterest](https://dl.acm.org/doi/pdf/10.1145/3219819.3219906) `noti volume`
+- [Agentic Personalisation of Cross-Channel Marketing Experiences, 2025 AAMPE](https://arxiv.org/abs/2506.16429) `CRM` `causality` `DID` `bandit` `human-in-loop`
+#### Ads
+- [Cross-Batch Aggregation for Streaming Learning from LabelProportions in Industrial-Scale Recommendation Systems, 2025 Google](https://dl.acm.org/doi/epdf/10.1145/3705328.3748115) `LLP`
+- [Decoupled Entity Representation Learning for Pinterest Ads Ranking, 2025 Pinterest](https://arxiv.org/abs/2509.04337) `embedding` `cross domain`
+#### Search, Query, IR
+- [Query2doc: Query Expansion with Large Language Models, 2023 Microsoft Research](https://arxiv.org/pdf/2303.07678) `query expansion`
+- [Query Expansion by Prompting Large Language Models, 2023 Google Research](https://arxiv.org/pdf/2305.03653)
+- [An Interactive Query Generation Assistant using LLM-based Prompt Modification and User Feedback, 2023](https://arxiv.org/pdf/2311.11226)
+- [InPars: Data Augmentation for Information Retrieval using Large Language Models, 2022](https://arxiv.org/pdf/2202.05144)
+- [Generating Query Recommendations via LLMs, 2024 Spotify](https://arxiv.org/pdf/2405.19749) `query expansion` `prompt`
+- [Semantic Product Search, 2019 Amazon](https://arxiv.org/pdf/1907.00937) `product search` `semantic` `contrastive learning` `tokenization`
+- [Embedding-based Retrieval in Facebook Search, 2020 Facebook](https://arxiv.org/pdf/2006.11632) `social search` `two-tower` `ANN` `negative sampling`
+- [Unified Embedding Based Personalized Retrieval in Etsy Search, 2024 Etsy](https://arxiv.org/pdf/2306.04833) `two-tower` `negative sampling` `ANN`
+- [Embedding based retrieval for long tail search queries in ecommerce, 2025](https://www.arxiv.org/pdf/2505.01946) `long tail` `llm synthetic data`
+- [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
+- [Improving Pinterest Search Relevance Using Large Language Models, 2025 Pinterest](https://arxiv.org/pdf/2410.17152) `KD` `LLM` `enriched text` `augumented data`
 #### System
 - [Building a Scalable, Effective, and Steerable Search and Ranking Platform, 2024 zalando](https://arxiv.org/pdf/2409.02856) `Platform` `candidate generation` `ranking` `position debias`
 - [Joint Modeling of Search and Recommendations Via an Unified Contextual Recommender (UniCoRn), 2024](https://arxiv.org/pdf/2408.10394) `unified model`
@@ -760,6 +765,7 @@
 - c++ 기본 공부, 2020 [repo](https://github.com/minsoo9506/c-and-cpp)
 - Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
 - Java 기본 공부, 2025
+- Rust 기본 공부, 2026 [repo](https://github.com/minsoo9506/rust-basic-study)
 
 ## ML engineering
 - Deployment of ML Models 공부, 2022 [repo](https://github.com/minsoo9506/fraudDetection-python-package)
