@@ -69,13 +69,14 @@
       - [추천, 검색](#추천-검색-1)
       - [이상치탐지](#이상치탐지-2)
       - [플랫폼](#플랫폼-2)
+      - [ML](#ml-1)
   - [하이퍼커넥트 👩‍❤️‍👨](#하이퍼커넥트-️)
       - [추천](#추천-1)
       - [AI, ML](#ai-ml)
       - [개발](#개발)
   - [라인 💬](#라인-)
       - [추천](#추천-2)
-      - [ML](#ml-1)
+      - [ML](#ml-2)
   - [네이버 🔍](#네이버-)
       - [추천, 검색](#추천-검색-2)
       - [AI, LLM](#ai-llm)
@@ -468,6 +469,9 @@
 - [지표 통합과 탐색: KarrotMetrics와 Explorer로 가치 있는 의사결정하기, 2024당근테크밋업](https://www.youtube.com/watch?v=I_i3jbQn_tg&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=5)
 - [추천 서빙 시스템 아키텍처: 높은 생산성을 위한 아키텍쳐 및 ML Flywheel, 2024당근테크밋업](https://www.youtube.com/watch?v=Cs09fzdJo5Y&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=6)
 - [온콜, 알림만 보다가 죽겠어요, 2024당근테크밋업](https://www.youtube.com/watch?v=4XpZpplWJBw&list=PLaHcMRg2hoBryC2cZkhyEin5MrnEJhMUl&index=8)
+#### ML
+- [카테고리 분류에 2조 토큰을 쓰면서 알게된 것들, 2026](https://medium.com/daangn/2%EC%A1%B0-%ED%86%A0%ED%81%B0%EC%9D%84-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EB%B6%84%EB%A5%98%EC%97%90-%EC%93%B0%EB%A9%B4%EC%84%9C-%EC%95%8C%EA%B2%8C%EB%90%9C-%EA%B2%83%EB%93%A4-f619f1db6b7b) `LLM prompt` `카테고리 분류`
+- [‘로컬’ 슈퍼 앱에서 장기 유저 모델링은 어떻게 달라질까?, 2026](https://medium.com/daangn/%EB%A1%9C%EC%BB%AC-%EC%8A%88%ED%8D%BC-%EC%95%B1%EC%97%90%EC%84%9C-%EC%9E%A5%EA%B8%B0-%EC%9C%A0%EC%A0%80-%EB%AA%A8%EB%8D%B8%EB%A7%81%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%AC%EB%9D%BC%EC%A7%88%EA%B9%8C-d10cf75845bd) `constrastive learning` `two tower`
 
 ## 하이퍼커넥트 👩‍❤️‍👨
 #### 추천
@@ -595,6 +599,7 @@
 - [실시간 반응형 추천 개발 일지 2부: 벡터 검색, 그리고 숨겨진 요구사항과 기술 도입 의사 결정을 다루는 방법, 2025](https://techblog.woowahan.com/21027/)
 - [그래프, 텍스트 인코더를 활용한 실시간 추천 검색어 모델링, 우아콘2024](https://www.youtube.com/watch?v=FPdJ24JfKmw&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=41&pp=iAQB)
 - [취향 저격 맛집 추천, 더 똑똑하게: 추천 모델 성장 일지, 우아콘2024](https://www.youtube.com/watch?v=zRLS3_vD1FM&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=9&pp=iAQB)
+- [“함께 구매하면 좋은 상품” 추천 모델 고도화, 2026](https://techblog.woowahan.com/24434/#) `node2vec` `transformer` `크로스 셀링`
 #### LLM, AI
 - [AI 데이터 분석가 '물어보새' 등장: 데이터 리터러시 향상을 위한 나만의 데이터 분석가, 우아콘2024](https://www.youtube.com/watch?v=_QPhoKItI2k)
 - [Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기, 우아콘2024](https://www.youtube.com/watch?v=YjdZL3Sc9hA&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=10&pp=iAQB)
@@ -765,7 +770,6 @@
 - c++ 기본 공부, 2020 [repo](https://github.com/minsoo9506/c-and-cpp)
 - Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
 - Java 기본 공부, 2025
-- Rust 기본 공부, 2026 [repo](https://github.com/minsoo9506/rust-basic-study)
 
 ## ML engineering
 - Deployment of ML Models 공부, 2022 [repo](https://github.com/minsoo9506/fraudDetection-python-package)
@@ -778,6 +782,7 @@
 - 디자인 패턴 공부, 2024 [repo](https://github.com/minsoo9506/design-pattern-study)
 - 머신러닝 디자인 패턴 공부, 2025 [repo](https://github.com/minsoo9506/machine-learning-design-pattern)
 - 백엔드 프로그래밍 (FastAPI), 2026 [repo](https://github.com/minsoo9506/TILAPP)
+- 인프라 이론 공부, 2026 [repo](https://github.com/minsoo9506/infra-study)
 
 ## Recommendation System
 - 추천 모델 구현, 2023 [repo](https://github.com/minsoo9506/RecModel)
