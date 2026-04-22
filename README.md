@@ -204,6 +204,7 @@
 #### Embedding
 - [Matryoshka Representation Learning, NeurIPS 2022](https://arxiv.org/pdf/2205.13147) `embedding` `MRL`
 - [Contrastive Conditional Embeddings for Item-based Recommendation at E-commerce Scale, 2025 Rakuten](https://dl.acm.org/doi/epdf/10.1145/3705328.3748095) `item embedding` `constrastive learning`
+- [Enhancing Embedding Representation Stability in Recommendation Systems with Semantic ID, 2025 Meta](https://arxiv.org/pdf/2504.02137) `Semantic ID` `Ad Ranking`
 #### LookAlike
 - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 #### Bandit
@@ -770,6 +771,7 @@
 - c++ 기본 공부, 2020 [repo](https://github.com/minsoo9506/c-and-cpp)
 - Python 심화 공부, 2023 [repo](https://github.com/minsoo9506/advanced-python-study)
 - Java 기본 공부, 2025
+- Rust 기본 공부, 2026 [repo](https://github.com/minsoo9506/rust-basic-study)
 
 ## ML engineering
 - Deployment of ML Models 공부, 2022 [repo](https://github.com/minsoo9506/fraudDetection-python-package)
