@@ -7,10 +7,11 @@
   - [Recommendation System](#recommendation-system)
       - [Algorithm](#algorithm)
       - [Algorithm - text, image](#algorithm---text-image)
+      - [Algorithm - video](#algorithm---video)
       - [Algorithm - session-based, sequential](#algorithm---session-based-sequential)
       - [Algorithm - graph](#algorithm---graph)
-      - [Retrieval](#retrieval)
       - [Embedding](#embedding)
+      - [Learning-to-rank](#learning-to-rank)
       - [LookAlike](#lookalike)
       - [Bandit](#bandit)
       - [LLM, Agent](#llm-agent)
@@ -180,11 +181,14 @@
 - [Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885)
 - [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations, 2019](https://storage.googleapis.com/gweb-research2023-media/pubtools/5716.pdf)
 - [Mixed Negative Sampling for Learning Two-tower Neural Networks in Recommendations, 2020](https://storage.googleapis.com/gweb-research2023-media/pubtools/6090.pdf)
+- [Improve the Personalization of Large-Scale Ranking Systems by Integrating User Survey Feedback, 2025 Meta](https://dl.acm.org/doi/epdf/10.1145/3705328.3748119) `user survey feedback` `UTIS` `video recommendation` `calibration`
 #### Algorithm - text, image
 - [Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR](https://openreview.net/pdf?id=Bkv9FyHYx)
 - [Image-based Recommendations on Styles and Substitutes, 2015 SIGIR](https://arxiv.org/abs/1506.04757)
 - [VBPR: Visual Bayesian Personalized Ranking from Implicit Feedback, 2016 AAAI](https://arxiv.org/abs/1510.01784)
+#### Algorithm - video
 - [Recommending What Video to Watch Next: A Multitask Ranking System, 2019 RecSys](https://dl.acm.org/doi/10.1145/3298689.3346997)
+- [Enhancing Online Ranking Systems via Multi-Surface Co-Training for Content Understanding, 2025 Google](https://dl.acm.org/doi/epdf/10.1145/3705328.3748101) `content understanding` `task-alignment` `multi-surface`
 #### Algorithm - session-based, sequential
 - [Session-based Recommendations with Recurrent Neural Networks, 2015 ICLR](https://arxiv.org/abs/1511.06939)
 - [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer, 2019](https://arxiv.org/abs/1904.06690)
@@ -199,12 +203,14 @@
 - [Inductive Representation Learning on Large Graphs, 2017](https://arxiv.org/pdf/1706.02216.pdf)
 - [Graph Attention Networks, 2018](https://arxiv.org/pdf/1710.10903.pdf)
 - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems, 2018 Pinterest](https://arxiv.org/pdf/1806.01973.pdf) `PinSAGE`
-#### Retrieval
-- [Recommender Systems with Generative Retrieval, NeurIPS 2023 Google](https://arxiv.org/pdf/2305.05065) `Semantic ID` `RQ-VAE` `generative retrieval` `sequential model`
 #### Embedding
 - [Matryoshka Representation Learning, NeurIPS 2022](https://arxiv.org/pdf/2205.13147) `embedding` `MRL`
 - [Contrastive Conditional Embeddings for Item-based Recommendation at E-commerce Scale, 2025 Rakuten](https://dl.acm.org/doi/epdf/10.1145/3705328.3748095) `item embedding` `constrastive learning`
+- [Recommender Systems with Generative Retrieval, NeurIPS 2023 Google](https://arxiv.org/pdf/2305.05065) `Semantic ID` `RQ-VAE` `generative retrieval` `sequential model`
 - [Enhancing Embedding Representation Stability in Recommendation Systems with Semantic ID, 2025 Meta](https://arxiv.org/pdf/2504.02137) `Semantic ID` `Ad Ranking`
+- [Generalized User Representations for Large-Scale Recommendations and Downstream Tasks, 2025 Spotify](https://dl.acm.org/doi/epdf/10.1145/3705328.3748132) `user embedding` `AutoEncoder` `Transfer Learning`
+#### Learning-to-rank
+- [Industry Insights from Comparing Deep Learning and GBDT Models for E-Commerce Learning-to-Rank, 2025 OTTO](https://arxiv.org/pdf/2507.20753) `LTR`
 #### LookAlike
 - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 #### Bandit
@@ -249,6 +255,7 @@
 - [Faithfully Explaining Rankings in a News Recommender System, 2018](https://arxiv.org/pdf/1805.05447)
 #### Cold Start
 - [Cold Starting a New Content Type: A Case Study with Netflix Live, 2025 netflix](https://dl.acm.org/doi/epdf/10.1145/3705328.3748112) `new type content cold start`
+- [In-context Learning for Addressing User Cold-start in Sequential Movie Recommenders, 2025 Amazon](https://dl.acm.org/doi/epdf/10.1145/3705328.3748109) `LLM generated` `cold start user`
 #### User Modeling
 - [Exploring the longitudinal effects of nudging on users’ music genre exploration behavior and listening preferences, 2022](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
 - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
