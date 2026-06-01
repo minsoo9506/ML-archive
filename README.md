@@ -25,6 +25,7 @@
       - [Push, CRM](#push-crm)
       - [Ads](#ads)
       - [Search, Query, IR](#search-query-ir)
+      - [Negative feedback](#negative-feedback)
       - [System](#system)
       - [Survey](#survey)
   - [Imbalanced Learning, Anomaly Detection](#imbalanced-learning-anomaly-detection)
@@ -239,6 +240,9 @@
 - [BETTER GENERALIZATION WITH SEMANTIC IDS: A CASE STUDY IN RANKING FOR RECOMMENDATIONS, 2024 google](https://arxiv.org/pdf/2306.08121) `id-based`
 - [A Media Content Recommendation Method for Playlist Curatorsusing LLM-Based Query Expansion, 2025 NHK](https://dl.acm.org/doi/epdf/10.1145/3705328.3748129) `media content` `query expansion`
 - [Balancing Fine-tuning and RAG: A Hybrid Strategy for Dynamic LLM Recommendation Updates, 2025 google](https://arxiv.org/abs/2510.20260) `LLM based Rec` `interest cluster prediction`
+- [LADDER: LLM-Annotated Data for Dogfooded Evaluation of Rankings, 2025 TrustPilot](https://dl.acm.org/doi/epdf/10.1145/3705328.3748094) `LTR` `LLM annotation` `prompt`
+- [LLM-Powered Nuanced Video Attribute Annotation for Enhanced Recommendations, 2025 google](https://arxiv.org/pdf/2510.06657) `LLM annotation` `prompt` `knowledge distillation`
+- [Metadata Generation and Evaluation using LLMs - Case Study on Canonical Titles, 2025 indeed](https://dl.acm.org/doi/epdf/10.1145/3705328.3748100) `canonicalization` `data cleaning with LLM` `autocomplete`
 #### Diversity
 - [Algorithmic Effects on the Diversity of Consumption on Spotify, 2020](https://www.cs.toronto.edu/~ashton/pubs/alg-effects-spotify-www2020.pdf)
 #### Calibration
@@ -256,6 +260,7 @@
 #### Cold Start
 - [Cold Starting a New Content Type: A Case Study with Netflix Live, 2025 netflix](https://dl.acm.org/doi/epdf/10.1145/3705328.3748112) `new type content cold start`
 - [In-context Learning for Addressing User Cold-start in Sequential Movie Recommenders, 2025 Amazon](https://dl.acm.org/doi/epdf/10.1145/3705328.3748109) `LLM generated` `cold start user`
+- [Item-centric Exploration for Cold Start Problem, 2025 Google](https://arxiv.org/abs/2507.09423) `cold start user` `post process`
 #### User Modeling
 - [Exploring the longitudinal effects of nudging on users’ music genre exploration behavior and listening preferences, 2022](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
 - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
@@ -282,6 +287,8 @@
 - [Embedding based retrieval for long tail search queries in ecommerce, 2025](https://www.arxiv.org/pdf/2505.01946) `long tail` `llm synthetic data`
 - [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
 - [Improving Pinterest Search Relevance Using Large Language Models, 2025 Pinterest](https://arxiv.org/pdf/2410.17152) `KD` `LLM` `enriched text` `augumented data`
+#### Negative feedback
+- [Leveraging Explicit Negative Feedback in Large-Scale Recommendation Systems: A Case Study, 2025 TikTok](https://dl.acm.org/doi/epdf/10.1145/3705328.3748145) `negative survey` `late-stage ranking`
 #### System
 - [Building a Scalable, Effective, and Steerable Search and Ranking Platform, 2024 zalando](https://arxiv.org/pdf/2409.02856) `Platform` `candidate generation` `ranking` `position debias`
 - [Joint Modeling of Search and Recommendations Via an Unified Contextual Recommender (UniCoRn), 2024](https://arxiv.org/pdf/2408.10394) `unified model`
