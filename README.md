@@ -15,6 +15,7 @@
       - [LookAlike](#lookalike)
       - [Bandit](#bandit)
       - [LLM, Agent](#llm-agent)
+      - [Multimodal LLM](#multimodal-llm)
       - [Diversity](#diversity)
       - [Calibration](#calibration)
       - [Bias](#bias)
@@ -183,6 +184,8 @@
 - [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations, 2019](https://storage.googleapis.com/gweb-research2023-media/pubtools/5716.pdf)
 - [Mixed Negative Sampling for Learning Two-tower Neural Networks in Recommendations, 2020](https://storage.googleapis.com/gweb-research2023-media/pubtools/6090.pdf)
 - [Improve the Personalization of Large-Scale Ranking Systems by Integrating User Survey Feedback, 2025 Meta](https://dl.acm.org/doi/epdf/10.1145/3705328.3748119) `user survey feedback` `UTIS` `video recommendation` `calibration`
+- [Not All Impressions Are Created Equal: Psychology-Informed Retention Optimization for Short-Form Video Recommendation, 2025 Meta](https://dl.acm.org/doi/epdf/10.1145/3705328.3748122) `retention modeling` `mmoe` `ranking fusion`
+- [Personalized Interest Graphs for Theme-Driven User Behavior, 2025 Ebay](https://dl.acm.org/doi/epdf/10.1145/3705328.3748133) `LLM` `user-interest graph` `cross category` `LoRA`
 #### Algorithm - text, image
 - [Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR](https://openreview.net/pdf?id=Bkv9FyHYx)
 - [Image-based Recommendations on Styles and Substitutes, 2015 SIGIR](https://arxiv.org/abs/1506.04757)
@@ -197,6 +200,7 @@
 - [Positive, Negative and Neutral: Modeling Implicit Feedback in Session-based News Recommendation, SIGIR 2022](https://arxiv.org/pdf/2205.06058.pdf)
 - [TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest, 2023](https://arxiv.org/abs/2306.00248) `Pinterest` `TransAct`
 - [TransAct V2: Lifelong User Action Sequence Modeling on Pinterest Recommendation, 2025](https://arxiv.org/abs/2506.02267) `Pinterest` `TransAct v2`
+- [SASRec in Action: Real-World Adaptations for ZDF Streaming Service, 2025 ZDF](https://dl.acm.org/doi/epdf/10.1145/3705328.3748097) `SASRec` `negative-sampling` `padding`
 #### Algorithm - graph
 - [PageRank: Standing on the shoulders of giant, 2010](https://arxiv.org/pdf/1002.2858.pdf)
 - [DeepWalk: Online Learning of Social Representations, 2014](https://arxiv.org/pdf/1403.6652.pdf)
@@ -204,6 +208,7 @@
 - [Inductive Representation Learning on Large Graphs, 2017](https://arxiv.org/pdf/1706.02216.pdf)
 - [Graph Attention Networks, 2018](https://arxiv.org/pdf/1710.10903.pdf)
 - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems, 2018 Pinterest](https://arxiv.org/pdf/1806.01973.pdf) `PinSAGE`
+- [RankGraph: Unified Heterogeneous Graph Learning for Cross-Domain Recommendation, 2025 Meta](https://arxiv.org/pdf/2509.02942) `graph` `contrastive learning` `retrieval`
 #### Embedding
 - [Matryoshka Representation Learning, NeurIPS 2022](https://arxiv.org/pdf/2205.13147) `embedding` `MRL`
 - [Contrastive Conditional Embeddings for Item-based Recommendation at E-commerce Scale, 2025 Rakuten](https://dl.acm.org/doi/epdf/10.1145/3705328.3748095) `item embedding` `constrastive learning`
@@ -243,6 +248,9 @@
 - [LADDER: LLM-Annotated Data for Dogfooded Evaluation of Rankings, 2025 TrustPilot](https://dl.acm.org/doi/epdf/10.1145/3705328.3748094) `LTR` `LLM annotation` `prompt`
 - [LLM-Powered Nuanced Video Attribute Annotation for Enhanced Recommendations, 2025 google](https://arxiv.org/pdf/2510.06657) `LLM annotation` `prompt` `knowledge distillation`
 - [Metadata Generation and Evaluation using LLMs - Case Study on Canonical Titles, 2025 indeed](https://dl.acm.org/doi/epdf/10.1145/3705328.3748100) `canonicalization` `data cleaning with LLM` `autocomplete`
+- [Never Miss an Episode: How LLMs are Powering Serial Content Discovery on YouTube, 2025 Google](https://dl.acm.org/doi/epdf/10.1145/3705328.3748104) `prompt` `LLM classification`
+#### Multimodal LLM
+- [Minimize Negative Experiences in Video Recommendation Systems with Multimodal Large Language Models, 2025 Google](https://dl.acm.org/doi/epdf/10.1145/3705328.3748102) `negative ranking` `knowledge distillation`
 #### Diversity
 - [Algorithmic Effects on the Diversity of Consumption on Spotify, 2020](https://www.cs.toronto.edu/~ashton/pubs/alg-effects-spotify-www2020.pdf)
 #### Calibration
@@ -287,6 +295,7 @@
 - [Embedding based retrieval for long tail search queries in ecommerce, 2025](https://www.arxiv.org/pdf/2505.01946) `long tail` `llm synthetic data`
 - [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
 - [Improving Pinterest Search Relevance Using Large Language Models, 2025 Pinterest](https://arxiv.org/pdf/2410.17152) `KD` `LLM` `enriched text` `augumented data`
+- [Scaling Retrieval for Web-Scale Recommenders: Lessons from Inverted Indexes to Embedding Search, 2025 Linkedin](https://dl.acm.org/doi/epdf/10.1145/3705328.3748116) `inverted index` `gpu` `search`
 #### Negative feedback
 - [Leveraging Explicit Negative Feedback in Large-Scale Recommendation Systems: A Case Study, 2025 TikTok](https://dl.acm.org/doi/epdf/10.1145/3705328.3748145) `negative survey` `late-stage ranking`
 #### System
