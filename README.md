@@ -26,6 +26,7 @@
       - [Push, CRM](#push-crm)
       - [Ads](#ads)
       - [Search, Query, IR](#search-query-ir)
+    - [Trends](#trends)
       - [Negative feedback](#negative-feedback)
       - [System](#system)
       - [Survey](#survey)
@@ -186,6 +187,8 @@
 - [Improve the Personalization of Large-Scale Ranking Systems by Integrating User Survey Feedback, 2025 Meta](https://dl.acm.org/doi/epdf/10.1145/3705328.3748119) `user survey feedback` `UTIS` `video recommendation` `calibration`
 - [Not All Impressions Are Created Equal: Psychology-Informed Retention Optimization for Short-Form Video Recommendation, 2025 Meta](https://dl.acm.org/doi/epdf/10.1145/3705328.3748122) `retention modeling` `mmoe` `ranking fusion`
 - [Personalized Interest Graphs for Theme-Driven User Behavior, 2025 Ebay](https://dl.acm.org/doi/epdf/10.1145/3705328.3748133) `LLM` `user-interest graph` `cross category` `LoRA`
+- [Semantic IDs for Music Recommendation, 2025](https://arxiv.org/pdf/2507.18800) `semantic id` `next-song reco`
+- [Suggest, complement, inspire: story of Two Tower recommendations at Allegro.com, 2025 Allegro](https://arxiv.org/pdf/2508.03702) `two-tower` `e-commerce`
 #### Algorithm - text, image
 - [Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR](https://openreview.net/pdf?id=Bkv9FyHYx)
 - [Image-based Recommendations on Styles and Substitutes, 2015 SIGIR](https://arxiv.org/abs/1506.04757)
@@ -215,6 +218,7 @@
 - [Recommender Systems with Generative Retrieval, NeurIPS 2023 Google](https://arxiv.org/pdf/2305.05065) `Semantic ID` `RQ-VAE` `generative retrieval` `sequential model`
 - [Enhancing Embedding Representation Stability in Recommendation Systems with Semantic ID, 2025 Meta](https://arxiv.org/pdf/2504.02137) `Semantic ID` `Ad Ranking`
 - [Generalized User Representations for Large-Scale Recommendations and Downstream Tasks, 2025 Spotify](https://dl.acm.org/doi/epdf/10.1145/3705328.3748132) `user embedding` `AutoEncoder` `Transfer Learning`
+- [The Future is Sparse: Embedding Compression for Scalable Retrieval in Recommender Systems, 2025](https://arxiv.org/pdf/2505.11388) `memory saving` `sparse embedding` `compressSAE`
 #### Learning-to-rank
 - [Industry Insights from Comparing Deep Learning and GBDT Models for E-Commerce Learning-to-Rank, 2025 OTTO](https://arxiv.org/pdf/2507.20753) `LTR`
 #### LookAlike
@@ -269,6 +273,7 @@
 - [Cold Starting a New Content Type: A Case Study with Netflix Live, 2025 netflix](https://dl.acm.org/doi/epdf/10.1145/3705328.3748112) `new type content cold start`
 - [In-context Learning for Addressing User Cold-start in Sequential Movie Recommenders, 2025 Amazon](https://dl.acm.org/doi/epdf/10.1145/3705328.3748109) `LLM generated` `cold start user`
 - [Item-centric Exploration for Cold Start Problem, 2025 Google](https://arxiv.org/abs/2507.09423) `cold start user` `post process`
+- [SocRipple: A Two-Stage Framework for Cold-Start Video Recommendations, 2025 Meta](https://arxiv.org/pdf/2508.07241) `cold item` `freshness`
 #### User Modeling
 - [Exploring the longitudinal effects of nudging on users’ music genre exploration behavior and listening preferences, 2022](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
 - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
@@ -296,6 +301,8 @@
 - [Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning, 2020](https://arxiv.org/pdf/2006.02282) `two-tower` `negative sampling` `emb retrieval system`
 - [Improving Pinterest Search Relevance Using Large Language Models, 2025 Pinterest](https://arxiv.org/pdf/2410.17152) `KD` `LLM` `enriched text` `augumented data`
 - [Scaling Retrieval for Web-Scale Recommenders: Lessons from Inverted Indexes to Embedding Search, 2025 Linkedin](https://dl.acm.org/doi/epdf/10.1145/3705328.3748116) `inverted index` `gpu` `search`
+### Trends
+- [Streaming Trends: A Low-Latency Platform for Dynamic Video Grouping and Trending Corpora Building, 2025 Google](https://dl.acm.org/doi/full/10.1145/3705328.3748120) `trend` `clustering` `cg`
 #### Negative feedback
 - [Leveraging Explicit Negative Feedback in Large-Scale Recommendation Systems: A Case Study, 2025 TikTok](https://dl.acm.org/doi/epdf/10.1145/3705328.3748145) `negative survey` `late-stage ranking`
 #### System
