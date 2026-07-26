@@ -189,6 +189,9 @@
 - [Personalized Interest Graphs for Theme-Driven User Behavior, 2025 Ebay](https://dl.acm.org/doi/epdf/10.1145/3705328.3748133) `LLM` `user-interest graph` `cross category` `LoRA`
 - [Semantic IDs for Music Recommendation, 2025](https://arxiv.org/pdf/2507.18800) `semantic id` `next-song reco`
 - [Suggest, complement, inspire: story of Two Tower recommendations at Allegro.com, 2025 Allegro](https://arxiv.org/pdf/2508.03702) `two-tower` `e-commerce`
+- [Unified Survey Modeling to Limit Negative User Experiences inRecommendation Systems, 2025 TikTok](https://dl.acm.org/doi/epdf/10.1145/3705328.3748108) `user survey feedback` `negative experience` `HoME` `multi-task`
+- [User Long-Term Multi-Interest Retrieval Model for Recommendation, 2025 taobao](https://arxiv.org/pdf/2507.10097) `multi interest` `retrieval` `long term` `short tem`
+- [Zero-shot Cross-domain Knowledge Distillation: A Case study onYouTube Music, 2025 Google](https://dl.acm.org/doi/epdf/10.1145/3705328.3748138) `knowledge distillation` `cross-domain` `zero-shot` `multi-task`
 #### Algorithm - text, image
 - [Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR](https://openreview.net/pdf?id=Bkv9FyHYx)
 - [Image-based Recommendations on Styles and Substitutes, 2015 SIGIR](https://arxiv.org/abs/1506.04757)
@@ -204,6 +207,7 @@
 - [TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest, 2023](https://arxiv.org/abs/2306.00248) `Pinterest` `TransAct`
 - [TransAct V2: Lifelong User Action Sequence Modeling on Pinterest Recommendation, 2025](https://arxiv.org/abs/2506.02267) `Pinterest` `TransAct v2`
 - [SASRec in Action: Real-World Adaptations for ZDF Streaming Service, 2025 ZDF](https://dl.acm.org/doi/epdf/10.1145/3705328.3748097) `SASRec` `negative-sampling` `padding`
+- [User Long-Term Multi-Interest Retrieval Model for Recommendation, 2025 taobao](https://arxiv.org/abs/2507.10097) `Taobao` `long sequence` `multi-interest` `retrieval` `pointer-generator`
 #### Algorithm - graph
 - [PageRank: Standing on the shoulders of giant, 2010](https://arxiv.org/pdf/1002.2858.pdf)
 - [DeepWalk: Online Learning of Social Representations, 2014](https://arxiv.org/pdf/1403.6652.pdf)
@@ -253,6 +257,7 @@
 - [LLM-Powered Nuanced Video Attribute Annotation for Enhanced Recommendations, 2025 google](https://arxiv.org/pdf/2510.06657) `LLM annotation` `prompt` `knowledge distillation`
 - [Metadata Generation and Evaluation using LLMs - Case Study on Canonical Titles, 2025 indeed](https://dl.acm.org/doi/epdf/10.1145/3705328.3748100) `canonicalization` `data cleaning with LLM` `autocomplete`
 - [Never Miss an Episode: How LLMs are Powering Serial Content Discovery on YouTube, 2025 Google](https://dl.acm.org/doi/epdf/10.1145/3705328.3748104) `prompt` `LLM classification`
+- [You Say Search, I Say Recs: A Scalable Agentic Approach to QueryUnderstanding and Exploratory Search at Spotify, 2025 Spotify](https://dl.acm.org/doi/epdf/10.1145/3705328.3748127) `LLM router` `agentic search` `query understanding` `exploratory search` `post-training` `LLM-as-a-judge`
 #### Multimodal LLM
 - [Minimize Negative Experiences in Video Recommendation Systems with Multimodal Large Language Models, 2025 Google](https://dl.acm.org/doi/epdf/10.1145/3705328.3748102) `negative ranking` `knowledge distillation`
 #### Diversity
@@ -267,6 +272,7 @@
 - [Managing Popularity Bias in Recommender Systems with Personalized Re-ranking, 2019](https://arxiv.org/pdf/1901.07555)
 - [The Unfairness of Popularity Bias in Recommendation, 2019](https://arxiv.org/pdf/1907.13286)
 - [An Empirical Study of Selection Bias in Pinterest Ads Retrieval, 2023 Pinterest](https://dl.acm.org/doi/epdf/10.1145/3580305.3599771) `selection bias` `online ad` `retrieval`
+- [USD: A User-Intent-Driven Sampling and Dual-Debiasing Framework for Large-Scale Homepage Recommendations, 2025 taobao](https://arxiv.org/pdf/2507.06503) `sampling` `selection bias`
 #### Explainable
 - [Faithfully Explaining Rankings in a News Recommender System, 2018](https://arxiv.org/pdf/1805.05447)
 #### Cold Start
