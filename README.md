@@ -76,6 +76,7 @@
       - [ML](#ml-1)
   - [하이퍼커넥트 👩‍❤️‍👨](#하이퍼커넥트-️)
       - [추천](#추천-1)
+      - [LLM](#llm-3)
       - [AI, ML](#ai-ml)
       - [개발](#개발)
   - [라인 💬](#라인-)
@@ -519,6 +520,9 @@
 - [아자르에서는 어떤 추천 모델을 사용하고 있을까?, 2024](https://hyperconnect.github.io/2024/11/19/azar-recommendation-model.html)
 - [AI 실시간 추천 시스템을 위한 Flink 기반 스트림 조인 서비스 구축기, 2025](https://hyperconnect.github.io/2025/06/11/azar-flink-real-time-stream-join-service.html)
 - [클릭 한 번으로 실험 시작! 이터레이션 사이클을 단축하는 추천 실험 시스템 개발기, 2025](https://hyperconnect.github.io/2025/08/26/azar-recsys-experiment-framework.html)
+#### LLM
+- [1부: 데이터도 정답도 없다: 하이퍼커넥트가 LLM을 길들이는 법, 2026](https://hyperconnect.github.io/2026/04/22/how-hyperconnect-built-llm-explanation-policy.html)
+- [2부: 정책을 따르는 평가자, LLM-as-a-Judge, 2026](https://hyperconnect.github.io/2026/04/22/llm-as-a-judge-for-explanation-quality.html)
 #### AI, ML
 - [왜 막상 배포하면 효과가 없지? 타겟 지표에 맞는 ML모델 train/eval 설계하기, 2025](https://hyperconnect.github.io/2025/11/28/how-to-set-ml-objective.html)
 - [온디바이스 AI 얼굴 식별 파이프라인 최적화, 2026](https://hyperconnect.github.io/2026/01/23/On-device-Face-Verification-Pipeline-Optimization.html)
@@ -637,6 +641,7 @@
 - [그래프, 텍스트 인코더를 활용한 실시간 추천 검색어 모델링, 우아콘2024](https://www.youtube.com/watch?v=FPdJ24JfKmw&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=41&pp=iAQB)
 - [취향 저격 맛집 추천, 더 똑똑하게: 추천 모델 성장 일지, 우아콘2024](https://www.youtube.com/watch?v=zRLS3_vD1FM&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=9&pp=iAQB)
 - [“함께 구매하면 좋은 상품” 추천 모델 고도화, 2026](https://techblog.woowahan.com/24434/#) `node2vec` `transformer` `크로스 셀링`
+- [별점 뒤에 숨겨진 리뷰의 온도, LLM으로 한 끗 차이가 다른 추천 만들기, 2026](https://techblog.woowahan.com/25888/) `LLM`
 #### LLM, AI
 - [AI 데이터 분석가 '물어보새' 등장: 데이터 리터러시 향상을 위한 나만의 데이터 분석가, 우아콘2024](https://www.youtube.com/watch?v=_QPhoKItI2k)
 - [Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기, 우아콘2024](https://www.youtube.com/watch?v=YjdZL3Sc9hA&list=PLgXGHBqgT2Tu7H-ita_W0IHospr64ON_a&index=10&pp=iAQB)
