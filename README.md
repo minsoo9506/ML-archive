@@ -376,7 +376,7 @@
 
 ## Causality
 #### Heterogeneous treatment effect estimation, uplift
-- [Causal Inference and Uplift Modeling A review of the literature, 2016](https://proceedings.mlr.press/v67/gutierrez17a/gutierrez17a.pdf) [review](./paper_review/Causal%20Inference%20and%20Uplift%20Modeling%20A%20review%20of%20the%20literature.md)
+- [Causal Inference and Uplift Modeling A review of the literature, 2016](https://proceedings.mlr.press/v67/gutierrez17a/gutierrez17a.pdf)
 - [Double machine learning for treatment and causal parameters, 2016](https://www.econstor.eu/bitstream/10419/149795/1/869216953.pdf)
 - [Metalearners for estimation heterogeneous treatment effects using machine learning, 2019](https://www.pnas.org/doi/epdf/10.1073/pnas.1804597116)
 - [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests, 2018](http://bayes.acs.unt.edu:8083/BayesContent/class/rich/articles/Estimation_And_Inference_Of_Heterogeneous_Treatment_Effects_Using_Random_Forests.pdf)
@@ -392,8 +392,8 @@
 
 # 📑 Other Reference
 ## conference
-- 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference [review](./industry/2024_conference/)
-- 네이버, 우아한형제들, 토스 2025 conference [review](./industry/2025_conference/)
+- 네이버, 카카오, 당근, 우아한형제들, 토스 2024 conference
+- 네이버, 우아한형제들, 토스 2025 conference
 
 아래 대부분은 ML/AI 와 관련되었지만 컨퍼런스에서 product 관련 발표내용도 배울 점이 많습니다.
 
@@ -825,7 +825,7 @@
 - 디자인 패턴 공부, 2024 [repo](https://github.com/minsoo9506/design-pattern-study)
 - 머신러닝 디자인 패턴 공부, 2025 [repo](https://github.com/minsoo9506/machine-learning-design-pattern)
 - 백엔드 프로그래밍 (FastAPI), 2026 [repo](https://github.com/minsoo9506/TILAPP)
-- 인프라 이론 공부, 2026 [repo](https://github.com/minsoo9506/infra-study)
+- 인프라 이론 공부, 2026
 
 ## Recommendation System
 - 추천 모델 구현, 2023 [repo](https://github.com/minsoo9506/RecModel)
